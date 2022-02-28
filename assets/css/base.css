@@ -1,0 +1,36 @@
+
+hr {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.grid-8 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 0px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.add-border {
+    border: solid;
+}
+
+.img-icon{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: #828282;
+    padding-right: 10px;
+    vertical-align: text-top;
+}
+
+.footer-col {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}

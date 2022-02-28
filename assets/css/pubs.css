@@ -1,0 +1,23 @@
+---
+---
+
+.paper-title
+{
+	font-weight:bold;
+}
+.paper-me
+{
+	text-decoration: underline;
+}
+.paper-authors
+{
+	display:inline-block;
+}
+.paper-author
+{
+	display:inline;
+}
+.paper
+{
+	padding-bottom: 20px;
+}
