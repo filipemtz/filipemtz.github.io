@@ -30,11 +30,28 @@ github_username:  filipemtz
 scholar_username: filipe mutz
 scholar_id: 9YIVWNgAAAAJ
 lattes_id: 3123292310632540
+google_analytics: UA-74856037-1
+
+header_pages:
+  - about.html
+  - publications.html
+  - courses.html
+  - blog.html
+  - contact.html
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Filipe Mutz"
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
