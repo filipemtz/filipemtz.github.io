@@ -31,12 +31,13 @@ scholar_username: filipe mutz
 scholar_id: 9YIVWNgAAAAJ
 lattes_id: 3123292310632540
 google_analytics: UA-74856037-1
+show_excerpts: True
 
 header_pages:
   - about.html
   - publications.html
   - courses.html
-  - blog.html
+  - wiki.html
   - contact.html
 
 defaults:
