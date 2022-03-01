@@ -3,8 +3,8 @@
 ---
 
 @import "minima";
-@import "{{ "/css/base.css" | relative_path }}";
-@import "{{ "/css/pubs.css" | relative_path }}";
+@import "{{ "/assets/css/base.css" | relative_path }}";
+@import "{{ "/assets/css/pubs.css" | relative_path }}";
 
 .post-content{
     text-align: justify;
