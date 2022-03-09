@@ -22,7 +22,7 @@ title: Filipe Mutz
 email: filipe.mutz@ifes.edu.br
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Filipe Mutz and I do research on Robotics and Artificial Intelligence. 
-  Currently, I am an associate professor at Instituto Federal do Espírito Santo.
+  Currently, I am an associate professor of Information Systems at <a href='https://serra.ifes.edu.br/'>Federal Institute of Espírito Santo (IFES)</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fmtz.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: filipemutz
