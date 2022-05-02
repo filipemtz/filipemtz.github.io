@@ -17,3 +17,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.section-title {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
