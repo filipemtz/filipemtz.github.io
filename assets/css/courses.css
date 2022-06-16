@@ -26,3 +26,7 @@
 .section-item {
     list-style-type: disc;
 }
+
+.section-item a {
+    list-style-type: disc;
+}
