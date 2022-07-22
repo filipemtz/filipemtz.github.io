@@ -30,3 +30,7 @@
 .section-item a {
     list-style-type: disc;
 }
+
+.red {
+    color: "red";
+}
