@@ -55,10 +55,10 @@ A seguir são dados uma sequência de passos para você começar a estudar o ass
             <li>O que é o conjunto de validação, qual a sua diferença para os conjuntos de treino e teste e porque ele é
                 necessário.</li>
             <li>O que são hiperparâmetros, quais são os mais importantes no treinamento de redes neurais, como
-                ajustá-los usando o conjunto de validação e porque não podemos usar o conjunto de teste para avaliá-lo.
+                ajustá-los usando o conjunto de validação e porque não podemos usar o conjunto de teste para ajustá-los.
             </li>
-            <li>O efeito de usar taxas de aprendizado muito grandes e muito pequenas. Compreender o porquê destes
-                efeitos serem observados.</li>
+            <li>Os efeitos de usar taxas de aprendizado muito grandes e muito pequenas. Compreender o porquê destes
+                efeitos.</li>
             <li>O que é uma matriz de confusão e as métricas de performance derivadas precision, recall e f1-score. Em
                 que situações elas são mais adequadas que a acurácia?</li>
         </ul>
@@ -73,19 +73,19 @@ A seguir são dados uma sequência de passos para você começar a estudar o ass
 
 A seguir são dadas atividades que te darão mais profundidade em tópicos mais específicos.
 
-As atividades são independentes e não existe prioridade entre elas. Você pode escolher as que mais te interessam.
+As atividades são independentes e não existe prioridade entre elas. Você pode escolher as que mais te chamarem a atenção.
 
 <ul>
     <li>[Fácil] Aprenda a usar jupyter notebooks e refaça o tutorial de treinamento de CNNs usando um. Suba o notebook
-        para o github e veja como ele pode ser visualizado no repositório.</li>
+        para o github e veja como ele pode ser visualizado no repositório via a interface web.</li>
     <li>[Fácil] Aprenda a usar o Google Colab para treinar redes neurais usando GPUs do Google. Salve o notebook do
         colab no github.</li>
     <li>[Médio] Selecione uma tarefa que você acha interessante no <a href="https://paperswithcode.com/sota">papers with
-            code</a> . Ao clicar na tarefa, veja se ela possui um bechmark. Se sim, veja o modelo que aparece com mais
+            code</a> . Ao clicar na tarefa, veja se ela possui um benchmark. Se sim, veja o modelo que aparece com mais
         frequência na lista. Entre no github oficial do projeto e tente baixar e usar o modelo pré-treinado. Por
         exemplo, se você tiver interesse na tarefa de <a
-            href="https://paperswithcode.com/task/sentiment-analysis">análise de sentimentos</a> em texto, tente baixar
-        o modelo que alguém desenvolveu do github e usar o modelo para classificar uns textos que você digitar (note que
+            href="https://paperswithcode.com/task/sentiment-analysis">análise de sentimentos</a> de textos, tente baixar
+        o modelo que alguém desenvolveu do github e usar o modelo para classificar textos que você digitar (note que
         se ele foi treinado com dados em inglês, você deve digitar textos em inglês). Como alguns modelos podem ser bem
         pesados, é recomendável usar o google colab. Também é uma boa ler o paper para ver se existem modelos de
         diferentes tamanhos e, se sim, dê preferência pelos menores porque os grandes podem não rodar nem no colab.
@@ -96,16 +96,16 @@ As atividades são independentes e não existe prioridade entre elas. Você pode
     <li>[Fácil] Use a biblioteca <a href="https://lightning.ai/docs/pytorch/stable/"></a>pytorch lightning
         para treinar redes neurais com pytorch usando menos linhas de código. Similar à biblioteca keras para
         tensorflow.</li>
-    <li>[Médio] Compreenda como disponibilizar o modelo via um webservice usando flask, celery e redis.</li>
+    <li>[Médio] Compreenda como disponibilizar o modelo via um webservice usando flask, celery e redis. Pode ser útil pesquisar no google como realizar deploy de modelos.</li>
     <li>[Fácil] Faça tutoriais de preparação de dados usando pandas. Faça a preparação usando uma nova base de dados do
-        kaggle.</li>
+        kaggle para praticar. Aprenda como normalizar dados, estratégias para lidar com dados faltantes, como transformar dados não numéricos em numéricos e como remover outliers.</li>
     <li>[Fácil] Faça tutoriais de visualização de dados usando matplotlib e seaborn. Faça exemplos usando uma base de
         dados do kaggle.</li>
     <li>[Fácil e Muito Enriquecedor] Aprenda a usar a biblioteca scikit-learn que tem implementações de vários métodos
         tradicionais de
         machine learning. Explorar a <a href="https://scikit-learn.org/stable/auto_examples/index.html">página de
-            exemplos</a> pode ser um caminho legal. Para cada método, estude-o. O canal <a
-            href="https://www.youtube.com/@statquest">StatQuest</a> tem explicações MUITO didáticas dos métodos.</li>
+            exemplos</a> pode ser um caminho interessante. Para cada método, estude-o. O canal <a
+            href="https://www.youtube.com/@statquest">StatQuest</a> tem explicações MUITO didáticas dos métodos. O livro "Machine Learning: A Probabilistic Approach (Kevin Murphy)" é uma referência muito valiosa.</li>
     <li>[Médio, mais Teórico e bom para entender em profunfidade o assunto] Existem diversos cursos no
         youtube que trazem conhecimentos profundos sobre machine
         learning e redes neurais. Por exemplo, os <a href="https://www.youtube.com/@Deeplearningai/playlists">cursos do
@@ -116,12 +116,11 @@ As atividades são independentes e não existe prioridade entre elas. Você pode
             Hinton (também vencedor do prêmio Turing e, historicamente, o pesquisador mais importante em redes neurais
             do mundo, na minha opinião)</a> e do <a
             href="https://www.youtube.com/watch?v=BHBAnUAdeyE&list=PL05umP7R6ij3NTWIdtMbfvX7Z-4WEXRqD">prof. Andreas
-            Geiger (um dos melhores pesquisadores dentre os mais jovens, na minha opinião, e uma referência
-            pessoal)</a>. É completamente inviável fazer todos os cursos, mas selecione um do prof. que você for mais
-        com
-        a cara e siga nele. Sempre que possível, faça mini-projetos que te permitam demonstrar o conhecimento adquirido
+            Geiger (um dos melhores pesquisadores dentre os mais jovens, novamente, na minha opinião, e uma referência
+            pessoal)</a>. É completamente inviável fazer todos os cursos, mas selecione um dos prof. que você mais
+        se identificar e siga no seu curso. Sempre que possível, faça mini-projetos que te permitam praticar e demonstrar os conhecimentos 
         nas aulas. </li>
-    <li>[Difícil - <b style="color: red">Quem fizer e de fato compreender tudo está contratado</b>] Implementar uma rede
+    <li>[Difícil - <b style="color: red">Quem fizer e de fato compreender tudo está contratado!</b>] Implementar uma rede
         neural do tipo multilayer perceptron com número variável de camadas ocultas e neurônios por camada oculta e o
         algoritmo backpropagation sem usar o pytorch (mas podendo usar numpy). Para testar a rede, faça o exemplo de
         curve fitting abaixo usando ela ao invés do pytorch.</li>
@@ -132,7 +131,7 @@ As atividades são independentes e não existe prioridade entre elas. Você pode
     <li>[Médio] Use a biblioteca huggingface para fazer fine-tuning de um vision transformer no problema de
         classificação de raios-x entre saudáveis e com pneumonia. A menos que você tenha uma placa de vídeo com pelo
         menos 8GB de VRAM, será necessário usar o Google Colab.</li>
-    <li>[Difícil] Use a biblioteca deeplab-v2 para resolver um tarefa de segmentação de imagens. No processo, você deve
+    <li>[Difícil] Use a biblioteca deeplab-v2 para resolver uma tarefa de segmentação de imagens. No processo, você deve
         compreender a diferença entre segmentação e classificação de imagens, e as funções de perda e métricas de
         performance mais usadas na tarefa de segmentação. Aproveite, e estude também o que são as tarefas de segmentação
         de instâncias e segmentação panóptica.</li>
@@ -141,9 +140,10 @@ As atividades são independentes e não existe prioridade entre elas. Você pode
         treinamento e parte para teste. Some valores amostrados de uma distribuição gaussiana (veja a função
         np.random.normal) aos valores de f(x) no conjunto de treinamento para simular ruído nas medições. Treine a rede
         neural para predizer o valor de f(x) a partir do valor de x. Use a função erro médio quadrático como função de
-        perda e métrica de performance. Avalie a performance no conjunto de teste. Use a biblioteca matplotlib para
+        perda e métrica de performance. Avalie a performance no conjunto de teste. Use a biblioteca matplotlib para produzir
         gráficos (1) do MSE para os conjuntos de treino e teste durante o treinamento e (2) para visualizar os pontos
         reais e preditos pela rede neural em comparação com a função seno. Veja como a rede se comporta predizendo os
         valores de f(x) para x no intervalo de [2PI, 4PI]. Estude o que é interpolação e extrapolação, leia um pouco
-        sobre a relação deles com redes neurais e tente explicar o efeito observado. </li>
+        sobre a relação deles com redes neurais e tente explicar o efeito observado. Avalie a performance da rede para 
+        diferentes números de neurônios e de camadas.</li>
 </ul>
