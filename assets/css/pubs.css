@@ -1,20 +1,20 @@
 ---
 ---
 
-.content
+body
 {
-	counter-reset: css-counter 0; /* initializes counter to 0; use -1 for zero-based numbering */
+	counter-reset: paper-counter; /* initializes counter to 0; use -1 for zero-based numbering */
 }
 
 .paper-title
 {
-	counter-increment: css-counter 1; /* Increase the counter by 1. */
-	font-weight:bold;
+	counter-increment: paper-counter; /* Increase the counter by 1. */
+	font-weight: bold;
 }
 
 .paper-title:before
 {
-	content: counter(css-counter) ". ";
+	content: counter(paper-counter) ". ";
 }
 
 .paper-me
