@@ -11,6 +11,24 @@ excerpt: "Apresenta o Laboratório de Inteligência Artificial em Saúde (Life).
         width: 300px;
         height: auto;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .col {
+        flex: 1 1 calc(33.33% - 10px);
+        max-width: 350px;
+    }
+
+    @media (max-width: 480px) {
+        .col {
+            flex: 1 1 100%; /* Exibe 1 vídeo por linha em telas pequenas */
+            max-width: 100%;
+        }
+    }
 </style>
 
 <div>
