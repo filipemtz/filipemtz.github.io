@@ -21,6 +21,20 @@ Filipe Souza e Christian Litzinger Unity https://www.youtube.com/watch?v=R6Rir4_
 <style>
     .videos-row {
         display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .video-container {
+        flex: 1 1 calc(33.33% - 20px);
+        max-width: 350px;
+    }
+
+    @media (max-width: 480px) {
+        .video-container {
+            flex: 1 1 100%; /* Exibe 1 vídeo por linha em telas pequenas */
+            max-width: 100%;
+        }
     }
 </style>
 
