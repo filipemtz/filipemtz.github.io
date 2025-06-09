@@ -8,7 +8,14 @@
     margin-bottom: 20px;
 }
 
-.project-image {
+/* .project-image {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 20px;
+    vertical-align: top;
+} */
+
+.project-image-container {
     flex: 1;
     max-width: 200px;
     margin-right: 20px;
@@ -19,6 +26,7 @@
 }
 
 .project-title {
+    flex: 2;
     font-size: 24px;
     margin-bottom: 10px;
 }
