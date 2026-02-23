@@ -1,1 +1,1 @@
-Sitemap: http://filipemtz.github.io/sitemap.xml
+Sitemap: https://filipemtz.github.io/sitemap.xml
