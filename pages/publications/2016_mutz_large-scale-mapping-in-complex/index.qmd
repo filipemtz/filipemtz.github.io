@@ -1,0 +1,14 @@
+---
+title: "Large-scale Mapping in Complex Field Scenarios using an Autonomous Car"
+date: 2016-01-01
+author: ["Filipe Mutz","Lucas de Paula Veronese","Thiago Oliveira-Santos","Edilson de Aguiar","Fernando A. Auat Cheein","Alberto Ferreira De Souza"]
+publication: "Expert Systems with Applications"
+categories: []
+url_source: "https://www.sciencedirect.com/science/article/pii/S0957417415007496"
+url_preprint:
+journ: "Expert Systems with Applications"
+year: 2016
+---
+        
+[Check out the paper!](https://www.sciencedirect.com/science/article/pii/S0957417415007496)
+            

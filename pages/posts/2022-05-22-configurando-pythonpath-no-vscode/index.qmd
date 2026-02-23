@@ -1,0 +1,51 @@
+---
+title: "Configuração do PYTHONPATH no VSCode"
+date: 2022-05-22 00:45:00 -0300
+categories:
+    - Lab
+description: "Instruções de como configurar a variável de ambiente PYTHONPATH no VSCode."
+---
+
+<i>Instruções extraídas da <a
+        href="https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable">documentação do
+        VSCode</a>.</i>
+
+<br>
+<br>
+
+A configuração da variável de ambiente PYTHONPATH define diretórios
+onde existem módulos e pacotes Python. Configurar a variável permite que o código principal
+do projeto seja colocado em uma pasta, a pasta que será adicionada ao PYTHONPATH, e os scripts
+"executáveis", sejam testes ou os programas principais do projeto, em outras pastas.
+Esta estrutura de diretórios permite aumentar o nível de organização do projeto.
+
+<br>
+<br>
+
+O valor da variável de ambiente deve ser configurado em dois lugares, um para todas as
+ações exceto execução no terminal e a segunda para execução no terminal.
+
+<br>
+<br>
+
+1) Crie um arquivo .env na raíz do projeto e adicione o conteúdo abaixo:
+
+<br>
+
+<div class="code">
+    PYTHONPATH=[diretório do projeto no seu computador]
+</div>
+
+<br>
+
+2) Abra o arquivo settings.json acessando File > Preferences > Settings e, em seguida,
+clicando no botão em formato de arquivo no canto superior direito da tela, na direção das abas
+que contém os nomes dos arquivos. Adicione o conteúdo abaixo ao final, antes de fechar as chaves:
+
+<br>
+
+<div class="code">
+    "terminal.integrated.env.windows": { <br>
+    "PYTHONPATH": "[diretório do projeto no seu computador]" <br>
+    } <br>
+</div>

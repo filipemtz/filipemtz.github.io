@@ -1,0 +1,14 @@
+---
+title: "Improving steel-making off-gas predictions by mixing classification and regression multi-modal multivariate models"
+date: 2022-01-01
+author: ["Marcelo Magalhães do Carmo","Leandro Resendo","Filipe Mutz"]
+publication: "Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)"
+categories: []
+url_source: "https://sol.sbc.org.br/index.php/eniac/article/view/22768/22591"
+url_preprint:
+journ: "Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)"
+year: 2022
+---
+        
+[Check out the paper!](https://sol.sbc.org.br/index.php/eniac/article/view/22768/22591)
+            

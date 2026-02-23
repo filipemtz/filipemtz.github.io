@@ -1,0 +1,14 @@
+---
+title: "Pt-HotpotQA: Evaluating Multi-Hop Question Answering on the Original and Translated Portuguese Datasets Using LLMs"
+date: 2025-01-01
+author: ["Sérgio Silva Mucciaccia","Thiago Meireles Paixão","Filipe Mutz","Alberto Ferreira de Souza","Claudine Santos Badue","Thiago Oliveira dos Santos"]
+publication: "Journal of the Brazilian Computer Society"
+categories: []
+url_source: "None"
+url_preprint:
+journ: "Journal of the Brazilian Computer Society"
+year: 2025
+---
+        
+Link to the paper is coming soon.
+            

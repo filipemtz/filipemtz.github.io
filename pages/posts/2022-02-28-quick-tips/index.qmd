@@ -1,0 +1,116 @@
+---
+title: "Quick Tips"
+author: "Filipe Mutz"
+date: "2022-02-28 20:25:13 -0300"
+categories:
+    - Miscelaneous
+description: "General productivity tips."
+---
+
+
+<h3> How to install docker with support to CUDA in Ubuntu 22.04? </h3>
+
+Follow the instructions from <a
+    href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">NVIDIA
+    website</a>. Run the post-install actions from <a
+    href="https://docs.docker.com/engine/install/linux-postinstall/">docker website</a> to allow non-root users to run
+docker commands.
+
+
+<h3> How to Generate a Sequence of Dates of Specific Days of Week in Excel? </h3>
+
+<iframe width="300" src="https://www.youtube.com/embed/DGo89RBSAXI" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+<br>
+
+<b>Summary</b>: Use the formula "=WORKDAY.INTL(DATE(2023;3;20);1;"0101111")" to generate the next day after March 20th
+2023 given that valid days are defined in the last argument. The sequence of zeros and ones represent the days of week,
+from Monday to Sunday. Zeros represent valid days and ones represent invalid days. In the example, the next day will be
+Wednesday. If we drag the cell down, the rows will contain the next mondays and fridays.
+
+<br>
+
+<br>
+
+<h3> How to turn off the terminal bell in Ubuntu? </h3>
+
+Edit the file /etc/inputrc (as root) as uncomment the line "set bell-style none" (<a
+    href="https://linuxconfig.org/turn-off-beep-bell-on-linux-terminal">reference</a>).
+
+<br>
+
+<br>
+
+<h3> How create a shortcut to paste non-formatted text into Word? </h3>
+
+From the View tab, click on Macros -> View Macros. In the Macros dialog,
+enter <i>PasteSpecial</i> in the macro name field and click Create. Replace the
+contents of the code editor with the following code: <br> <br>
+
+
+<div class="code">
+
+    <br>
+
+    Sub PasteSpecial()
+
+    <br>
+
+    On Error GoTo errHandler
+
+    <br><br>
+
+    <div style="padding-left:5%;">Selection.PasteSpecial DataType:=wdPasteText</div>
+
+    <div style="padding-left:5%;">Exit Sub</div>
+
+    <br>
+
+    errHandler:
+
+    <br>
+
+    <div style="padding-left:5%;">Selection.Paste</div>
+
+    <br>
+
+    End Sub
+
+    <br>
+
+    <br>
+
+</div>
+
+
+<br>
+
+Then, save and close the code editor. Go to File tab -> Options -> Customize Ribbon, click on the Customize... button
+after "keyboard shortcuts:". Choose Macro in the Categories box and choose <i>PasteSpecial</i> in the Macros box. In
+Press new shortcut key box, enter ctrl+shift+V, then click Assign.
+
+<br>
+
+<br>
+
+This tip is based on <a
+    href="https://superuser.com/questions/988527/how-can-i-use-ctrl-shift-v-to-paste-plain-non-formatted-text-into-a-word">this
+    StackExchange answer</a>.
+
+<br>
+
+<br>
+
+<h3> How to Watch YouTube Videos at Speeds Higher than 2x? </h3>
+
+Go to the video, press ctrl+shift+j (or command+shift+c in Mac) to open the javaScript console, and type the command <b>
+    document.getElementsByTagName("video")[0].playbackRate = 3</b> to increase the speed 3x. Replace the value 3 for
+other values for different speeds. This tip is based on <a
+    href="https://www.quora.com/Is-there-a-way-of-watching-YouTube-videos-at-higher-than-2x-speed">this Quora
+    answer</a>.
+
+<br>
+
+<br>

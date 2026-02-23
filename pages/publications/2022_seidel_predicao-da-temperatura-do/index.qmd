@@ -1,0 +1,14 @@
+---
+title: "Predição da Temperatura do Ferro-Gusa em um Alto-Forno utilizando Redes Neurais LSTM"
+date: 2022-01-01
+author: ["Rodrigo Seidel","Karin S. Komati","Thiago Oliveira-Santos","Filipe Mutz","Leandro C. Resendo"]
+publication: "Computer on the Beach"
+categories: []
+url_source: "https://periodicos.univali.br/index.php/acotb/article/view/18802"
+url_preprint:
+journ: "Computer on the Beach"
+year: 2022
+---
+        
+[Check out the paper!](https://periodicos.univali.br/index.php/acotb/article/view/18802)
+            

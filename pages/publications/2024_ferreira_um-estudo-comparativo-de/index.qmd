@@ -1,0 +1,14 @@
+---
+title: "Um Estudo Comparativo de Tecnicas de Aprendizado de Máquina para a Predição de Temperatura em Regeneradores"
+date: 2024-01-01
+author: ["Fabricio R. Ferreira","Leandro C. Resendo","Lucas A. Quaresma","Filipe Mutz"]
+publication: "Congresso Brasileiro de Automática (CBA)"
+categories: []
+url_source: "https://www.sba.org.br/cba2024/papers/paper_4782.pdf"
+url_preprint:
+journ: "Congresso Brasileiro de Automática (CBA)"
+year: 2024
+---
+        
+[Check out the paper!](https://www.sba.org.br/cba2024/papers/paper_4782.pdf)
+            

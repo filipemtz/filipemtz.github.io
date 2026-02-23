@@ -1,0 +1,14 @@
+---
+title: "Avaliação de Oportunidades de Investimentos no Mercado Futuro Brasileiro na Escala de Dezenas de Segundos"
+date: 2017-01-01
+author: ["Rafael Correia Nascimento","Claudine Badue","Thiago Oliveira-Santos","Alberto Ferreira De Souza","Filipe Mutz","Fábio Daros Freitas","Christian Daros Freitas"]
+publication: "Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+categories: []
+url_source: "http://www.sbpo2017.iltc.br/pdf/168995.pdf"
+url_preprint:
+journ: "Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+year: 2017
+---
+        
+[Check out the paper!](http://www.sbpo2017.iltc.br/pdf/168995.pdf)
+            

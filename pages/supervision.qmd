@@ -1,0 +1,38 @@
+---
+title: Supervision
+---
+
+## Alumni
+
+I have worked closely with exceptional students, many of whom have gone on to excel in research, industry, and entrepreneurship.
+
+1. Guilherme Soares  (Innovation Project).
+1. Alan Wehbe (Innovation Project).
+1. Eduardo Perim (Innovation Project).
+1. Thiago Damasceno Silva (B.Sc. Final Project).
+1. Savio Andre Maffioletti (Specialization Final Project).
+1. Kelvin Lehrback Guilherme (Specialization Final Project).
+1. Igor Borlot Borba (Specialization Final Project).
+1. Wideraldo Patrocinio (Specialization Final Project).
+1. Laudiane Justo Sant'Anna (Specialization Final Project).
+1. Paulo Henrique Alves de Oliveira (Specialization Final Project).
+1. Patrik Lima Pereira (Specialization Final Project).
+1. Wesley Domingos Junior (Specialization Final Project).
+1. Luana Gabriele de Sousa Costa (B.Sc. Final Project).
+1. Breno Brandolin Ignácio (Innovation Project).
+1. Matheus Vinícius Baessa de Souza (Innovation Project).
+1. Rafaela Fernanda Pereira Sousa (Innovation Project).
+1. Misael Florenciano (Undergrad Research).
+1. Nathan Garcia Freitas (Undergrad Project)
+1. Jullie de Castro Quadros (Undergrad Project).
+1. Maria Luiza Armini Correa (B.Sc. Final Project).
+1. Elaine Dias Pires (B.Sc. Final Project).
+1. Bernardo Broedel (B.Sc. Final Project).
+1. Daniel Comério (B.Sc. Final Project, M.Sc.).
+1. Gustavo Lima (M.Sc.). Grocery product recognition given few images captured in studio (well lit, centralized, and so on).
+1. Vitor Zanoni (B.Sc. Final Project).
+1. Giseli Siqueira (B.Sc. Final Project).
+1. Renato Lopes (B.Sc. Final Project).
+1. Tadeu Moraes (B.Sc. Final Project).
+1. Wagner Tostes (M.Sc.). Automatic speech recognition for Brazilian Portuguese with a focus on regional accent variability.
+1. Davi Torobay (Specialization Final Project).

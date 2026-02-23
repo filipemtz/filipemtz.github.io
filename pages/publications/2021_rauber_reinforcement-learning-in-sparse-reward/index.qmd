@@ -1,0 +1,14 @@
+---
+title: "Reinforcement Learning in Sparse-Reward Environments with Hindsight Policy Gradients"
+date: 2021-01-01
+author: ["Paulo Rauber","Avinash Ummadisingu","Filipe Mutz","Jürgen Schmidhuber"]
+publication: "Neural Computation"
+categories: []
+url_source: "https://direct.mit.edu/neco/article/doi/10.1162/neco_a_01387/100578/Reinforcement-Learning-in-Sparse-Reward"
+url_preprint:
+journ: "Neural Computation"
+year: 2021
+---
+        
+[Check out the paper!](https://direct.mit.edu/neco/article/doi/10.1162/neco_a_01387/100578/Reinforcement-Learning-in-Sparse-Reward)
+            

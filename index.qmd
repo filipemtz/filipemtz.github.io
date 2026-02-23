@@ -1,0 +1,51 @@
+---
+title: "Filipe Mutz"
+about:
+  template: trestles
+  image: /assets/img/about/about.jpg
+  links:
+    - icon: flask
+      text: lattes
+      href: http://lattes.cnpq.br/3123292310632540
+    - icon: github
+      text: github
+      href: https://github.com/filipemtz
+    - icon: mortarboard
+      text: scholar
+      href: https://scholar.google.com.br/citations?user=9YIVWNgAAAAJ
+---
+
+## Bio
+
+I'm a professor at the Universidade Federal do Espírito Santo (UFES), Brazil. My work centers on artificial intelligence (neural networks), robotics (perception, sensor fusion, localization, and mapping), programming and software design.
+
+I have advised many talented [students](pages/supervision.qmd) at different levels, participated in research and innovation [projects](pages/projects.qmd) that led to peer-reviewed [publications](pages/publications.qmd) (47+ papers and 2441+ citations), while teaching a range of [courses](pages/teaching.qmd) in computing.
+
+## Education
+
+**Ph.D. in Computer Science.**  2015 - 2019. Universidade Federal do Espírito Santo. Supervisor: Alberto F. De Souza.
+
+**Doctoral Rearch Visit to the Swiss AI Lab IDSIA.** 06/2017 - 07/2018. Supervisor: [Juergen Schmidhuber](http://people.idsia.ch/~juergen/).
+
+**M.Sc. in Computer Science.**  2012 - 2014. Universidade Federal do Espírito Santo. Supervisor: Alberto F. De Souza.
+
+**B.Sc. in Computer Science.**  2007 - 2012. Universidade Federal do Espírito Santo. Supervisor: Elias S. de Oliveira.
+
+## Working Experience
+
+**Universidade Federal do Espírito Santo (UFES).** Professor. 04/2022-present.
+
+**Instituto Federal do Espírito Santo (IFES/Serra).** Professor. 09/2014 - 04/2022.
+
+**Mogai IT.** Computer vision researcher. 04/2012 - 11/2013.
+
+## Other Positions and Roles
+
+**Coordinator of UFES/NCD (Digital Citizenship Center).** 04/2022 - 04/2024. NCD is a program for digital inclusion of vulnerable communities.
+
+**Researcher at the UFES' Institute of Applied Computational Intelligence (I2CA).** 09/2022-present.
+
+**Institutional representative for the Brazilian Computer Society (SBC).** 02/2024 - 06/2025.
+
+**Productivity researcher at IFES.** 2020 - 2022.
+

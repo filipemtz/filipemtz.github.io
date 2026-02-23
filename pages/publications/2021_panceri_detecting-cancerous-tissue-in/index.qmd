@@ -1,0 +1,14 @@
+---
+title: "Detecting Cancerous Tissue in Mammograms Using Deep Neural Networks"
+date: 2021-01-01
+author: ["Sabrina S. Panceri","Filipe Mutz","Vinicius B. Cardoso","Raphael V. Carneiro","Thiago Oliveira-Santos","Claudine Badue","Alberto Ferreira De Souza"]
+publication: "International Joint Conference on Neural Networks (IJCNN)"
+categories: []
+url_source: "https://ieeexplore.ieee.org/document/9533376"
+url_preprint:
+journ: "International Joint Conference on Neural Networks (IJCNN)"
+year: 2021
+---
+        
+[Check out the paper!](https://ieeexplore.ieee.org/document/9533376)
+            

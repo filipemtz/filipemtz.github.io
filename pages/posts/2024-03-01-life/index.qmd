@@ -1,0 +1,82 @@
+---
+title: "Conheça o Life"
+date: 2024-03-01 00:00:00 -0000
+categories:
+    - Lab
+description: "Apresenta o Laboratório de Inteligência Artificial em Saúde (Life)."
+---
+
+<style>
+    img {
+        width: 300px;
+        height: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .col {
+        flex: 1 1 calc(33.33% - 10px);
+        max-width: 350px;
+    }
+
+    @media (max-width: 480px) {
+        .col {
+            flex: 1 1 100%; /* Exibe 1 vídeo por linha em telas pequenas */
+            max-width: 100%;
+        }
+    }
+</style>
+
+<div>
+    O <a href="https://life.inf.ufes.br/">Laboratório de Inteligência Artificial em Saúde (Life)</a> foi criado e
+    equipado usando recursos do edital FAPES Nº
+    21/2022. O laboratório é um espaço multidisciplinar criado com objetivo de integrar especialistas das áreas de
+    informática e da saúde, além de potencializar o ensino, pesquisa, extensão, inovação e desenvolvimento tecnológico
+    nestas áreas. Os recursos do edital foram utilizados para a aquisição de equipamentos para fomentar a realização de
+    projetos como computadores, Sistema de Frequência Modulada (Microfone Remoto) e receptores para projetos na área de
+    Fonoaudiologia, Dispositivos de sensoriamento vestíveis (wearables) e Dermartoscópios.
+</div>
+
+<br>
+
+<div>
+    <a href="https://maps.app.goo.gl/yptP8RnnZeajC1UL8"><i class="bi bi-geo-alt-fill"></i> Localização: Ufes, prédio
+        CT-13, sala 27</a>.
+</div>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="{{ " /assets/img/life/porta.jpeg" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/nome.jpeg" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/sala-1.jpeg" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/sala-2.jpeg" | relative_path }}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="{{ " /assets/img/life/time-1.jpeg" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/time-2.jpg" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/time-3.png" | relative_path }}">
+        </div>
+        <div class="col">
+            <img src="{{ " /assets/img/life/time-4.png" | relative_path }}">
+        </div>
+    </div>
+</div>

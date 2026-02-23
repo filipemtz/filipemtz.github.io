@@ -1,0 +1,14 @@
+---
+title: "Hindsight Policy Gradients"
+date: 2018-01-01
+author: ["Paulo Rauber","Filipe Mutz","Jüergen Schmidhuber"]
+publication: "Deep Reinforcement Learning Workshop - Neural Information Processing Systems (NeurIPS)"
+categories: []
+url_source: "https://sites.google.com/view/deep-rl-workshop-nips-2018/home"
+url_preprint:
+journ: "Deep Reinforcement Learning Workshop - Neural Information Processing Systems (NeurIPS)"
+year: 2018
+---
+        
+[Check out the paper!](https://sites.google.com/view/deep-rl-workshop-nips-2018/home)
+            

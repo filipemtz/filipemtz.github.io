@@ -1,0 +1,72 @@
+---
+title: "Connecting to a Remote Server in VSCode"
+date: 2024-03-01 00:00:00 -0000
+categories:
+    - Lab
+description: "This post presents a step-by-step guide on how to connect to a remote server in vscode using ssh"
+---
+
+<style>
+    .row {
+        padding-bottom: 30px;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Install the "Remote - ssh" extension by Microsoft.
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/001.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            Select the "+" button to add a new connection and type the ssh command in the pallete (e.g., "ssh johndoe@10.9.8.13" or "ssh johndoe@myserver").
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/002.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            Select the ssh configuration file to updated. If you're not sure, select the default (first on the list).
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/003.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            Click the refresh button to update the viewer with the new connection. Then, click the arrow button to connect to the server in the current window or the next icon to open a new window.
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/004.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            Type your password.
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/005.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            After the previous step, you're already connected to the remote server. To visualize your files, select the option "File > Open Folder" in the menu. Next, choose a folder from the server to open.
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/006.png" | relative_path }}">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            The files should appear in the left panel. Also, if a new terminal is created (e.g., choosing the option "Terminal > New Terminal" in the main menu), the terminal should also be connected to the server.
+            <br>
+            <img src="{{ " /assets/img/ssh-vscode/007.png" | relative_path }}">
+        </div>
+    </div>
+
+</div>

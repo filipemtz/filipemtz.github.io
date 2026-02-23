@@ -1,0 +1,14 @@
+---
+title: "Reabilitação da Pessoa com Deficiência Auditiva: Desenvolvimento de Sistema de Informação como Ferramenta Didático-Pedagógica, Extensão, Gestão e Pesquisa na Integração de Dados em Estágio do Serviço Público"
+date: 2023-01-01
+author: ["Roberto Lorenzoni Tomé","Bernardo Vargas Broedel","Isabella Borba Pillotti","Aline N Pessoa Almeida","Filipe Mutz"]
+publication: "Congresso Brasileiro de Fonoaudiologia"
+categories: []
+url_source: "https://lp.sbfa.org.br/cbfa2023/anais/cbfa2023-anais.pdf"
+url_preprint:
+journ: "Congresso Brasileiro de Fonoaudiologia"
+year: 2023
+---
+        
+[Check out the paper!](https://lp.sbfa.org.br/cbfa2023/anais/cbfa2023-anais.pdf)
+            

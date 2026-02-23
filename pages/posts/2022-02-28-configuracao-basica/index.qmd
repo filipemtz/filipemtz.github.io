@@ -1,0 +1,229 @@
+---
+title:  "Configuração Básica de Computadores"
+date: "2022-02-28 20:25:13 -0300"
+author: "Filipe Mutz"
+categories:
+    - Lab
+descriptiont: "[PT] Instruções de como realizar a configuração inicial dos computadores do lab."
+---
+
+<style>
+    td,
+    th {
+        text-align: center;
+    }
+
+    .code {
+        display: block;
+        font-family: courier;
+        border-style: solid;
+        border-width: 1px;
+        border-color: gray;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        word-wrap: break-word;
+    }
+
+    .offline {
+        color: red;
+        background-color: #ffd5d5;
+    }
+
+    .online {
+        color: green;
+        background-color: #d5ffd5;
+    }
+
+    .text {
+        text-align: justify;
+    }
+</style>
+
+<br>
+<br>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2> Formatar o computador usando versão LTS mais recente do Ubuntu. </h2>
+        <br>
+        1) Selecionar a opção de fazer download de atualizações enquanto faz a instalação. <br>
+        2) Selecionar a opção de instalar software de terceiros. <br>
+        3) Se o computador possuir um SSD e um HD, instalar o sistema operacional no SSD. Usuários avançados podem
+        utilizar a ferramenta de gerência de discos para formatar o HD para o formato ext4 e definir o ponto de montagem
+        como, por exemplo, /hd1 ou /data1. Caso contrário, veja seção mais abaixo.<br>
+        4) Usar nomes e numeração padrões conforme o laboratório. Por exemplo, em um laboratório chamado LCX, as
+        máquinas poderiam ser chamar lcx1, lcx2, etc. O nome do usuário padrão poderia ser lcx. Também é uma boa idéia
+        usar uma senha padrão para que o procedimento de operação de todas as máquinas seja o mesmo. <br>
+        5) Ao final do processo, será solicitado que o computador seja reiniciado.
+        6) Após o reinício, abrir as configurações de rede e copiar o IP apresentado na rede cabeada (wired). Então,
+        selecionar a opção IPv4, trocar a opção de Automático para Manual. No campo IP, colar o valor do IP e substituir
+        o último valor por algum valor associado ao número da máquina. Por exemplo, se o IP for 172.152.134.124 e a
+        máquina se chama lcx8, faça o IP 172.152.134.8 ou 172.152.134.108. Defina a máscara de subrede como
+        255.255.255.0, o gateway como 172.152.134.1 e o DNS 1.1.1.1,8.8.8.8.
+        7) Instalar pacotes úteis:
+        <div class='code'>
+            sudo apt update <br>
+            sudo apt install -y git gcc g++ make vim htop net-tools python3 python-is-python3 python3-pip python3-venv
+            tmux
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2> Instalar drivers da NVIDIA e CUDA toolkit (se necessário) </h2>
+        <br>
+        1) Verificar no site dos frameworks de redes neurais as versões mais recentes suportadas do driver da NVIDIA, do
+        CUDA toolkit e do CUDNN (e.g., <a
+            href="https://www.tensorflow.org/install/gpu?hl=pt-br#software_requirements">tensorflow</a>). <br>
+        2) Abrir o programa additional drivers (em versões mais antigas, ir em software updates > additional drivers) e
+        selecionar o driver da NVIDIA suportado mais recente. Escolher preferencialmente aqueles com a palavra tested
+        entre parêntesis. <br>
+        3) Instalar pacotes necessários:
+        <div class='code'>
+            sudo apt install gcc g++
+        </div>
+        4) Buscar no google "cuda toolkit download [VERSÃO]", por exemplo, "cuda toolkit download 11.2". Acessar a
+        página e selecionar linux > x86_64 > Ubuntu > [sua versão] > runfile (local). Seguir as instruções apresentadas
+        na página para baixar o arquivo usando o comando wget e executar o arquivo usando o comando sh. Os comandos para
+        a versão 11.2 seguem abaixo: <br>
+        <div class='code'>
+            wget
+            https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run
+            <br>
+            sudo sh cuda_11.2.0_460.27.04_linux.run
+        </div>
+        5) Se for exibida uma mensagem dizendo que é recomendável remover o driver, apenas ignore e digite "continue",
+        se solicitado. Serão exibidas checkboxes para selecionar o que instalar. Marque todas as opções exceto o driver.
+        A instalação deverá prosseguir sem erros. <br>
+        6) Faça o download da versão do CUDNN compatível com a versão do CUDA toolkit e suportada pelos frameworks de
+        redes neurais no <a href="https://developer.nvidia.com/rdp/cudnn-archive">site da NVIDIA</a>. É necessário fazer
+        um cadastro no NVIDIA developer para fazer o download. Selecione a opção "cuDNN Library for Linux (x86_64)" e
+        <b>não o arquivo deb</b>. Será baixado um arquivo com extensão .tgz, como ilustrado abaixo: <br>
+        <div class='code'>
+            tar -zxvf cudnn-11.2-linux-x64-v8.1.0.77.tgz
+        </div>
+        Será extraída uma pasta chamada cuda contendo os diretórios include e lib64.<br>
+        7) Copie os conteúdos das pastas include e lib64 para a pasta de instalação de cuda: <br>
+        <div class='code'>
+            sudo cp -r cuda/include/* /usr/local/cuda-11.2/include <br>
+            sudo cp -r cuda/lib64/* /usr/local/cuda-11.2/lib64
+        </div>
+        8) Teste a instalação, executando o programa de exemplo device_query: <br>
+        <div class='code'>
+            cd /usr/local/cuda/samples/1_Utilities/deviceQuery <br>
+            sudo make <br>
+            ./deviceQuery
+        </div>
+        Saída esperada: <br>
+        <img src="{{ "/assets/img/config/devquerypng.png" | relative_path }}" width=100% /> <br>
+        9) Para permitir que as ferramentas do toolkit sejam usadas por todos os usuários, edite o arquivo
+        /etc/environment e adicione ":/usr/local/cuda/bin" ao final dos diretórios listados na variável PATH e crie a
+        variável LD_LIBRARY_PATH com o conteúdo abaixo:
+        <div class='code'>
+            LD_LIBRARY_PATH="/usr/local/cuda/lib64"
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+    <div class="col-md-12">
+
+        <h2> Montar um HD automaticamente ao iniciar o computador (extraído <a
+                href="https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux">deste post</a>)
+        </h2>
+        <br>
+
+        1) Use o comando "sudo blkid" para listar informações sobre as memórias secundárias instaladas no computador.
+        Como indicado na imagem abaixo, procure o HD que você deseja montar e identifique o UUID e o tipo da partição
+        (ntfs, ext4, etc.): <br>
+        <img src="{{ "/assets/img/config/output-blkid.webp" | relative_path}}" /> <br>
+        2) Crie uma pasta para ser o ponto de montagem. Exemplo: <br>
+        <div class='code'>
+            sudo mkdir /hd1
+        </div>
+        3) Adicione uma linha no arquivo /etc/fstab para informar que o arquivo deve ser montado. O formato das linhas
+        no arquivo segue a seguinte sintaxe (<b>importante</b>: os campos devem ser separados por <b>tab</b>):<br>
+        <div class='code'>
+            UUID=[uuid-of-your-drive] [mount-point] [file-system-type] [mount-option] [dump] [pass]
+        </div>
+        Assumindo que o UUID do dispositivo é eb67c479-962f-4bcc-b3fe-cefaf908f01e, que o ponto de montagem é /mnt/sdb9
+        e que o tipo da partição é ext4, a linha que deveria ser adicionada seria a seguinte: <br>
+        <div class='code'>
+            UUID=eb67c479-962f-4bcc-b3fe-cefaf908f01e /mnt/sdb9 ext4 defaults 0 2
+        </div>
+        A parte final "default 0 2" é meio padrão. Para testar se a partição será montada corretamente, use o comando
+        abaixo: <br>
+        <div class='code'>
+            sudo mount -a
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <h2> Dicas Rápidas </h2>
+
+        <br>
+        <b>Adicionar usuários</b>
+        <br>
+        <div class='code'>
+            sudo adduser [nome]
+        </div>
+
+        <br>
+
+        <b>Formatar uma partição (extraído <a href="https://phoenixnap.com/kb/linux-format-disk">deste post</a>)</b>
+        <br>
+        Identifique a partição que você deseja formatar usando o comando lsblk. A saída esperada é a seguinte: <br>
+        <img src="{{ "/assets/img/config/locate-partitions.png" | relative_path}}" width=100% /> <br>
+        Para formatar a partição /dev/sdb1 usando o sistema de arquivos ext4, use o comando abaixo: <br>
+        <div class='code'>
+            sudo mkfs -t ext4 /dev/sdb1
+        </div>
+        Verifique se o sistema de arquivos mudou usando novamente o comando "lsblk -f".
+
+        <br>
+        <br>
+
+        <b>Montar um ambiente virtual python</b>
+        <br>
+        1) Crie um ambiente virtual:<br>
+        <div class='code'>
+            python -m venv venv
+        </div>
+        2) Edite o arquivo ~/.bashrc e adicione o comando de ativação do ambiente que ele seja ativado automaticamente
+        ao abrir o terminal. A linha abaixo deve ser adicionada ao final do arquivo: <br>
+        <div class='code'>
+            source ~/venv/bin/activate
+        </div>
+        3) Use o comando bash ou abra um novo terminal para ativar o ambiente virtual. <br>
+        4) Atualize o pip: <br>
+        <div class='code'>
+            python -m pip install pip --upgrade
+        </div>
+        5) Instale as bibliotecas mais utilizadas: <br>
+        <div class='code'>
+            python -m pip install numpy opencv-python wheel testresources tensorflow seaborn matplotlib scikit-learn
+            torch torchvision torchaudio xgboost tqdm scipy requests Pillow pydicom autopep8 autoflake
+        </div>
+
+    </div>
+</div>

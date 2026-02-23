@@ -1,0 +1,14 @@
+---
+title: "Solar Flare Prediction Using Multivariate Time Series and Cost-Sensitive Machine Learning"
+date: 2025-01-01
+author: ["Ricardo Zorzal Davila","Jefferson O. Andrade","Filipe Mutz","Karin S. Komati"]
+publication: "Conferência Latino-Americana de Informática (CLEI)"
+categories: []
+url_source: "None"
+url_preprint:
+journ: "Conferência Latino-Americana de Informática (CLEI)"
+year: 2025
+---
+        
+Link to the paper is coming soon.
+            

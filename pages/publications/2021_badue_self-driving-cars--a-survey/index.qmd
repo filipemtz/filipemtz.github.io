@@ -1,0 +1,14 @@
+---
+title: "Self-driving cars: A survey"
+date: 2021-01-01
+author: ["Claudine Badue","Rânik Guidolini","Raphael Vivacqua Carneiro","Pedro Azevedo","Vinicius Brito Cardoso","Avelino Forechi","Luan Jesus","Rodrigo Berriel","Thiago Paixão","Filipe Mutz","Lucas Veronese","Thiago Oliveira-Santos","Alberto Ferreira De Souza"]
+publication: "Expert Systems with Applications"
+categories: []
+url_source: "https://www.sciencedirect.com/science/article/pii/S095741742030628X"
+url_preprint:
+journ: "Expert Systems with Applications"
+year: 2021
+---
+        
+[Check out the paper!](https://www.sciencedirect.com/science/article/pii/S095741742030628X)
+            

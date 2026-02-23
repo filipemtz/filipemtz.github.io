@@ -1,0 +1,98 @@
+---
+title: "Materiais de Estudo de IA"
+date: 2023-03-28 20:25:13 -0300
+categories:
+    - Lab
+description: "[PT] Materiais de Estudo de IA."
+---
+
+<div
+    style="border: solid; border-color: red; padding-left: 20px;padding-right: 20px;padding-top: 10px; padding-bottom: 10px;">
+    <b>Importante:</b> A quantidade de material abaixo pode ser <i>overwhelming</i>, mas tenha em mente que:
+    <ul>
+        <li>tem coisas bem variadas para você escolher o que te interessa mais</li>
+        <li>você não precisa aprender tudo</li>
+        <li>dominar uma área requer tempo</li>
+        <li>é uma lista bem genérica</li>
+        <li>a lista foi feita em <b>2019</b> e pouco atualizada desde então.</li>
+    </ul>
+</div>
+
+<h1>Livros Clássicos</h1>
+
+AI tem muitas subáreas. Eu trabalho com redes neurais. Redes neurais é uma
+subárea de <i>machine learning</i> que é uma subárea de AI. A maioria das técnicas de machine learning é baseada em
+estatística, então vou listar um livro muito bom e conciso sobre o assunto. Estatística é um assunto que vale muito a
+pena aprender e que pode ser aplicado em várias áreas.
+
+<ul>
+    <li>
+        <a
+            href="https://www.amazon.com.br/Intelig%C3%AAncia-artificial-Peter-Norvig/dp/8535237011?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_729680143_34002717090_172477348789_aud-519888259198:pla-384903191960_c_">Livro
+            Clássico de IA: Inteligência Artificial (Peter Norvig)</a>
+    </li>
+    <li>
+        <a
+            href="https://www.amazon.com.br/Intelig%C3%AAncia-artificial-Peter-Norvig/dp/8535237011?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_729680143_34002717090_172477348789_aud-519888259198:pla-384903191960_c_">Meu
+            Livro Favorito de <i>Machine Learning</i>: Machine Learning: A Probabilistic Perspective (Murphy)</a>. O
+        pessoal gosta muito também do livro Pattern Recognition and Machine Learning (Bishop) e o Elements of
+        Statistical Learning (Friedman, Tibshiriani e Hastie).
+    </li>
+    <li>
+        <a
+            href="https://www.amazon.com.br/Deep-Learning-Ian-Goodfellow/dp/0262035618/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=deep+learning&qid=1563241637&s=gateway&sr=8-1">Livro
+            de Redes Neurais: Deep Learning (Goodfellow et al.)</a>
+    </li>
+    <li>
+        <a
+            href="https://www.amazon.com.br/All-Statistics-Statistical-Inference-Springer-ebook/dp/B00HWUVSJS/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=all+of+statistics&qid=1563242439&s=books&sr=1-1">Livro
+            de Estatística: All of Statistics</a>
+    </li>
+</ul>
+
+<h1>Tutoriais Mão na Massa</h1>
+
+<ul>
+    <li>
+        <a href="https://medium.com/nybles/create-your-first-image-recognition-classifier-using-cnn-keras-and-tensorflow-backend-6eaab98d14dd
+        ">classificação de imagens com redes neurais convolucionais</a>
+    </li>
+    <li>
+        <a href="https://towardsdatascience.com/cartpole-introduction-to-reinforcement-learning-ed0eb5b58288">rede
+            neural capaz de jogar um jogo simples</a>
+    </li>
+    <li>
+        As bibliotecas mais usadas recentemente para redes neurais são o tensorflow, o pytorch, e o huggingface. Para
+        <i>machile learning</i> também tem o scikit-learn. Todos são bibliotecas de python. Se você buscar no google
+        "image detection pytorch", por exemplo, você vai achar muitos exemplos de coisas legais que dá pra fazer com
+        redes neurais.
+    </li>
+</ul>
+
+<h1>Outras Fontes Legais</h1>
+
+<ul>
+    <li>
+        <a href="https://www.youtube.com/user/keeroyz">Canal do Youtube Two Minute Papers com Resumos de Artigos</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/user/1veritasium">Canal do Youtube Veritasium sobre Conhecimentos Gerais</a>
+    </li>
+    <li>
+        <a href="https://www.udacity.com/courses/school-of-ai">Cursos da udacity sobre AI</a>
+    </li>
+    <li>
+        <a href="https://pt.coursera.org/courses?query=artificial%20intelligence&page=1&configure%5BclickAnalytics%5D=true&indices%5Bprod_all_products_custom_ranking_revenuelast28d%5D%5Bconfigure%5D%5BclickAnalytics%5D=true&indices%5Bprod_all_products_custom_ranking_revenuelast28d%5D%5Bconfigure%5D%5BhitsPerPage%5D=10
+        ">Cursos do coursera sobre AI</a>. OBS: O curso de machine learning de standford do coursera ministrado pelo
+        andrew ng é um clássico, mas é mais teórico. Os cursos que tem o nome de alguma lib (tensorflow, pytorch) tendem
+        a ser mais práticos.
+    </li>
+    <li>
+        O blog <a href="https://towardsdatascience.com/">Towards Data Science</a> tem muita coisa legal de AI,
+        <i>machine learning</i>, e redes neurais.
+    </li>
+    <li>
+        Existe uma plataforma de blogs chamada Medium que tem recebido muitos posts sobre AI, machine learning, e redes
+        neurais. Procure no google "machine learning medium", por exemplo, e você vai achar muita coisa.
+    </li>
+</ul>

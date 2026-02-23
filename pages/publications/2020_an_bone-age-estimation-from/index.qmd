@@ -1,0 +1,14 @@
+---
+title: "Bone Age Estimation from Carpal Radiography Images using Deep Learning"
+date: 2020-01-01
+author: ["Ding Yih An","Filipe Mutz","Klaus Fabian Côco","Luiz Alberto Pinto","Karin Satie Komati"]
+publication: "Expert Systems"
+categories: []
+url_source: "https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12584"
+url_preprint:
+journ: "Expert Systems"
+year: 2020
+---
+        
+[Check out the paper!](https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12584)
+            

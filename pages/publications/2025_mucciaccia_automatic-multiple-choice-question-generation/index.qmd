@@ -1,0 +1,14 @@
+---
+title: "Automatic Multiple-Choice Question Generation and Evaluation Systems Based on LLM: A Study Case With University Resolutions"
+date: 2025-01-01
+author: ["Sérgio Silva Mucciaccia","Thiago Meireles Paixão","Filipe Mutz","Claudine Santos Badue","Alberto Ferreira de Souza","Thiago Oliveira dos Santos"]
+publication: "International Conference on Computational Linguistics (COLING 2025)"
+categories: []
+url_source: "https://aclanthology.org/2025.coling-main.154/"
+url_preprint:
+journ: "International Conference on Computational Linguistics (COLING 2025)"
+year: 2025
+---
+        
+[Check out the paper!](https://aclanthology.org/2025.coling-main.154/)
+            

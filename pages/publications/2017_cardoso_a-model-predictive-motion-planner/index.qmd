@@ -1,0 +1,14 @@
+---
+title: "A Model-Predictive Motion Planner for the IARA Autonomous Car"
+date: 2017-01-01
+author: ["Vinicius Cardoso","Josias Oliveira","Thomas Teixeira","Claudine Badue","Thiago Oliveira-Santos","Filipe Mutz","Lucas de Paula Veronese","Alberto Ferreira De Souza"]
+publication: "IEEE International Conference on Robotics and Automation (ICRA)"
+categories: []
+url_source: "https://ieeexplore.ieee.org/document/7989028"
+url_preprint:
+journ: "IEEE International Conference on Robotics and Automation (ICRA)"
+year: 2017
+---
+        
+[Check out the paper!](https://ieeexplore.ieee.org/document/7989028)
+            

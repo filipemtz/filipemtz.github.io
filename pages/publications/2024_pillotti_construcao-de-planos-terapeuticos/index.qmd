@@ -1,0 +1,14 @@
+---
+title: "Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada"
+date: 2024-01-01
+author: ["Isabella Borba Pillotti","Bernardo Vargas Broedel","Filipe Mutz","Aline N Pessoa Almeida"]
+publication: "Encontro Internacional de Audiologia [Resumo]"
+categories: []
+url_source: "None"
+url_preprint:
+journ: "Encontro Internacional de Audiologia [Resumo]"
+year: 2024
+---
+        
+Link to the paper is coming soon.
+            

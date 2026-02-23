@@ -1,0 +1,14 @@
+---
+title: "Training Agents using Upside-Down Reinforcement Learning"
+date: 2019-01-01
+author: ["Rupesh K Srivastava","Pranav Shyam","Filipe Mutz","Wojciech Jaśkowski","Jürgen Schmidhuber"]
+publication: "Deep Reinforcement Learning Workshop - Conference on Neural Information Processing Systems (NeurIPS)"
+categories: []
+url_source: "https://sites.google.com/view/deep-rl-workshop-neurips-2019/home"
+url_preprint:
+journ: "Deep Reinforcement Learning Workshop - Conference on Neural Information Processing Systems (NeurIPS)"
+year: 2019
+---
+        
+[Check out the paper!](https://sites.google.com/view/deep-rl-workshop-neurips-2019/home)
+            

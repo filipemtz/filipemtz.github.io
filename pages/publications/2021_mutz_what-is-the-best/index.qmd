@@ -1,0 +1,14 @@
+---
+title: "What is the Best Grid-Map for Self-Driving Cars Localization? An Evaluation under Diverse Types of Illumination, Traffic, and Environment"
+date: 2021-01-01
+author: ["Filipe Mutz","Thiago Oliveira-Santos","Avelino Forechi","Karin Satie Komati","Claudine Badue","Felipe M. G. França","Alberto Ferreira De Souza"]
+publication: "Expert Systems with Applications"
+categories: []
+url_source: "https://www.sciencedirect.com/science/article/pii/S0957417421005182"
+url_preprint:
+journ: "Expert Systems with Applications"
+year: 2021
+---
+        
+[Check out the paper!](https://www.sciencedirect.com/science/article/pii/S0957417421005182)
+            

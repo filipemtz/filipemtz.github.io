@@ -1,0 +1,14 @@
+---
+title: "Heurísticas para Otimização de um Problema de Transporte interconectado a um Problema Agendamento de Tarefas: Estudo de Caso da Colheita Florestal"
+date: 2023-01-01
+author: ["Ana Paula Martins Guimarães Mutz","Leandro Colombi Resendo","Filipe Mutz"]
+publication: "Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+categories: []
+url_source: "https://proceedings.science/sbpo-2023/trabalhos/heuristicas-para-otimizacao-de-um-problema-de-transporte-interconectado-a-um-pro"
+url_preprint:
+journ: "Simpósio Brasileiro de Pesquisa Operacional (SBPO)"
+year: 2023
+---
+        
+[Check out the paper!](https://proceedings.science/sbpo-2023/trabalhos/heuristicas-para-otimizacao-de-um-problema-de-transporte-interconectado-a-um-pro)
+            

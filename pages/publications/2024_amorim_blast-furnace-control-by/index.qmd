@@ -1,0 +1,14 @@
+---
+title: "Blast Furnace Control by Hierarchical Similarity Search in Historical Data"
+date: 2024-01-01
+author: ["Lucas Luppi Amorim","Filipe Mutz","Thiago M Paixão","Vinicius Rampinelli","Alberto F De Souza","Claudine Badue","Thiago Oliveira-Santos"]
+publication: "Engineering Applications of Artificial Intelligence (EAAI)"
+categories: []
+url_source: "https://www.sciencedirect.com/science/article/pii/S0952197624019389"
+url_preprint:
+journ: "Engineering Applications of Artificial Intelligence (EAAI)"
+year: 2024
+---
+        
+[Check out the paper!](https://www.sciencedirect.com/science/article/pii/S0952197624019389)
+            

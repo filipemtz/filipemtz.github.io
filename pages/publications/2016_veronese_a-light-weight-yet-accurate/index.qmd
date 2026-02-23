@@ -1,0 +1,14 @@
+---
+title: "A Light-Weight Yet Accurate Localization System for Autonomous Cars in Large-Scale and Complex Environments"
+date: 2016-01-01
+author: ["Lucas de Paula Veronese","José Guivant","Fernando A. Auat Cheein","Thiago Oliveira-Santos","Filipe Mutz","Edilson de Aguiar","Claudine Badue","Alberto Ferreira De Souza"]
+publication: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
+categories: []
+url_source: "https://ieeexplore.ieee.org/document/7795604"
+url_preprint:
+journ: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
+year: 2016
+---
+        
+[Check out the paper!](https://ieeexplore.ieee.org/document/7795604)
+            

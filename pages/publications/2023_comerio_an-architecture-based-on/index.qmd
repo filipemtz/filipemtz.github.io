@@ -1,0 +1,14 @@
+---
+title: "An Architecture based on CNNs and BiLSTMs for Slice-Level and Series-Level Intracranial Hemorrhage Identification in CT Scans"
+date: 2023-01-01
+author: ["Daniel Henrique Comério","Karin Satie Komati","Thiago Oliveira-Santos","Filipe Mutz"]
+publication: "Workshop de Visão Computacional (WVC)"
+categories: []
+url_source: "https://sol.sbc.org.br/index.php/wvc/article/view/27525"
+url_preprint:
+journ: "Workshop de Visão Computacional (WVC)"
+year: 2023
+---
+        
+[Check out the paper!](https://sol.sbc.org.br/index.php/wvc/article/view/27525)
+            

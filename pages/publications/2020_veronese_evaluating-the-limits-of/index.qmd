@@ -1,0 +1,14 @@
+---
+title: "Evaluating the Limits of a LiDAR for an Autonomous Driving Localization"
+date: 2020-01-01
+author: ["Lucas de Paula Veronese","Fernando Auat Cheein","Filipe Mutz","Thiago Oliveira-Santos","Jose Guivant","Edilson De Aguiar","Claudine Badue","Alberto Ferreira De Souza"]
+publication: "IEEE Transactions on Intelligent Transportation Systems"
+categories: []
+url_source: "https://ieeexplore.ieee.org/document/9059023"
+url_preprint:
+journ: "IEEE Transactions on Intelligent Transportation Systems"
+year: 2020
+---
+        
+[Check out the paper!](https://ieeexplore.ieee.org/document/9059023)
+            

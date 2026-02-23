@@ -1,0 +1,14 @@
+---
+title: "Stereo Matching with VG-RAM Weightless Neural Networks"
+date: 2012-01-01
+author: ["Lucas de Paula Veronese","Lauro José Lyrio Junior","Filipe Mutz","Jorcy de Oliveira Neto","Vitor Barbirato Azevedo","Mariela Berger","Alberto Ferreira De Souza","Claudine Badue"]
+publication: "IEEE International Conference on Intelligent Systems Design and Applications (ISDA)"
+categories: []
+url_source: "https://ieeexplore.ieee.org/document/6416556"
+url_preprint:
+journ: "IEEE International Conference on Intelligent Systems Design and Applications (ISDA)"
+year: 2012
+---
+        
+[Check out the paper!](https://ieeexplore.ieee.org/document/6416556)
+            

@@ -1,0 +1,288 @@
+---
+title: "Disciplina de Game Dev"
+date: 2024-10-26 00:00:00 -0000
+categories:
+    - Miscelaneous
+description: "Traz vídeos dos jogos desenvolvidos na disciplina Desenvolvimento de Jogos em 2024/1"
+---
+
+<!-- Nilo Unity https://youtu.be/zXEbo1khQ8c
+Mateus Couto Unity https://youtu.be/JOmxrIXSTh8
+Lorenzo e Gabriel Paschoal Unity https://youtu.be/1-Ceb_E7GCk
+Karla Unity https://youtu.be/dxbmupLkbZc
+João Milli e Rogério Medeiros Unity https://youtu.be/a3X43NMUnh8
+Henrycky Igor Unity https://youtu.be/N8KWfpnt2EQ
+Danilo e Gustavo Unity https://youtu.be/npJ0YLN3NBw
+Antônio e Bruno Unity https://youtu.be/PsMWn6yo-d0
+Ângelo Unity https://youtu.be/DMkjDSuu0YY
+André e Talles Unity https://youtu.be/PzZEvexNFI0
+Filipe Souza e Christian Litzinger Unity https://www.youtube.com/watch?v=R6Rir4_6SqY -->
+
+<style>
+    .videos-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+    .video-container {
+        flex: 1 1 calc(33.33% - 20px);
+        max-width: 350px;
+    }
+
+    @media (max-width: 480px) {
+        .video-container {
+            flex: 1 1 100%; /* Exibe 1 vídeo por linha em telas pequenas */
+            max-width: 100%;
+        }
+    }
+</style>
+
+<h1>Jogos Desenvolvidos com Unity</h1>
+
+<div class='videos-row'>
+
+    <div class='video-container'>
+        <div class='video-title'>Henrycky e Igor</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/N8KWfpnt2EQ?si=9b_Cgv6eM_obAawm" title="Henrycky Igor"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Karla</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/dxbmupLkbZc?si=ImOg2QOKIVgWMaMW" title="Karla"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Nilo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/zXEbo1khQ8c?si=bgZxRRFSBE6b3Br1" title="Nilo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Mateus Couto</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/JOmxrIXSTh8?si=qAF3t5DvmFviR9sW" title="Mateus Couto" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Lorenzo e Gabriel Paschoal</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/1-Ceb_E7GCk?si=vZoYb9cG4U4ifleT" title="Lorenzo e Gabriel Paschoal" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>João Milli e Rogério Medeiros</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/a3X43NMUnh8?si=D6jvyzWrvwwyP3by" title="João Milli e Rogério Medeiros" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Danilo e Gustavo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/npJ0YLN3NBw?si=9hrIpYQeQGWyuWnk" title="Danilo e Gustavo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Antônio e Bruno</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/PsMWn6yo-d0?si=uIhzy9DNyKNpKmrP" title="Antônio e Bruno" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Ângelo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/DMkjDSuu0YY?si=qoRXQorQ7y4ggYFi" title="Ângelo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>André e Talles</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/PzZEvexNFI0?si=fVhqolJWt1V3iNJM" title="André e Talles" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Filipe Souza e Christian Litzinger</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/R6Rir4_6SqY?si=ax_fZ7qVoXnOCOcP"
+                title="Filipe Souza e Christian Litzinger" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+
+<!-- Nilo Pygame https://youtu.be/UqwGkeG8nto
+Mateus Couto Pygame https://youtu.be/z1drHYP43JY
+Lu e Carlos Batisti Pygame https://youtu.be/dwIfSHckIG0
+Lorenzo e Gabriel Paschoal pygame https://youtu.be/j3EStYo2oXo
+Karla Pygame https://youtu.be/fBtIopjboZ8
+João Milli e Rogério Medeiros Pygame https://youtu.be/Jjlhmicra6Q
+Henrycky Igor Pygame https://youtu.be/g5YCw6deYjk
+Danilo e Gustavo Pygame https://youtu.be/52LCJlbeWoQ
+Antônio e Bruno Pygame https://youtu.be/EG3FIjPirnw
+Ângelo Pygame https://youtu.be/U0dU1Q_Sa-U
+André e Talles Pygame https://youtu.be/LxDd1WXOHYw
+Filipe Souza e Christian Litzinger Pygame https://www.youtube.com/watch?v=E-1jolPAPtg
+Matheus e Lucas Pygame https://www.youtube.com/watch?v=xrgbPqTl_oQ -->
+
+<div style="padding-top: 50px"></div>
+
+<h1>Jogos Desenvolvidos com Pygame</h1>
+
+<div class='videos-row'>
+    <div class='video-container'>
+        <div class='video-title'>Henrycky e Igor</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/g5YCw6deYjk?si=oX90yLb1TMuGP44Z" title="Henrycky Igor"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Karla</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/fBtIopjboZ8?si=OA068iX3R-FFqLxC" title="Karla"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Nilo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/UqwGkeG8nto?si=BXKvTv2lfB8kpzp9" title="Nilo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Mateus Couto</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/z1drHYP43JY?si=ebfuyycvpvZ-1NEx" title="Mateus Couto" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Lu e Carlos Batisti</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/dwIfSHckIG0?si=Wj97Y0T_l9INX32S" title="Lu e Carlos Batisti" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Lorenzo e Gabriel Paschoal</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/j3EStYo2oXo?si=vTx-22EcavLu2fRa" title="Lorenzo e Gabriel Paschoal" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>João Milli e Rogério Medeiros</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/Jjlhmicra6Q?si=AgcSUtqsWJto5D8n" title="João Milli e Rogério Medeiros" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Danilo e Gustavo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/52LCJlbeWoQ?si=YGZXzDuIfs9k6Id1" title="Danilo e Gustavo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Antônio e Bruno</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/EG3FIjPirnw?si=Bh8Qd4QWWqP8x804" title="Antônio e Bruno" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Ângelo</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/U0dU1Q_Sa-U?si=fKUG6O0YsOJ7EFw_" title="Ângelo" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>André e Talles</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/LxDd1WXOHYw?si=CqtFgbnVv9XT_y2y" title="André e Talles" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Filipe Souza e Christian Litzinger</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/E-1jolPAPtg?si=qxRRYcXk2g_rCCkD"
+                title="Filipe Souza e Christian Litzinger" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class='video-container'>
+        <div class='video-title'>Matheus e Lucas</div>
+        <div class='video'>
+            <iframe width="320" src="https://www.youtube.com/embed/xrgbPqTl_oQ?si=CTtnPbrnmhrM5s6O" title="Matheus e Lucas"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+

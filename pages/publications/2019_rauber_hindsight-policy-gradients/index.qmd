@@ -1,0 +1,14 @@
+---
+title: "Hindsight Policy Gradients"
+date: 2019-01-01
+author: ["Paulo Rauber","Avinash Ummadisingu","Filipe Mutz","Jüergen Schmidhuber"]
+publication: "International Conference on Learning Representations (ICLR)"
+categories: []
+url_source: "https://iclr.cc/Conferences/2019/Schedule?showEvent=891"
+url_preprint:
+journ: "International Conference on Learning Representations (ICLR)"
+year: 2019
+---
+        
+[Check out the paper!](https://iclr.cc/Conferences/2019/Schedule?showEvent=891)
+            

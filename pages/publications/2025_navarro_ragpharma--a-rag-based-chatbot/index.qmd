@@ -1,0 +1,14 @@
+---
+title: "RagPharma: A RAG-Based Chatbot for Medicine Leaflets with a Dual-Database Evaluation Framework"
+date: 2025-01-01
+author: ["Letícia Navarro","Filipe Mutz","Thiago Meireles Paixão","Guilherme Goes Zanetti","Claudine Santos Badue","Alberto Ferreira de Souza","Thiago Oliveira dos Santos"]
+publication: "Journal of the Brazilian Computer Society"
+categories: []
+url_source: "None"
+url_preprint:
+journ: "Journal of the Brazilian Computer Society"
+year: 2025
+---
+        
+Link to the paper is coming soon.
+            

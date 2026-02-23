@@ -1,0 +1,26 @@
+---
+title: "Publications"
+listing:
+  - id: pubs
+    template: ../_ejs/publications-template.ejs
+    contents: publications/**/*.qmd
+    sort: "date desc"
+    date-format: "yyyy/MM/dd"
+    page-size: 30
+    filter-ui: true
+    fields: [image, pub_number, title, publication, author,url_source]
+page-layout: full
+---
+
+```{python}
+# | echo: false
+# | output: asis
+import os
+
+print(f"Currently, I have **{len(os.listdir('publications'))}** peer-reviewed papers.")
+```
+
+<hr>
+
+:::{#pubs}
+:::

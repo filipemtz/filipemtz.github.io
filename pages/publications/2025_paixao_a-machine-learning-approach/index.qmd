@@ -1,0 +1,14 @@
+---
+title: "A machine learning approach for intra- and inter-cast hot metal temperature forecasting"
+date: 2025-01-01
+author: ["Thiago Meireles Paixão","Sérgio Silva Mucciaccia","Letícia Navarro","Filipe Mutz","Vinicius Rampinelli","Claudine Santos Badue","Alberto Ferreira de Souza","Thiago Oliveira dos Santos"]
+publication: "Computers and Chemical Engineering"
+categories: []
+url_source: "https://www.sciencedirect.com/science/article/pii/S0098135425002145"
+url_preprint:
+journ: "Computers and Chemical Engineering"
+year: 2025
+---
+        
+[Check out the paper!](https://www.sciencedirect.com/science/article/pii/S0098135425002145)
+            

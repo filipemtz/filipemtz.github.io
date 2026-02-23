@@ -1,0 +1,14 @@
+---
+title: "Em Busca de uma Avaliação Automática de Atividades Discursivas"
+date: 2010-01-01
+author: ["Filipe Mutz","Elias de Oliveira","Márcia Gonçalves de Oliveira","Lucas de Paula Veronese"]
+publication: "Simpósio de Aprendizagem em Ambientes Virtuais (SIMPAV)"
+categories: []
+url_source: "https://issuu.com/hugocristo/docs/simpav2010"
+url_preprint:
+journ: "Simpósio de Aprendizagem em Ambientes Virtuais (SIMPAV)"
+year: 2010
+---
+        
+[Check out the paper!](https://issuu.com/hugocristo/docs/simpav2010)
+            

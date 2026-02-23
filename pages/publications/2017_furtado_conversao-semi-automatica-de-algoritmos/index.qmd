@@ -1,0 +1,14 @@
+---
+title: "Conversão Semi-automática de Algoritmos Sequenciais de Processamento Digital de Imagens para Algoritmos Paralelos na Arquitetura CUDA"
+date: 2017-01-01
+author: ["Vagner Gon Furtado","Eduardo Max Amaral","Filipe Mutz","Flávio Severiano Lamas De Souza","Karin Satie Komati"]
+publication: "Revista de Empreendedorismo, Inovação e Tecnologia"
+categories: []
+url_source: "https://seer.imed.edu.br/index.php/revistasi/article/view/2046"
+url_preprint:
+journ: "Revista de Empreendedorismo, Inovação e Tecnologia"
+year: 2017
+---
+        
+[Check out the paper!](https://seer.imed.edu.br/index.php/revistasi/article/view/2046)
+            

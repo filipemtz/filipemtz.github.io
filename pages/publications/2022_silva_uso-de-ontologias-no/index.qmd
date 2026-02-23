@@ -1,0 +1,14 @@
+---
+title: "Uso de Ontologias no Suporte à Aplicação de Machine Learning: Um Caso no Domínio de Evasão Escolar"
+date: 2022-01-01
+author: ["Eduardo Silva","Filipe Mutz","Fabiano Ruy"]
+publication: "Seminário de Pesquisa em Ontologias no Brasil (ONTOBRAS)"
+categories: []
+url_source: "https://www.inf.ufrgs.br/ontobras/wp-content/uploads/2022/11/Paper3_Silva.pdf"
+url_preprint:
+journ: "Seminário de Pesquisa em Ontologias no Brasil (ONTOBRAS)"
+year: 2022
+---
+        
+[Check out the paper!](https://www.inf.ufrgs.br/ontobras/wp-content/uploads/2022/11/Paper3_Silva.pdf)
+            

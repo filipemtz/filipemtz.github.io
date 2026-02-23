@@ -1,0 +1,99 @@
+---
+title: Teaching
+---
+
+My lectures covers artificial intelligence and neural networks, programming  (algorithms and data structures, object-oriented development, and software design), introduction to game development, databases.
+
+### 2025/2
+
+- UFES > Ciência e Engenharia da Computação > Programação Orientada a Objetos.
+- UFES > Ciência e Engenharia da Computação > Tópicos em Tecnologia e Inovação: Redes Neurais Artificiais.
+
+### 2025/1
+
+- [UFES > Ciência da Computação > Introdução à Ciência da Computação.](https://ava.ufes.br/course/view.php?id=17536)
+- [UFES > Ciência da Computação, Engenharia da Computação e Programa de Pós-Graduação em Informática > Tópicos em Tecnologia e Inovação: Redes Neurais Artificiais](https://ava.ufes.br/course/view.php?id=17537).
+
+### 2024/2
+
+- [UFES > Ciência da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=17402)
+- [UFES > Engenharia da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=17402)
+
+### 2024/1
+
+- [UFES > Engenharia da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=17256)
+- [UFES > Ciência e Engenharia da Computação > Tópicos em Tecnologia e Inovação: Desenvolvimento de Jogos](https://ava.ufes.br/course/view.php?id=17257)
+
+### 2023/2
+
+- [UFES > Ciência da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=17119)
+- [UFES > Engenharia Elérica > Programação Orientada a Objetos](https://ava.ufes.br/course/view.php?id=17120)
+
+### 2023/1
+
+- [UFES > Engenharia da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=16987)
+- [UFES > Ciência da Computação > Estruturas de Dados](https://ava.ufes.br/course/view.php?id=16986)
+
+### 2022/2
+
+- UFES > Engenharia da Computação > Programação II
+- UFES > Engenharia Elétrica > Programação Orientada a Objetos
+
+### 2022/1
+
+- UFES > Engenharia de Produção > Bancos de Dados
+- UFES > Ciência da Computação > Programação III
+- UFES > Engenharia Elétrica > Programação Aplicada de Computadores
+- IFES/Serra > Sistemas de Informação > Projeto de Sistemas (ft. prof. Thiago Meireles Paixão)
+
+### 2021/2
+
+- IFES/Serra > Técnico em Informática > Técnicas de Programação
+- IFES/Serra > Sistemas de Informação > Introdução ao Computador
+- IFES/Serra > Mestrado em Computação Aplicada > Inteligência Artificial
+- IFES/Serra > Mestrado em Computação Aplicada > Dissertação de Mestrado
+
+
+### 2021/1
+
+- IFES/Serra > Técnico em Informática > Técnicas de Programação
+- IFES/Serra > Mestrado em Computação Aplicada > Orientação de Dissertação
+- IFES/Serra > Mestrado em Computação Aplicada > Inteligência Artificial
+
+### 2020/2
+
+- IFES/Serra > Técnico em Informática > Técnicas de Programação
+- IFES/Serra > Sistemas de Informação > Programação 1
+- IFES/Serra > Mestrado em Computação Aplicada > Tópicos Especiais em Inteligência Artificial 1
+
+### 2020/1
+
+-  IFES/Serra > Técnico em Informática > Técnicas de Programação
+-  IFES/Serra > Sistemas de Informação > Comércio Eletrônico
+-  IFES/Serra > Mestrado em Computação Aplicada > Inteligência Artificial
+- IFES/Serra > Mestrado em Computação Aplicada > Projeto Mais Mulheres no Mestrado (ft. profs. Karin Komati, Jefferson Andrade e Cristina Klippel)
+
+### 2019/2
+
+- IFES/Serra > Técnico em Informática > Técnicas de Programação
+- IFES/Serra > Técnico em Informática > Análise e Projeto de Sistemas
+- IFES/Serra > Téc. Manut. e Suporte em Inf. > Introdução ao Desenvolvimento de Sistemas
+
+### 2016/1
+
+-  UFES > Engenharia Mecânica > Programação Básica de Computadores
+
+### 2015/1
+
+- IFES/Serra > Sistemas de Informação > Bancos de Dados II
+- IFES/Serra > Sistemas de Informação > Comércio Eletrônico
+
+### 2014/2
+
+- IFES/Serra > Sistemas de Informação > Bancos de Dados II
+- IFES/Serra > Sistemas de Informação > Comércio Eletrônico
+- IFES/Serra > Sistemas de Informação > Programação 1
+
+### 2014/1
+
+- IFES/Serra > Sistemas de Informação > Programação 1

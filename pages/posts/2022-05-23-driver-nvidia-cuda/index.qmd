@@ -1,0 +1,159 @@
+---
+title: "Instalação do Driver da NVIDIA"
+date: 2022-05-23 20:25:13 -0300
+categories:
+    - Lab
+description: "[PT] Instruções de instalação do driver de GPUs NVIDIA no Ubuntu."
+---
+
+Teste se o driver está instalado usando a biblioteca pytorch usando o comando abaixo
+no terminal:
+
+<br>
+<br>
+
+<div class="code">
+    python -c "import torch; print(torch.cuda.is_available())"
+</div>
+
+<br>
+
+Alternativamente, pode ser usada a biblioteca tensorflow:
+
+<br>
+<br>
+
+<div class="code">
+    import tensorflow as tf <br>
+    print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+</div>
+
+<br>
+
+Se o programa exibir a mensagem "Num GPUs Available: 0" ou o computador não possui
+GPU ou o driver não está instalado ou a GPU está danificada. Se for exibida a
+mesma mensagem, mas o número de GPUs for maior que zero, o driver está instalado
+e está pronto para ser usado pelos programas.
+
+<br>
+<br>
+
+Para verificar se o computador possui placa de vídeo e ela é visível pelo sistema
+operacional, use o comando abaixo:
+
+<br>
+<br>
+
+<div class="code">
+    sudo lshw -C display
+</div>
+
+<br>
+
+Se a palavra "NVIDIA" aparecer em parte das mensagens, o computador possui GPUs.
+
+<br>
+<br>
+
+A forma mais fácil de instalar o driver é usando o programa de drivers do Ubuntu.
+Busque o programa "Additional Drivers" e no programa selecione o driver da NVIDIA
+com as tags "[recommended, tested]". Clique em instalar e reinicie o computador
+em seguida.
+
+<br>
+<br>
+
+Se você não possui acesso à interface gráfica, o driver pode ser instalado usando
+o terminal. Use o comando abaixo pra buscar as diferentes versões do driver instaláveis
+no seu sistema operacional:
+
+<br>
+<br>
+
+<div class="code">
+    sudo apt search nvidia-driver | grep "nvidia-driver"
+</div>
+
+<br>
+
+Não considere as versões que possuem a palavra "server". É recomendável buscar na
+internet a versão do driver mais adequada para a sua placa
+de vídeo. Uma heurística que em geral funciona é usar a versão mais nova. Instale
+o driver usando o comando apt install como listado abaixo e, em seguida, reinicie
+o computador.
+
+<br>
+<br>
+
+<div class="code">
+    sudo apt install nvidia-driver-[VERSÃO DO DRIVER]
+</div>
+
+<br>
+
+Se for exibida uma mensagem dizendo que o driver já está instalado, mas o programa
+de teste não é capaz de identificar a placa, reinicie o computador. Se o problema
+persistir, faça a instalação como indicado acima, mas adicionando ao final a opção "--reinstall"
+para forçar o apt a reinstalar o driver.
+
+<br>
+<br>
+
+Se nenhuma das alternativas anteriores funcionar, acesse o
+<a href="https://www.nvidia.com.br/Download/index.aspx?lang=br">site de download de drivers da nvidia</a>,
+escolha as configurações da sua placa de vídeo, no sistema operacional selecione (linux 64-bits), e clique
+em procurar. Na próxima página, clique em Download e na próxima página copie o link do botão de download (
+botão direito do mouse > copiar endereço do link). Para fazer o download do driver, use o comando wget no
+terminal. Um exemplo segue abaixo, mas lembre-se de usar o seu link.
+
+<br>
+<br>
+
+<div class="code">
+    wget https://us.download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run
+</div>
+
+<br>
+
+Antes de instalar o driver, é necessário dar permissão ao arquivo .run:
+
+<br>
+<br>
+
+<div class="code">
+    chmod +x NVIDIA*run
+</div>
+
+<br>
+
+Vamos realizar uma limpeza na instalação também removendo pacotes possivelmente
+instalados anteriormente:
+
+<br>
+<br>
+<div class="code">
+    sudo apt remove nvidia-driver-* nvidia-dkms-*
+</div>
+<br>
+
+Por segurança, reinicie o computador para finalizar a remoção de resquícios dos
+pacotes. <br>
+Por fim, é só executar o arquivo .run como super usuário:
+
+<br>
+<br>
+
+<div class="code">
+    sudo ./NVIDIA*run
+</div>
+
+<br>
+
+O driver irá apresentar algumas opções. Primeiro, ele poderá dizer que já existe
+uma instalação do driver realizada usando o gerenciador de pacotes e que ela pode
+funcionar melhor que instalador da NVIDIA. Escolha a opção de continuar a instalação.
+Em seguida, ele irá perguntar se você deseja fazer um registro no DKMS. Selecione que sim.
+Ao ser questionado sobre bibliotecas de compatibilidade 32-bit, selecione sim. Se mais
+algum aviso for dado, apenas concorde. Reinicie o computador ao final.
+
+<br>

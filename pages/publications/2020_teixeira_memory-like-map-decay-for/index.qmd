@@ -1,0 +1,14 @@
+---
+title: "Memory-like Map Decay for Autonomous Vehicles based on Grid Maps"
+date: 2020-01-01
+author: ["Thomas Teixeira","Filipe Mutz","Karin Satie Komati","Lucas Veronese","Vinicius Brito Cardoso","Claudine Badue","Thiago Oliveira-Santos","Alberto Ferreira De Souza"]
+publication: "American Journal of Engineering Research (AJER)"
+categories: []
+url_source: "http://www.ajer.org/papers/Vol-9-issue-9/J09096371.pdf"
+url_preprint:
+journ: "American Journal of Engineering Research (AJER)"
+year: 2020
+---
+        
+[Check out the paper!](http://www.ajer.org/papers/Vol-9-issue-9/J09096371.pdf)
+            

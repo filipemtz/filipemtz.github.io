@@ -1,0 +1,767 @@
+---
+title: "Publications"
+---
+
+<div class="container text-justify">
+
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8">
+
+<h2 class='paper-year'> 2025 </h2>
+
+<div class='paper'>
+<div class='paper-title'>Solar Flare Prediction Using Multivariate Time Series and Cost-Sensitive Machine Learning</div>
+<div class='paper-authors'>
+<div class='paper-author'>Ricardo Zorzal Davila</div>,
+<div class='paper-author'>Jefferson O. Andrade</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Karin S. Komati</div>
+</div>
+<div class='paper-publication'>Conferência Latino-Americana de Informática (CLEI)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>RagPharma: A RAG-Based Chatbot for Medicine Leaflets with a Dual-Database Evaluation Framework</div>
+<div class='paper-authors'>
+<div class='paper-author'>Letícia Navarro</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Thiago Meireles Paixão</div>,
+<div class='paper-author'>Guilherme Goes Zanetti</div>,
+<div class='paper-author'>Claudine Santos Badue</div>,
+<div class='paper-author'>Alberto Ferreira de Souza</div>,
+<div class='paper-author'>Thiago Oliveira dos Santos</div>
+</div>
+<div class='paper-publication'>Journal of the Brazilian Computer Society</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>Pt-HotpotQA: Evaluating Multi-Hop Question Answering on the Original and Translated Portuguese Datasets Using LLMs</div>
+<div class='paper-authors'>
+<div class='paper-author'>Sérgio Silva Mucciaccia</div>,
+<div class='paper-author'>Thiago Meireles Paixão</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Alberto Ferreira de Souza</div>,
+<div class='paper-author'>Claudine Santos Badue</div>,
+<div class='paper-author'>Thiago Oliveira dos Santos</div>
+</div>
+<div class='paper-publication'>Journal of the Brazilian Computer Society</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>
+<a href="https://www.sciencedirect.com/science/article/pii/S0098135425002145">A machine learning approach for intra- and inter-cast hot metal temperature forecasting</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Thiago Meireles Paixão</div>,
+<div class='paper-author'>Sérgio Silva Mucciaccia</div>,
+<div class='paper-author'>Letícia Navarro</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Vinicius Rampinelli</div>,
+<div class='paper-author'>Claudine Santos Badue</div>,
+<div class='paper-author'>Alberto Ferreira de Souza</div>,
+<div class='paper-author'>Thiago Oliveira dos Santos</div>
+</div>
+<div class='paper-publication'>Computers and Chemical Engineering</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>
+<a href="https://aclanthology.org/2025.coling-main.154/">Automatic Multiple-Choice Question Generation and
+Evaluation Systems Based on LLM: A Study Case With University
+Resolutions</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Sérgio Silva Mucciaccia</div>,
+<div class='paper-author'>Thiago Meireles Paixão</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Claudine Santos Badue</div>,
+<div class='paper-author'>Alberto Ferreira de Souza</div>,
+<div class='paper-author'>Thiago Oliveira dos Santos</div>
+</div>
+<div class='paper-publication'>International Conference on Computational Linguistics (COLING 2025)</div>
+</div>
+
+<h2 class='paper-year'> 2024 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'>
+<a href="https://www.sciencedirect.com/science/article/pii/S0952197624019389">Blast Furnace Control by Hierarchical Similarity Search in Historical Data</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Lucas Luppi Amorim</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Thiago M Paixão</div>,
+<div class='paper-author'>Vinicius Rampinelli</div>,
+<div class='paper-author'>Alberto F De Souza</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>
+</div>
+<div class='paper-publication'>Engineering Applications of Artificial Intelligence (EAAI)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>
+<a href="https://www.sba.org.br/cba2024/papers/paper_4782.pdf">Um Estudo Comparativo de Tecnicas de Aprendizado de Máquina para a Predição de Temperatura em Regeneradores</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Fabricio R. Ferreira</div>,
+<div class='paper-author'>Leandro C. Resendo</div>,
+<div class='paper-author'>Lucas A. Quaresma</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Congresso Brasileiro de Automática (CBA)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'>
+Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva:
+Ferramenta Informatizada
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Isabella Borba Pillotti</div>,
+<div class='paper-author'>Bernardo Vargas Broedel</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Aline N Pessoa Almeida</div>
+</div>
+<div class='paper-publication'>Encontro Internacional de Audiologia [Resumo]</div>
+</div>
+
+<h2 class='paper-year'> 2023 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://sol.sbc.org.br/index.php/wvc/article/view/27525">An
+Architecture based on CNNs and BiLSTMs for Slice-Level and Series-Level
+Intracranial Hemorrhage Identification in CT Scans</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Daniel Henrique Comério</div>,
+<div class='paper-author'>Karin Satie Komati</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Workshop de Visão Computacional (WVC)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://proceedings.science/sbpo-2023/trabalhos/heuristicas-para-otimizacao-de-um-problema-de-transporte-interconectado-a-um-pro">Heurísticas
+para Otimização de um Problema de Transporte interconectado a um
+Problema Agendamento de Tarefas: Estudo de Caso da Colheita Florestal</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Ana Paula Martins Guimarães Mutz</div>,
+<div class='paper-author'>Leandro Colombi Resendo</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Simpósio Brasileiro de Pesquisa Operacional (SBPO)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://lp.sbfa.org.br/cbfa2023/anais/cbfa2023-anais.pdf">Reabilitação
+da Pessoa com Deficiência Auditiva: Desenvolvimento de Sistema de
+Informação como Ferramenta Didático-Pedagógica, Extensão, Gestão e Pesquisa na Integração de
+Dados
+em Estágio do Serviço Público</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Roberto Lorenzoni Tomé</div>,
+<div class='paper-author'>Bernardo Vargas Broedel</div>,
+<div class='paper-author'>Isabella Borba Pillotti</div>,
+<div class='paper-author'>Aline N Pessoa Almeida</div>
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Congresso Brasileiro de Fonoaudiologia</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://periodicos.univali.br/index.php/acotb/article/view/19440">Um
+Sistema baseado em IoT para Monitoramento da Saúde de Idosos e Detecção de Quedas</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Giseli Nunes Siqueira</div>,
+<div class='paper-author'>Eduardo Max Amaro Amaral</div>,
+<div class='paper-author'>Leandro Resendo Colombi</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Computer on the Beach</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://periodicos.univali.br/index.php/acotb/article/view/19461">Comparação de Técnicas
+para Representação Vetorial de Imagens com Redes Neurais para Aplicações de Recuperação de
+Produtos do Varejo</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Gustavo Ramos Lima</div>,
+<div class='paper-author'>Patrick Marques Ciarelli</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Computer on the Beach</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://periodicos.univali.br/index.php/acotb/article/view/19479">Comparação de Algoritmos
+de Aprendizado de Máquina para Predição de Pontuação de Crédito</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Renato De Sant'anna Lopes</div>,
+<div class='paper-author'>Leandro Resendo Colombi</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Computer on the Beach</div>
+</div>
+
+<h2 class='paper-year'> 2022 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://sol.sbc.org.br/index.php/eniac/article/view/22768/22591">Improving
+steel-making off-gas predictions by mixing classification
+and regression multi-modal multivariate models</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Marcelo Magalhães do Carmo</div>,
+<div class='paper-author'>Leandro Resendo</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Encontro Nacional de Inteligência Artificial e Computacional (ENIAC)
+</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.inf.ufrgs.br/ontobras/wp-content/uploads/2022/11/Paper3_Silva.pdf">Uso de
+Ontologias no Suporte à Aplicação de Machine Learning: Um Caso no Domínio de Evasão Escolar</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Eduardo Silva</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Fabiano Ruy</div>
+</div>
+<div class='paper-publication'>Seminário de Pesquisa em Ontologias no Brasil (ONTOBRAS)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://periodicos.univali.br/index.php/acotb/article/view/18791">Abordagem para Análise
+de Múltiplas
+Fontes de Dados de Evasão Escolar</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Eduardo Silva</div>,
+<div class='paper-author'>Fabiano Ruy</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Computer on the Beach</div>
+</div>
+
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://periodicos.univali.br/index.php/acotb/article/view/18802">Predição da Temperatura
+do Ferro-Gusa em um Alto-Forno utilizando Redes Neurais LSTM</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Rodrigo Seidel</div>,
+<div class='paper-author'>Karin S. Komati</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Leandro C. Resendo</div>
+</div>
+<div class='paper-publication'>Computer on the Beach</div>
+</div>
+
+<h2 class='paper-year'> 2021 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2577">Arquiteturas
+de Redes
+Neurais Convolucionais para Identificação de
+Pneumonia e COVID-19 em Raios X de Tórax</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Daniel Henrique Comério</div>,
+<div class='paper-author'>Leonardo Xavier Barbosa</div>,
+<div class='paper-author'>Sabrina Siqueira Panceri</div>,
+<div class='paper-author'>Francisco de Assis Boldt</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Simpósio Brasileiro de Automação Inteligente (SBAI)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2769">Análise de
+Risco de
+Crédito para Gestoras de Vendedores Porta-a-Porta
+usando
+Aprendizado de Máquina</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Ricardo Zorzal Davila</div>,
+<div class='paper-author'>Francisco de Assis Boldt</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Simpósio Brasileiro de Automação Inteligente (SBAI)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2768">Classificação
+de Sotaques
+Brasileiros usando Redes Neurais Profundas</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Wagner Arca Tostes</div>,
+<div class='paper-author'>Francisco de Assis Boldt</div>,
+<div class='paper-author'>Karin Satie Komati</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>
+</div>
+<div class='paper-publication'>Simpósio Brasileiro de Automação Inteligente (SBAI)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://link.springer.com/chapter/10.1007/978-3-030-91699-2_11">Long-term Map
+Maintenance in Complex Environments</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Josias Oliveira</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author'>Pedro Azevedo</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Claudine Badue</div>
+</div>
+<div class='paper-publication'>Brazilian Conference on Intelligent Systems (BRACIS)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://direct.mit.edu/neco/article/doi/10.1162/neco_a_01387/100578/Reinforcement-Learning-in-Sparse-Reward">Reinforcement
+Learning in Sparse-Reward Environments with Hindsight Policy Gradients</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Paulo Rauber</div>,
+<div class='paper-author'>Avinash Ummadisingu</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Jürgen Schmidhuber</div>
+</div>
+<div class='paper-publication'>Neural Computation</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://ieeexplore.ieee.org/document/9533376">Detecting Cancerous
+Tissue in Mammograms Using Deep Neural Networks</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Sabrina S. Panceri</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Vinicius B. Cardoso</div>,
+<div class='paper-author'>Raphael V. Carneiro</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.sciencedirect.com/science/article/pii/S0957417421005182">What is the Best
+Grid-Map for Self-Driving Cars Localization? An Evaluation under Diverse Types of
+Illumination,
+Traffic, and Environment</a> (<a href="https://arxiv.org/abs/2009.09308">Arxiv</a>)</div>
+<div class='paper-authors'>
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author'>Karin Satie Komati</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Felipe M. G. França</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>Expert Systems with Applications</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href="https://www.sciencedirect.com/science/article/pii/S095741742030628X">Self-driving
+cars: A
+survey</a> (<a href="https://arxiv.org/abs/1901.04407">Arxiv</a>) </div>
+<div class='paper-authors'>
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Rânik Guidolini</div>,
+<div class='paper-author'>Raphael Vivacqua Carneiro</div>,
+<div class='paper-author'>Pedro Azevedo</div>,
+<div class='paper-author'>Vinicius Brito Cardoso</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author'>Luan Jesus</div>,
+<div class='paper-author'>Rodrigo Berriel</div>,
+<div class='paper-author'>Thiago Paixão</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Lucas Veronese</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>Expert Systems with Applications</div>
+</div>
+
+<h2 class='paper-year'> 2020 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href="http://www.ajer.org/papers/Vol-9-issue-9/J09096371.pdf">Memory-like
+Map Decay for Autonomous Vehicles based on Grid Maps</a> (<a
+href="https://arxiv.org/abs/1810.02355">Arxiv</a>) </div>
+<div class='paper-authors'>
+<div class='paper-author'>Thomas Teixeira</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Karin Satie Komati</div>,
+<div class='paper-author'>Lucas Veronese</div>,
+<div class='paper-author'>Vinicius Brito Cardoso</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>American Journal of Engineering Research (AJER)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12584">Bone
+Age
+Estimation from Carpal Radiography Images using Deep Learning</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Ding Yih An</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Klaus Fabian Côco</div>,
+<div class='paper-author'>Luiz Alberto Pinto</div>,
+<div class='paper-author'>Karin Satie Komati</div>
+</div>
+<div class='paper-publication'>Expert Systems</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href="https://ieeexplore.ieee.org/document/9207449">A Large-Scale
+Mapping
+Method Based on Deep Neural Networks Applied to Self-Driving Car Localization</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Vinicius B. Cardoso</div>,
+<div class='paper-author'>Andre Seidel Oliveira</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author'>Pedro Azevedo</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Alberto F. De Souza</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/9059023'>Evaluating the
+Limits of
+a LiDAR for an Autonomous Driving Localization</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Lucas de Paula Veronese</div>,
+<div class='paper-author'>Fernando Auat Cheein</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Jose Guivant</div>
+<div class='paper-author'>Edilson De Aguiar</div>
+<div class='paper-author'>Claudine Badue</div>
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>IEEE Transactions on Intelligent Transportation Systems</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2019 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='https://sites.google.com/view/deep-rl-workshop-neurips-2019/home'>Training Agents
+using
+Upside-Down Reinforcement Learning</a> (<a href="https://arxiv.org/abs/1912.02877">Arxiv</a>)
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Rupesh K Srivastava</div>,
+<div class='paper-author'>Pranav Shyam</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Wojciech Jaśkowski</div>,
+<div class='paper-author'>Jürgen Schmidhuber</div>
+</div>
+<div class='paper-publication'> Deep Reinforcement Learning Workshop - Conference on Neural
+Information
+Processing Systems (NeurIPS) </div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2019/09.11.20.30/doc/123.pdf?requiredmirror=sid.inpe.br/banon/2001/03.30.15.38.24&searchmirror=dpi.inpe.br/banon/2004/02.16.09.30.00&metadatarepository=sid.inpe.br/sibgrapi/2019/09.11.20.30.40&choice=briefTitleAuthorMisc&searchsite=www.urlib.net:80&languagebutton=en'>Simple
+and Effective Load Volume Estimation in Moving Trucks using LiDARs</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Lucas Luppi Amorim</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>
+</div>
+<div class='paper-publication'> SIBGRAPI Conference on Graphics, Patterns and Images </div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://iclr.cc/Conferences/2019/Schedule?showEvent=891'>Hindsight
+Policy Gradients</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Paulo Rauber</div>,
+<div class='paper-author'>Avinash Ummadisingu</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Jüergen Schmidhuber</div>
+</div>
+<div class='paper-publication'>International Conference on Learning Representations (ICLR)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2018 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='https://sites.google.com/view/deep-rl-workshop-nips-2018/home'>Hindsight Policy
+Gradients</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Paulo Rauber</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Jüergen Schmidhuber</div>
+</div>
+<div class='paper-publication'>Deep Reinforcement Learning Workshop - Neural Information Processing
+Systems (NeurIPS)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2017 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='https://seer.imed.edu.br/index.php/revistasi/article/view/2046'>Conversão
+Semi-automática
+de Algoritmos Sequenciais de Processamento Digital de Imagens para Algoritmos Paralelos na
+Arquitetura CUDA</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Vagner Gon Furtado</div>,
+<div class='paper-author'>Eduardo Max Amaral</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Flávio Severiano Lamas De Souza</div>
+<div class='paper-author'>Karin Satie Komati</div>
+</div>
+<div class='paper-publication'>Revista de Empreendedorismo, Inovação e Tecnologia</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='http://www.sbpo2017.iltc.br/pdf/168995.pdf'>Avaliação de
+Oportunidades
+de Investimentos no Mercado Futuro Brasileiro na Escala de Dezenas de Segundos</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Rafael Correia Nascimento</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Fábio Daros Freitas</div>
+<div class='paper-author'>Christian Daros Freitas</div>
+</div>
+<div class='paper-publication'>Simpósio Brasileiro de Pesquisa Operacional (SBPO)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/7966403'>Neural-Based Model
+Predictive Control for Tackling Steering Delays of Autonomous Cars</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Rânik Guidolini</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Claudine Badue</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/7966404'>Following the Leader
+using a Tracking System based on Pre-trained Deep Neural Networks</a></div>
+<div class='paper-authors'>
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Vinicius Cardoso</div>,
+<div class='paper-author'>Thomas Teixeira</div>,
+<div class='paper-author'>Luan F. R. Jesus</div>,
+<div class='paper-author'>Michael A. Golçalves</div>,
+<div class='paper-author'>Rânik Guidolini</div>,
+<div class='paper-author'>Josias Oliveira</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/7989028'>A Model-Predictive
+Motion Planner for the IARA Autonomous Car</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Vinicius Cardoso</div>,
+<div class='paper-author'>Josias Oliveira</div>,
+<div class='paper-author'>Thomas Teixeira</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Lucas de Paula Veronese</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>IEEE International Conference on Robotics and Automation (ICRA)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2016 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/7727342'>Simulating Robotic
+Cars
+Using Time-Delay Neural Networks</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Jacson Rodrigues Correia da Silva</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='https://www.sciencedirect.com/science/article/pii/S0957417415007496'>Large-scale
+Mapping
+in Complex Field Scenarios using an Autonomous Car</a></div>
+<div class='paper-authors'>
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Lucas de Paula Veronese</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Edilson de Aguiar</div>,
+<div class='paper-author'>Fernando A. Auat Cheein</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>Expert Systems with Applications</div>
+</div>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/7795604'>A Light-Weight Yet
+Accurate Localization System for Autonomous Cars in Large-Scale and Complex Environments</a>
+</div>
+<div class='paper-authors'>
+<div class='paper-author'>Lucas de Paula Veronese</div>,
+<div class='paper-author'>José Guivant</div>,
+<div class='paper-author'>Fernando A. Auat Cheein</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Edilson de Aguiar</div>,
+<div class='paper-author'>Claudine Badue</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>
+</div>
+<div class='paper-publication'>IEEE International Conference on Intelligent Transportation Systems
+(ITSC)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2014 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/6889885'>Programming a VG-RAM
+based Neural Network Computer</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Mariela Berger</div>,
+<div class='paper-author'>Thiago Oliveira-Santos</div>,
+<div class='paper-author'>Claudine Badue</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2013 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/6706809'>Traffic-Sign
+Detection
+with VG-RAM Weightless Neural Networks</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Cayo Fontana</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Tiago Alves de Oliveira</div>,
+<div class='paper-author'>Mariela Berger</div>,
+<div class='paper-author'>Avelino Forechi</div>,
+<div class='paper-author'>Jorcy de Oliveira Neto</div>,
+<div class='paper-author'>Edilson de Aguiar</div>,
+<div class='paper-author'>Claudine Badue</div>
+</div>
+<div class='paper-publication'>International Joint Conference on Neural Networks (IJCNN)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2012 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://ieeexplore.ieee.org/document/6416556'>Stereo Matching with
+VG-RAM Weightless Neural Networks</a></div>
+<div class='paper-authors'>
+<div class='paper-author'>Lucas de Paula Veronese</div>,
+<div class='paper-author'>Lauro José Lyrio Junior</div>,
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Jorcy de Oliveira Neto</div>,
+<div class='paper-author'>Vitor Barbirato Azevedo</div>,
+<div class='paper-author'>Mariela Berger</div>,
+<div class='paper-author'>Alberto Ferreira De Souza</div>,
+<div class='paper-author'>Claudine Badue</div>
+</div>
+<div class='paper-publication'>IEEE International Conference on Intelligent Systems Design and
+Applications (ISDA)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2011 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a
+href='http://www.arquivistasbahia.org/3sba/wp-content/uploads/2011/09/Mutz-Oliveira-Garcia.pdf'>Classificação
+Automática de Patentes com o Modelo Vetorial de Representação de Documentos</a></div>
+<div class='paper-authors'>
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Elias de Oliveira</div>,
+<div class='paper-author'>Weberson Luiz Fernandes Garcia</div>
+</div>
+<div class='paper-publication'>Simpósio Baiano de Arquivologia (SBA)</div>
+</div>
+
+<br>
+<h2 class='paper-year'> 2010 </h2>
+<br>
+
+<div class='paper'>
+<div class='paper-title'><a href='https://issuu.com/hugocristo/docs/simpav2010'>Em Busca de uma
+Avaliação Automática de Atividades Discursivas</a></div>
+<div class='paper-authors'>
+<div class='paper-author paper-me'>Filipe Mutz</div>,
+<div class='paper-author'>Elias de Oliveira</div>,
+<div class='paper-author'>Márcia Gonçalves de Oliveira</div>,
+<div class='paper-author'>Lucas de Paula Veronese</div>
+</div>
+<div class='paper-publication'>Simpósio de Aprendizagem em Ambientes Virtuais (SIMPAV)</div>
+</div>
+
+</div>
+<div class="col-md-2"></div>
+
+</div>
+</div>

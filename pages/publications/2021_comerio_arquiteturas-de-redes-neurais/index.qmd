@@ -1,0 +1,14 @@
+---
+title: "Arquiteturas de Redes Neurais Convolucionais para Identificação de Pneumonia e COVID-19 em Raios X de Tórax"
+date: 2021-01-01
+author: ["Daniel Henrique Comério","Leonardo Xavier Barbosa","Sabrina Siqueira Panceri","Francisco de Assis Boldt","Filipe Mutz"]
+publication: "Simpósio Brasileiro de Automação Inteligente (SBAI)"
+categories: []
+url_source: "https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2577"
+url_preprint:
+journ: "Simpósio Brasileiro de Automação Inteligente (SBAI)"
+year: 2021
+---
+        
+[Check out the paper!](https://www.sba.org.br/open_journal_systems/index.php/sbai/article/view/2577)
+            

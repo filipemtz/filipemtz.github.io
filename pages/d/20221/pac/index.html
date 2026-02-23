@@ -1,0 +1,483 @@
+---
+layout: page
+title: Programação Aplicada de Computadores (INF09324)
+---
+
+<div class="course-notice">
+    O conteúdo da prova final será baseado nas provas 1 e 2 e só será considerada a linguagem Java.
+</div>
+
+<div class="course-section">
+    <ul>
+        <li><b>Curso:</b> Engenharia Elétrica</li>
+        <li><b>Professor:</b> Filipe Mutz</li>
+        <li><b>E-mail:</b> filipemtz @ gmail . com</li>
+        <li><b>Carga Horária:</b> 60h</li>
+        <li><b>Início do Semestre:</b> 18/04/2022 </li>
+        <li><b>Fim do Semestre:</b> 18/08/2022 </li>
+        <li><b>Horário das Aulas:</b> Segundas-feiras e Quartas-feiras, de 17:00 às 19:00</li>
+        <li><b>Local das Aulas:</b> CT-9 (Sala 104) </li>
+        <li>Atendimentos extra-classe podem ser realizados mediante agendamento por e-mail.</li>
+    </ul>
+</div>
+
+<div class="course-section">
+    <h4>Datas Importantes</h4>
+    <ul>
+        <li>Prova 1: <b>22/06/2022</b></li>
+        <li>Trabalho 1: <b>19/06/2022</b></li>
+        <li>Trabalho 2: <b><del>31/07/2022</del> <ins style="background-color: yellow">07/08/2022</ins></b></li>
+        <li>Prova 2: <b>10/08/2022</b></li>
+        <li>Trabalho 3: <b><del>14/08/2022</del> <ins style="background-color: yellow">17/08/2022</ins></b></li>
+        <li>Prova Final: <b>22/08/2022</b></li>
+    </ul>
+</div>
+
+<div class="course-section">
+    <h4>Materiais de Estudo</h4>
+
+    <div class="course-item">
+        <a href='{{ "/assets/files/d/prog3/20221-CC-Prog3-Plano-de-Ensino.pdf" | relative_path }}' target="_blank"
+            rel="noopener noreferrer">Plano de Ensino</a>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Preparação do Ambiente de Desenvolvimento</div>
+
+        <div class="section-content">
+            <div class="section-item">
+                Siga as <a
+                    href="https://code.visualstudio.com/docs/languages/java#_install-visual-studio-code-for-java">instruções
+                    de instalação do Visual Studio Code com configurações para Java</a> do site oficial.
+                <br>
+                Se preferir acompanhar alguém fazendo a instalação, veja o trecho de 50s até 1:59s do vídeo abaixo.
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K2OD-3NBE6s?start=50"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <br>
+                <b>Observações:</b>
+                <ul>
+                    <li><b>Importante:</b> Verifique a sua instalação abrindo o prompt de comandos do windows e
+                        digitando
+                        "javac".
+                        A mensagem "'javac' não é reconhecido como um comando interno ou externo, um programa operável
+                        ou um
+                        arquivo
+                        em lotes." indica que algo deu errado. Neste caso, entre em contato por e-mail relatando os
+                        passos que
+                        foram
+                        seguidos.</li>
+                    <li>Se você já tem o visual studio code instalado e quer apenas adicionar os itens necessários para
+                        programar
+                        em Java, veja a seção de <a href="#instalacao-alternativa">instalação alternativa</a> nos
+                        materiais
+                        suplementares.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula 1 - Classes, Objetos Atributos e Métodos</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-01.pdf" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Texto -Resumo da Aula 1</a>
+            </div>
+            <div class="section-item">
+                Códigos:
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/Aula01aHelloWorld.zip" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">1.a. Primeiro programa em Java: Imprimir "Hello, World" na tela.</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/Aula01bCircle.zip" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">1.b. Classe Circulo com métodos para calcular perímetro e área.</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula 2 - Leitura de Dados e Construtores</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-02.pdf" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Texto - Resumo da Aula 2</a>
+            </div>
+            <div class="section-item">
+                Códigos:
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/Aula02aClienteContaLeituraConstrutor.zip" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">2.a. Classes ContaCorrente e Pessoa com Construtores e
+                    Leitura
+                    de
+                    Dados</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula 3 - Laboratório - Fundamentos de Programação Orientada a Objetos</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-03-laboratorio.pdf" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Especificação da Atividade</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Trabalho 1</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/EE-PAC-trabalho1.pdf" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Especificação</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula de Laboratório - Classes Abstratas e Interfaces</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/pac/lectures/Aula-11-Lab-ClassesAbstratas e Interfaces.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Especificação da Atividade</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Códigos</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/ordenacao-pares.zip" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Ordenação de Pares</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/funcionarios-polimorfismo-amarracao-dinamica.zip" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Salário de Funcionários com Polimorfismo e Amarração
+                    Dinâmica</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/banco-com-menu-de-cadastro.zip" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Banco com Menu</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Slides de Aulas</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-09-Classes-abstratas-e-interfaces.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Herança e Classes Abstratas</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-12-Excecoes-e-controle-de-erros.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Exceções</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-14-Arquivos-e-Strings.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Arquivos e Manipulação de Strings</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula - Laboratório - Arquivos e Exceções</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-15-lab-arquivos-e-excecoes.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Especificação</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title"><a href="https://forms.gle/7saEgbS4YYLdx9bp8">Formulário de Feedback</a></div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Trabalhos 2 e 3</div>
+        <div class="section-content">
+            <div class="section-item" style="color:red; background-color: yellow">
+                Novo prazo de entrega do T3: 17/08/2022!!!
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-17-Trabalho-2-e-3.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Especificação</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Conteúdos Avançados de Java</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-16-conteudos-avancados.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Slides</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Curso Rápido de C++ (veja apostilas em informações adicionais)</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-18-Curso-Rapido-Cpp.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Slides</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/diversos-exemplos-cpp.zip" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Exemplos de Códigos em C++</a>
+            </div>
+            <div class="section-item">
+                <a href='https://embarcados.com.br/introducao-ao-makefile/' target="_blank" rel="noopener noreferrer">
+                    Blog post explicando como criar Makefiles</a>
+            </div>
+            <div class="section-item">
+                <a href='https://devhints.io/makefile' target="_blank" rel="noopener noreferrer">
+                    Makefiles Cheat Sheet</a>
+            </div>
+            <div class="section-item">
+                <a href='https://www.gnu.org/software/make/manual/make.html' target="_blank" rel="noopener noreferrer">
+                    Documentação oficial sobre Makefiles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula de Laboratório - Fundamentos de C++</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-19-Lab-Cpp-Fundamentos-PAC.pdf" | relative_path }}'
+                    target="_blank" rel="noopener noreferrer">Especificação</a>
+            </div>
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/8-conta.zip" | relative_path }}' target="_blank"
+                    rel="noopener noreferrer">Código de Exemplo para Começar</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="course-item">
+        <div class="section-title">Aula para Dúvidas sobre o Desenvolvimento do Trabalho (01/08/2022)</div>
+        <div class="section-content">
+            <div class="section-item">
+                <i>
+                    No horário da aula o professor estará disponível para tirar dúvidas presenciais na
+                    sala 35 do CT-VII e na reunião do Google Meet com link abaixo.
+                </i>
+            </div>
+            <div class="section-item">
+                <b>
+                    Como as reuniões do Google Meet possuem duração máxima de 1h, foram criados 2 links, um
+                    para a primeira hora de aula e outra para a segunda.
+                </b>
+            </div>
+            <div class="section-item">
+                <a href="https://meet.google.com/dvq-jqid-dnb">Link para a Reunião no Google Meet (1a hora)</a>
+            </div>
+            <div class="section-item">
+                <a href="https://meet.google.com/cnu-vsvd-wgt">Link para a Reunião no Google Meet (2a hora)</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Arquivos e Avisos</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/diagrama.bmp" | relative_path }}'>
+                    Diagrama da Parte Inicial do Trabalho
+                </a>
+            </div>
+            <div class="section-item">
+                <b style="background-color: yellow;">Avisos:</b>
+                <ul>
+                    <li>A média parcial para aprovação será de 6 pontos.</li>
+                    <li>Na prova 2 será permitido trazer e utilizar uma folha de apoio com
+                        qualquer coisa escrita, desde que <b>escrita à mão</b>.
+                        Sugiro que a folha seja usada para anotar a sintaxe dos comandos.
+                    </li>
+                    <li>Na prova 2 <b>não</b> cairá C++</li>
+                    <li>Após a data de entrega do trabalho 2 (meia noite de 07/08),
+                        será disponibilizada a solução do trabalho em Java e quem não
+                        conseguiu fazer o trabalho 2 poderá utilizar esta
+                        solução para desenvolver o trabalho 3 (em C++).
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Aula de Revisão para Prova 2</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/lectures/Aula-22-Revisao.pdf" | relative_path }}'>
+                    Slides
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Implementação do Trab 2</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/trab2.zip" | relative_path }}'>
+                    Slides
+                </a>
+            </div>
+            <div class="section-item">
+                O código poderia ser mais bem estruturado, mas tentei organizar
+                de forma a deixar a solução mais simples. Todos os arquivos com "Comparable"
+                no nome são classes utilizadas para ordenação de ArrayLists. Em C++, a função
+                sort pode receber uma função de comparação ou uma classe que implementa
+                o operator(). <a href="https://cplusplus.com/reference/algorithm/sort/">
+                    Clique aqui para ver a documentação e um código de exemplo.
+                </a>.
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Exemplo de leitura e escrita de arquivos CSVs em C++</div>
+        <div class="section-content">
+            <div class="section-item">
+                <a href='{{ "/assets/files/d/prog3/code/10-leitura-escrita-csv.zip" | relative_path }}'>
+                    Download do Código
+                </a>
+            </div>
+            <div class="section-item">
+                A função split pode ser usada no trabalho.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="course-item">
+        <div class="section-title">
+            <a href='{{ "/assets/files/d/pac/notas-pac.pdf" | relative_path }}' target="_blank"
+                rel="noopener noreferrer">
+                Notas Parciais (todas as atividades corrigidas)
+            </a>
+        </div>
+        <div class="section-content">
+            <div class="section-item" style="background-color: yellow; color: red;">
+                <b>Atenção</b>: a média parcial para aprovação foi reduzida para 60%. Os alunos
+                cujas notas estão marcadas em verde na planilha estão aprovados e aqueles
+                cujas notas estão em vermelho deverão realizar prova final na segunda-feira
+                no horário da aula.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<br>
+<hr>
+<br>
+
+<div class="course-section">
+    <h4>Informações Adicionais</h4>
+
+    <div class="course-item">
+        <div class="section-title">
+            Apostilas
+        </div>
+        <div class="section-content">
+            <a href='{{ "/assets/files/d/prog3/APOSTILA-varejao-garcia.pdf" | relative_path }}' target="_blank"
+                rel="noopener noreferrer">Apostila C++ - Professores Flávio Varejão e Berilhes Garcia</a>
+        </div>
+        <div class="section-content">
+            <a href="http://redeetec.mec.gov.br/images/stories/pdf/eixo_infor_comun/tec_inf/081112_progr_obj.pdf">
+                Programação Orientada a Objetos em Java - Professores Victorio Albani de Carvalho e Giovany Frossard
+            </a>
+        </div>
+        <div class="section-content">
+            <a href="https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf">
+                Programação Orientada a Objetos em Java - Caelum
+            </a>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">
+            <a href="https://www.youtube.com/watch?v=tHXO_j4RfGw&list=PLxI8Can9yAHewZWSrlhpId71bk5N_W7W1">
+                Cursos de Programação Orientada a Objetos em Java da UNIVESP
+            </a>
+        </div>
+        <div class="section-content">
+            <iframe width="350" src="https://www.youtube.com/embed/tHXO_j4RfGw" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="section-content">
+            <iframe width="350" src="https://www.youtube.com/embed/IldU6EJ-CVk" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-content">
+            <div class="section-item">
+                <a href="https://prograd.ufes.br/calendario-academico">Calendário Acadêmico 2022</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title">Playlist de Programação Orientada a Objetos</div>
+        <div class="section-content">
+            Se por algum motivo for necessário faltar uma aula, assista os vídeos do assunto na playlist abaixo.
+            <br>
+            <div class="section-item">
+                <iframe width="350" src="https://www.youtube.com/embed/p1P_ykzVdKg?start=4" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-item">
+        <div class="section-title" id="instalacao-alternativa">Instalação Alternativa do Ambiente de Desenvolvimento
+        </div>
+        <div class="section-content">
+            <div class="section-item">
+                1) <a href="https://www.oracle.com/java/technologies/downloads/#jdk18-windows">Download do Java
+                    Development
+                    Kit
+                    (JDK)</a>
+            </div>
+            <div class="section-item">
+                2) Configuração das Variáveis de Ambiente
+                <br>
+                <iframe width="350" src="https://www.youtube.com/embed/EV4Hqvl_N8c?start=154"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="section-item">
+                3) Verificação da instalação: Abra o prompt de comandos do windows e digitando
+                "javac".
+                A mensagem "'javac' não é reconhecido como um comando interno ou externo, um programa operável ou um
+                arquivo
+                em lotes." indica que algo deu errado. Neste caso, entre em contato por e-mail relatando os passos que
+                foram
+                seguidos.
+            </div>
+        </div>
+    </div>
+</div>

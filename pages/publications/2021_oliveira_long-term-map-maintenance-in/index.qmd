@@ -1,0 +1,14 @@
+---
+title: "Long-term Map Maintenance in Complex Environments"
+date: 2021-01-01
+author: ["Josias Oliveira","Filipe Mutz","Avelino Forechi","Pedro Azevedo","Thiago Oliveira-Santos","Alberto Ferreira De Souza","Claudine Badue"]
+publication: "Brazilian Conference on Intelligent Systems (BRACIS)"
+categories: []
+url_source: "https://link.springer.com/chapter/10.1007/978-3-030-91699-2_11"
+url_preprint:
+journ: "Brazilian Conference on Intelligent Systems (BRACIS)"
+year: 2021
+---
+        
+[Check out the paper!](https://link.springer.com/chapter/10.1007/978-3-030-91699-2_11)
+            

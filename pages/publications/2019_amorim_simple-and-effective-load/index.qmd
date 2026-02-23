@@ -1,0 +1,14 @@
+---
+title: "Simple and Effective Load Volume Estimation in Moving Trucks using LiDARs"
+date: 2019-01-01
+author: ["Lucas Luppi Amorim","Filipe Mutz","Alberto Ferreira De Souza","Claudine Badue","Thiago Oliveira-Santos"]
+publication: "SIBGRAPI Conference on Graphics, Patterns and Images"
+categories: []
+url_source: "http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2019/09.11.20.30/doc/123.pdf?requiredmirror=sid.inpe.br/banon/2001/03.30.15.38.24&searchmirror=dpi.inpe.br/banon/2004/02.16.09.30.00&metadatarepository=sid.inpe.br/sibgrapi/2019/09.11.20.30.40&choice=briefTitleAuthorMisc&searchsite=www.urlib.net:80&languagebutton=en"
+url_preprint:
+journ: "SIBGRAPI Conference on Graphics, Patterns and Images"
+year: 2019
+---
+        
+[Check out the paper!](http://sibgrapi.sid.inpe.br/col/sid.inpe.br/sibgrapi/2019/09.11.20.30/doc/123.pdf?requiredmirror=sid.inpe.br/banon/2001/03.30.15.38.24&searchmirror=dpi.inpe.br/banon/2004/02.16.09.30.00&metadatarepository=sid.inpe.br/sibgrapi/2019/09.11.20.30.40&choice=briefTitleAuthorMisc&searchsite=www.urlib.net:80&languagebutton=en)
+            
