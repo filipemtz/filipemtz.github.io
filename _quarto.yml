@@ -5,7 +5,7 @@ website:
   open-graph: true
   favicon: /assets/img/favicon/favicon-32x32.png
   repo-url: https://github.com/filipemtz/filipemtz.github.io
-  site-url: "http://filipemtz.github.io/"
+  site-url: "https://filipemtz.github.io/"
   repo-actions: [issue]
   title: "Filipe Mutz"
   reader-mode: true
