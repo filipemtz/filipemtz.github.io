@@ -24,7 +24,7 @@ format:
   html:
     date-format: "yyyy/MM/dd"
     theme: cerulean
-    css: assets/css/styles.css
+    css: /assets/css/styles.css
     toc: true
     anchor-sections: true
     link-external-newwindow: true
