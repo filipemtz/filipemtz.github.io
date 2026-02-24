@@ -1,0 +1,49 @@
+```{=html}
+
+<!--
+    student_name: Guilherme Soares
+    project: ConneCT (with SESI)
+    project_url: ""
+    student_url: ""
+    description: ""
+    year: ""
+    picture: ""
+-->
+
+<div class="alumni-listing">
+    <% for (const item of items) { %>
+        <div class="alumni-item">
+            <span class="alumni-item-name">
+                <% if (item.student_url && item.student_url.trim().length> 0) { %>
+                    <a href="<%- item.student_url %>">
+                        <%= item.student_name %>.
+                    </a>
+                    <% } else { %>
+                        <%= item.student_name %>.
+                            <% } %>
+            </span>
+
+            <span class="alumni-item-project">
+                <% if (item.project_url && item.project_url.trim().length> 0) { %>
+                    <a href="<%- item.project_url %>">
+                        <%= item.project %>.
+                    </a>
+                    <% } else { %>
+                        <%= item.project %>.
+                            <% } %>
+                                <% if (item.year && item.year.trim().length> 0) { %>
+                                    <%= item.year %>.
+                                        <% } %>
+            </span>
+
+            <% if (item.description && item.description.trim().length> 0) { %>
+                <span class="alumni-item-description">
+                    <%= item.description %>.
+                </span>
+                <% } %>
+
+        </div>
+        <% } %>
+</div>
+
+```

@@ -75,3 +75,20 @@ body {
     margin-left: auto !important;
     display: block !important;
 }
+
+/* -- alumni --*/
+
+.alumni-listing {}
+
+.alumni-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.alumni-item-name {
+    font-weight: bold;
+}
+
+.alumni-item-project {}
+
+.alumni-item-description {}
