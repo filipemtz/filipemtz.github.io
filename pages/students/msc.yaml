@@ -1,0 +1,26 @@
+- student_name: Daniel Comério
+  project: M.Sc.
+  categories: "CNNs, LSTMs, CADx with CT Images"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Gustavo Lima
+  project: M.Sc.
+  categories: "Contrastive Learning"
+  project_url: ""
+  student_url: ""
+  description: "Grocery product recognition given few images captured in studio (well lit, centralized, no occlusion, and so on)"
+  year: ""
+  picture: ""
+
+- student_name: Wagner Tostes
+  project: M.Sc.
+  categories: "Accent Classification"
+  project_url: ""
+  student_url: ""
+  description: "Automatic speech recognition for Brazilian Portuguese with a focus on regional accent variability"
+  year: ""
+  picture: ""

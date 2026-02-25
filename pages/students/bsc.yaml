@@ -1,0 +1,107 @@
+- student_name: Henrique Caetano Santos
+  project: B.Sc. Project
+  categories: "LLM, RAG"
+  project_url: ""
+  student_url: ""
+  description: "Arquitetura RAG Aplicada à Disponibilização de Informações Institucionais Universitárias"
+  year: "2025 - 2026"
+  picture: ""
+
+- student_name: Antonio Lucio Braga Secchin
+  project: B.Sc. Project
+  categories: "Deep RL"
+  project_url: ""
+  student_url: ""
+  description: "Comparação de Técnicas de Aprendizado por Reforço para o Treinamento de Agentes Inteligentes em Mortal Kombat II"
+  year: "2025 - 2026"
+  picture: ""
+
+- student_name: Thiago Damasceno Silva
+  project: B.Sc. Project
+  categories: "Neural Point-Cloud Regression"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Luana Gabriele de Sousa Costa
+  project: B.Sc. Project
+  categories: "LLMs for Education"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Maria Luiza Armini Correa
+  project: B.Sc. Project
+  categories: "3D Mapping, Deep Stereo"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Elaine Dias Pires
+  project: B.Sc. Project
+  categories: "NLP"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Bernardo Broedel
+  project: B.Sc. Project
+  categories: "WebDev"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Daniel Comério
+  project: B.Sc. Project
+  categories: "CNNs, LSTMs, CADx with CT Images"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Vitor Zanoni
+  project: B.Sc. Project
+  categories: "Image Processing, CADx with CT Images"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Giseli Siqueira
+  project: B.Sc. Project
+  categories: "Wearables"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Renato Lopes
+  project: B.Sc. Project
+  categories: "Credit Scoring"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""
+
+- student_name: Tadeu Moraes
+  project: B.Sc. Project
+  categories: "Chatbots"
+  project_url: ""
+  student_url: ""
+  description: ""
+  year: ""
+  picture: ""

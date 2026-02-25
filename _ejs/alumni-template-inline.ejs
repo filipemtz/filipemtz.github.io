@@ -1,0 +1,35 @@
+```{=html}
+
+<span class="alumni-listing">
+    <% for (const item of items) { %>
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                <% if (item.student_url && item.student_url.trim().length> 0) { %>
+                    <a href="<%- item.student_url %>">
+                        <%= item.student_name %>
+                    </a>
+                    <% } else { %>
+                        <%= item.student_name %>
+                            <% } %>
+            </span>
+            <% if (item.categories && item.categories.trim().length> 0) { %>
+                <% if (item.project_url && item.project_url.trim().length> 0) { %>
+                    <a href="<%- item.project_url %>">
+                        <span class="alumni-item-categories">
+                            (<%= item.categories %>)
+                        </span>
+                    </a>
+                    <% } else { %>
+                        <span class="alumni-item-categories">
+                            (<%= item.categories %>)
+                        </span>
+                        <% } %>
+                            <% } %>
+        </span>
+
+        <b>&sdot;</b>
+
+        <% } %>
+</span>
+
+```

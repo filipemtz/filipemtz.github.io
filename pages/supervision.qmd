@@ -1,10 +1,26 @@
 ---
 title: Supervision
 listing:
-    id: alumni
-    template: ../_ejs/alumni-template.ejs
-    contents: students.yaml
-    sort: "date desc"
+    - id: msc
+      template: ../_ejs/alumni-template-inline.ejs
+      contents: students/msc.yaml
+      sort: "date desc"
+    - id: ic
+      template: ../_ejs/alumni-template-inline.ejs
+      contents: students/ic.yaml
+      sort: "date desc"
+    - id: bsc
+      template: ../_ejs/alumni-template-inline.ejs
+      contents: students/bsc.yaml
+      sort: "date desc"
+    - id: misc
+      template: ../_ejs/alumni-template-inline.ejs
+      contents: students/misc.yaml
+      sort: "date desc"
+    - id: latosensu
+      template: ../_ejs/alumni-template-inline.ejs
+      contents: students/latosensu.yaml
+      sort: "date desc"
 ---
 
 Prospective students interested in supervision are welcome to contact me.
@@ -13,5 +29,28 @@ Prospective students interested in supervision are welcome to contact me.
 
 I have worked closely with exceptional students, many of whom have gone on to excel in research, industry, and entrepreneurship.
 
-:::{#alumni}
+### M.Sc. (Mestrado)
+
+::: {#msc}
 :::
+
+### Undergraduate Research (Iniciação Científica)
+
+::: {#ic}
+:::
+
+### B.Sc. Final Project (TCC de Graduação)
+
+::: {#bsc}
+:::
+
+### Graduate Certificate (Pós-Graduação *Lato Sensu* - Especialização)
+
+::: {#latosensu}
+:::
+
+### Others (Outros)
+
+::: {#misc}
+:::
+
