@@ -78,17 +78,6 @@ body {
 
 /* -- alumni --*/
 
-.alumni-listing {}
-
-.alumni-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.alumni-item-name {
+.alumni-inline-item-name {
     font-weight: bold;
 }
-
-.alumni-item-project {}
-
-.alumni-item-description {}

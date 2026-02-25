@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +74,119 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    const listingTargetEl = window.document.querySelector('#listing-msc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-student_name','listing-project','listing-categories','listing-project_url','listing-student_url','listing-description','listing-year','listing-picture',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-student_name","listing-project","listing-categories","listing-project_url","listing-student_url","listing-description","listing-year","listing-picture"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-msc'] = new List('listing-msc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ic .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-student_name','listing-project','listing-categories','listing-project_url','listing-student_url','listing-description','listing-year','listing-picture',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-student_name","listing-project","listing-categories","listing-project_url","listing-student_url","listing-description","listing-year","listing-picture"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ic'] = new List('listing-ic', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-bsc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-student_name','listing-project','listing-categories','listing-project_url','listing-student_url','listing-description','listing-year','listing-picture',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-student_name","listing-project","listing-categories","listing-project_url","listing-student_url","listing-description","listing-year","listing-picture"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-bsc'] = new List('listing-bsc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-misc .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-student_name','listing-project','listing-categories','listing-project_url','listing-student_url','listing-description','listing-year','listing-picture',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-student_name","listing-project","listing-categories","listing-project_url","listing-student_url","listing-description","listing-year","listing-picture"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-misc'] = new List('listing-misc', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latosensu .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -81,13 +194,12 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-student_name','listing-project','listing-project_url','listing-student_url','listing-description','listing-year','listing-picture',{ data: ['index'] },{ data: ['categories'] }],
-      page: 25,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      
       searchColumns: ["listing-student_name","listing-project","listing-project_url","listing-student_url","listing-description","listing-year","listing-picture"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+    window['quarto-listings']['listing-latosensu'] = new List('listing-latosensu', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -115,7 +227,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -191,7 +303,14 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#alumni" id="toc-alumni" class="nav-link active" data-scroll-target="#alumni">Alumni</a></li>
+  <li><a href="#alumni" id="toc-alumni" class="nav-link active" data-scroll-target="#alumni">Alumni</a>
+  <ul class="collapse">
+  <li><a href="#m.sc.-mestrado" id="toc-m.sc.-mestrado" class="nav-link" data-scroll-target="#m.sc.-mestrado">M.Sc. (Mestrado)</a></li>
+  <li><a href="#undergraduate-research-iniciação-científica" id="toc-undergraduate-research-iniciação-científica" class="nav-link" data-scroll-target="#undergraduate-research-iniciação-científica">Undergraduate Research (Iniciação Científica)</a></li>
+  <li><a href="#b.sc.-final-project-tcc-de-graduação" id="toc-b.sc.-final-project-tcc-de-graduação" class="nav-link" data-scroll-target="#b.sc.-final-project-tcc-de-graduação">B.Sc. Final Project (TCC de Graduação)</a></li>
+  <li><a href="#graduate-certificate-pós-graduação-lato-sensu---especialização" id="toc-graduate-certificate-pós-graduação-lato-sensu---especialização" class="nav-link" data-scroll-target="#graduate-certificate-pós-graduação-lato-sensu---especialização">Graduate Certificate (Pós-Graduação <em>Lato Sensu</em> - Especialização)</a></li>
+  <li><a href="#others-outros" id="toc-others-outros" class="nav-link" data-scroll-target="#others-outros">Others (Outros)</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -221,634 +340,608 @@ window.Quarto = {
 <section id="alumni" class="level2">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
 <p>I have worked closely with exceptional students, many of whom have gone on to excel in research, industry, and entrepreneurship.</p>
-<div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
+<section id="m.sc.-mestrado" class="level3">
+<h3 class="anchored" data-anchor-id="m.sc.-mestrado">M.Sc. (Mestrado)</h3>
+<div id="listing-msc" class="quarto-listing quarto-listing-container-custom">
 
-<!--
-    student_name: Guilherme Soares
-    project: ConneCT (with SESI)
-    project_url: ""
-    student_url: ""
-    description: ""
-    year: ""
-    picture: ""
--->
-
-<div class="alumni-listing">
+<span class="alumni-listing">
     
-        <div class="alumni-item">
-            <span class="alumni-item-name">
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
                 
-                        Henrique Caetano Santos.
+                        Daniel Comério
                             
             </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-                                    2025 - 2026.
-                                        
-            </span>
-
             
-                <span class="alumni-item-description">
-                    Arquitetura RAG Aplicada à Disponibilização de Informações Institucionais Universitárias.
-                </span>
                 
+                        <span class="alumni-item-categories">
+                            (CNNs, LSTMs, CADx with CT Images)
+                        </span>
+                        
+                            
+        </span>
 
-        </div>
+        <b>⋅</b>
+
         
-        <div class="alumni-item">
-            <span class="alumni-item-name">
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
                 
-                        Antonio Lucio Braga Secchin.
+                        Gustavo Lima
                             
             </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-                                    2025 - 2026.
-                                        
-            </span>
-
             
-                <span class="alumni-item-description">
-                    Comparação de Técnicas de Aprendizado por Reforço para o Treinamento de Agentes Inteligentes em Mortal Kombat II.
-                </span>
                 
+                        <span class="alumni-item-categories">
+                            (Contrastive Learning)
+                        </span>
+                        
+                            
+        </span>
 
-        </div>
+        <b>⋅</b>
+
         
-        <div class="alumni-item">
-            <span class="alumni-item-name">
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
                 
-                        Guilherme Soares.
+                        Wagner Tostes
                             
             </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (SESI).
-                            
-                                
-            </span>
-
             
-                <span class="alumni-item-description">
-                    2025 - present.
-                </span>
                 
+                        <span class="alumni-item-categories">
+                            (Accent Classification)
+                        </span>
+                        
+                            
+        </span>
 
-        </div>
+        <b>⋅</b>
+
         
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Alan Wehbe.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (SESI).
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Eduardo Perim.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (SESI).
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Thiago Damasceno Silva.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Savio Andre Maffioletti.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Kelvin Lehrback Guilherme.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Igor Borlot Borba.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Wideraldo Patrocinio.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Laudiane Justo Sant'Anna.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Paulo Henrique Alves de Oliveira.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Patrik Lima Pereira.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Wesley Domingos Junior.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Luana Gabriele de Sousa Costa.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Breno Brandolin Ignácio.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (Real Café).
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Matheus Vinícius Baessa de Souza.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (Real Café).
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Rafaela Fernanda Pereira Sousa.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        ConneCT (Real Café).
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Misael Florenciano.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Undergrad Research.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Nathan Garcia Freitas.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                    <a href="https://github.com/filipemtz/testr-2.0">
-                        Testr2.
-                    </a>
-                    
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Jullie de Castro Quadros.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                    <a href="https://github.com/filipemtz/testr-2.0">
-                        Testr2.
-                    </a>
-                    
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Maria Luiza Armini Correa.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Elaine Dias Pires.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Bernardo Broedel.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Daniel Comério.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project, M.Sc..
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Gustavo Lima.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        M.Sc..
-                            
-                                
-            </span>
-
-            
-                <span class="alumni-item-description">
-                    Grocery product recognition given few images captured in studio (well lit, centralized, no occlusion, and so on).
-                </span>
-                
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Vitor Zanoni.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Giseli Siqueira.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Renato Lopes.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Tadeu Moraes.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        B.Sc. Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Wagner Tostes.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        M.Sc..
-                            
-                                
-            </span>
-
-            
-                <span class="alumni-item-description">
-                    Automatic speech recognition for Brazilian Portuguese with a focus on regional accent variability.
-                </span>
-                
-
-        </div>
-        
-        <div class="alumni-item">
-            <span class="alumni-item-name">
-                
-                        Davi Torobay.
-                            
-            </span>
-
-            <span class="alumni-item-project">
-                
-                        Specialization Project.
-                            
-                                
-            </span>
-
-            
-
-        </div>
-        
-</div>
+</span>
 
 <div class="listing-no-matching d-none">No matching items</div>
-<nav id="alumni-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
+</div>
+</section>
+<section id="undergraduate-research-iniciação-científica" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-research-iniciação-científica">Undergraduate Research (Iniciação Científica)</h3>
+<div id="listing-ic" class="quarto-listing quarto-listing-container-custom">
+
+<span class="alumni-listing">
+    
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Misael Florenciano
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Applications of VLMs)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+</span>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="b.sc.-final-project-tcc-de-graduação" class="level3">
+<h3 class="anchored" data-anchor-id="b.sc.-final-project-tcc-de-graduação">B.Sc. Final Project (TCC de Graduação)</h3>
+<div id="listing-bsc" class="quarto-listing quarto-listing-container-custom">
+
+<span class="alumni-listing">
+    
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Henrique Caetano Santos
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (LLM, RAG)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Antonio Lucio Braga Secchin
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Deep RL)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Thiago Damasceno Silva
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Neural Point-Cloud Regression)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Luana Gabriele de Sousa Costa
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (LLMs for Education)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Maria Luiza Armini Correa
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (3D Mapping, Deep Stereo)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Elaine Dias Pires
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (NLP)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Bernardo Broedel
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (WebDev)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Daniel Comério
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (CNNs, LSTMs, CADx with CT Images)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Vitor Zanoni
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Image Processing, CADx with CT Images)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Giseli Siqueira
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Wearables)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Renato Lopes
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Credit Scoring)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Tadeu Moraes
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (Chatbots)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+</span>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="graduate-certificate-pós-graduação-lato-sensu---especialização" class="level3">
+<h3 class="anchored" data-anchor-id="graduate-certificate-pós-graduação-lato-sensu---especialização">Graduate Certificate (Pós-Graduação <em>Lato Sensu</em> - Especialização)</h3>
+<div id="listing-latosensu" class="quarto-listing quarto-listing-container-custom">
+
+<span class="alumni-listing">
+    
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Savio Andre Maffioletti
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Kelvin Lehrback Guilherme
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Igor Borlot Borba
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Wideraldo Patrocinio
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Laudiane Justo Sant'Anna
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Paulo Henrique Alves de Oliveira
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Patrik Lima Pereira
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Wesley Domingos Junior
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Davi Torobay
+                            
+            </span>
+            
+        </span>
+
+        <b>⋅</b>
+
+        
+</span>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="others-outros" class="level3">
+<h3 class="anchored" data-anchor-id="others-outros">Others (Outros)</h3>
+<div id="listing-misc" class="quarto-listing quarto-listing-container-custom">
+
+<span class="alumni-listing">
+    
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Guilherme Soares
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, SESI)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Alan Wehbe
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, SESI)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Eduardo Perim
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, SESI)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Breno Brandolin Ignácio
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, Real Café)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Matheus Vinícius Baessa de Souza
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, Real Café)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Rafaela Fernanda Pereira Sousa
+                            
+            </span>
+            
+                
+                        <span class="alumni-item-categories">
+                            (ConneCT, Real Café)
+                        </span>
+                        
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Nathan Garcia Freitas
+                            
+            </span>
+            
+                
+                    <a href="https://github.com/filipemtz/testr-2.0">
+                        <span class="alumni-item-categories">
+                            (Testr2, WebDev)
+                        </span>
+                    </a>
+                    
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+        <span class="alumni-item">
+            <span class="alumni-inline-item-name">
+                
+                        Jullie de Castro Quadros
+                            
+            </span>
+            
+                
+                    <a href="https://github.com/filipemtz/testr-2.0">
+                        <span class="alumni-item-categories">
+                            (Testr2, WebDev)
+                        </span>
+                    </a>
+                    
+                            
+        </span>
+
+        <b>⋅</b>
+
+        
+</span>
+
+<div class="listing-no-matching d-none">No matching items</div>
 </div>
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -903,13 +996,14 @@ window.Quarto = {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
