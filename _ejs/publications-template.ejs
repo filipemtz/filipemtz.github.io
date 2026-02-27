@@ -12,21 +12,23 @@
             </div>
 
             <div class="body">
-                <div class="no-anchor listing-pub-title listing-title">
-                    <%= item.title %>
-                </div>
-                <div class="listing-pub-author listing-author">
-                    <%= item.author %><br>
-                </div>
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    <% if (item.journ) { %>
-                        <i>
-                            <%= item.journ %>.
-                        </i>
-                        <% if (item.year) { %>
-                            <%= item.year %>.<% } %><br>
-                                    <% } %>
-                </div>
+                <a href="<%= item.path %>">
+                    <div class="no-anchor listing-pub-title listing-title">
+                        <%= item.title %>
+                    </div>
+                    <div class="listing-pub-author listing-author">
+                        <%= item.author %><br>
+                    </div>
+                    <div class="metadata-value listing-pub-journal listing-publication">
+                        <% if (item.journ) { %>
+                            <i>
+                                <%= item.journ %>.
+                            </i>
+                            <% if (item.year) { %>
+                                <%= item.year %>.<% } %><br>
+                                        <% } %>
+                    </div>
+                </a>
             </div>
 
             <div class="metadata">

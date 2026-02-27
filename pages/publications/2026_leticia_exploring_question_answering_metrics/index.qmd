@@ -1,0 +1,24 @@
+---
+title: "Exploring Question Answering: Metric Analysis and Evaluation Framework for Enhanced Interpretability"
+date: 2026-02-27
+author: ["Letícia C. Navarro", "Sérgio S. Mucciaccia" , "Filipe Mutz" , "Thiago M. Paixão", "Claudine Badue" , "Alberto F. De Souza", "Thiago Oliveira-Santos", ]
+publication: "Computers and Chemical Engineering"
+categories: ["LLM", "AI", "Evaluation of Question Answering Systems"]
+url_source:
+url_preprint:
+image: "2026-lets-system.png"
+journ: "Neural Computing and Applications"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+## TL;DR
+
+The work surveys and compares empirically metrics and frameworks for evaluating open-ended question answering systems. It also proposes a new evaluation methodology that overcomes limitations of previous methods.
+
+![Overview of the evaluation framework. The model generates a free-text answer, which is compared to all MCQA options using a similarity metric (e.g., BLEU, BERTScore, LLM-based scoring). The most similar alternative is selected and evaluated against the ground-truth answer.](2026-lets-system.png)
+
+## Abstract
+
+Evaluating open-ended question answering (QA) remains challenging, as traditional metrics often fail to reflect semantic correctness, especially in cases with paraphrastic variation or multiple valid answers. To deal with this challenge, we propose Score2Choice, a structured evaluation framework that reformulates QA evaluation as a multiple-choice selection task. This setup enables similarity-based metrics to be interpreted via accuracy, enhancing transparency and comparability. To support this approach, we introduce WikiTrapQA, a new MCQA dataset built from recent Wikipedia content and enriched with paraphrased and adversarial answers. Alongside a reformulated version of TruthfulQA, this dataset allows us to systematically compare lexical, semantic, and LLM-based metrics. A preliminary score distribution analysis reveals that many metrics struggle to distinguish correct from incorrect answers based on similarity scores alone. Experimental results show that LLM-based methods, in our case LLaMA 3, achieve the highest discriminative performance, while Sentence-BERT and BARTScore emerge as strong non-LLM alternatives. Our findings highlight the limitations of surface-level metrics and demonstrate the value of Score2Choice as a reproducible and interpretable framework for QA evaluation.

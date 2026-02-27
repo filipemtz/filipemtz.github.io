@@ -4,11 +4,10 @@ date: 2024-01-01
 author: ["Isabella Borba Pillotti","Bernardo Vargas Broedel","Filipe Mutz","Aline N Pessoa Almeida"]
 publication: "Encontro Internacional de Audiologia [Resumo]"
 categories: []
-url_source: "None"
+url_source:
 url_preprint:
 journ: "Encontro Internacional de Audiologia [Resumo]"
 year: 2024
 ---
-        
+
 Link to the paper is coming soon.
-            
