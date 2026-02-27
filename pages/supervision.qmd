@@ -25,6 +25,10 @@ listing:
 
 Prospective students interested in supervision are welcome to contact me.
 
+Students interested in developing the B.Sc. final project under my supervision should read the [basic instructions (in pt-br)](supervision/tcc.qmd).
+
+[Latex templates for multiple documents](https://github.com/vitorsouza/latex-templates/tree/main) used at Ufes were created and shared by professor Vitor Souza.
+
 Check out the [useful links](links-uteis.qmd).
 
 ## Alumni

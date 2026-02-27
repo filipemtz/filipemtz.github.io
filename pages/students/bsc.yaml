@@ -1,3 +1,21 @@
+- student_name: Gabriel Gatti da Silva
+  project: B.Sc. Project
+  categories: "Object Detection"
+  project_url: ""
+  student_url: ""
+  description: "Estudo do Impacto de Diferentes Arquiteturas de Embeddings no Desempenho de Sistemas de Reconhecimento Facial"
+  year: "2025 - 2026"
+  picture: ""
+
+- student_name: João Gabriel Santos Custodio
+  project: B.Sc. Project
+  categories: "Neural Networks, Face Recognition"
+  project_url: ""
+  student_url: ""
+  description: "Estudo do Impacto de Diferentes Arquiteturas de Embeddings no Desempenho de Sistemas de Reconhecimento Facial"
+  year: "2025 - 2026"
+  picture: ""
+
 - student_name: Henrique Caetano Santos
   project: B.Sc. Project
   categories: "LLM, RAG"
