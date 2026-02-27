@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Trabalho de Conclusão de Curso – Filipe Mutz</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-72b10730c1ee6527289f76fc36b831bd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<meta property="og:title" content="Trabalho de Conclusão de Curso – Filipe Mutz">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Filipe Mutz">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Filipe Mutz</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/supervision.html"> 
+<span class="menu-text">Supervision</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#informações-gerais" id="toc-informações-gerais" class="nav-link active" data-scroll-target="#informações-gerais">Informações Gerais</a></li>
+  <li><a href="#documentos-importantes" id="toc-documentos-importantes" class="nav-link" data-scroll-target="#documentos-importantes">Documentos Importantes</a></li>
+  <li><a href="#passo-a-passo" id="toc-passo-a-passo" class="nav-link" data-scroll-target="#passo-a-passo">Passo a Passo</a>
+  <ul class="collapse">
+  <li><a href="#tcc-1" id="toc-tcc-1" class="nav-link" data-scroll-target="#tcc-1">TCC-1</a></li>
+  <li><a href="#tcc-2" id="toc-tcc-2" class="nav-link" data-scroll-target="#tcc-2">TCC-2</a></li>
+  </ul></li>
+  <li><a href="#definindo-o-tema-do-tcc" id="toc-definindo-o-tema-do-tcc" class="nav-link" data-scroll-target="#definindo-o-tema-do-tcc">Definindo o Tema do TCC</a></li>
+  <li><a href="#trabalhos-relacionados" id="toc-trabalhos-relacionados" class="nav-link" data-scroll-target="#trabalhos-relacionados">Trabalhos Relacionados</a>
+  <ul class="collapse">
+  <li><a href="#identificando-artigos-para-trabalhos-relacionados" id="toc-identificando-artigos-para-trabalhos-relacionados" class="nav-link" data-scroll-target="#identificando-artigos-para-trabalhos-relacionados">Identificando Artigos para Trabalhos Relacionados</a></li>
+  <li><a href="#lendo-trabalhos-relacionados" id="toc-lendo-trabalhos-relacionados" class="nav-link" data-scroll-target="#lendo-trabalhos-relacionados">Lendo Trabalhos Relacionados</a></li>
+  </ul></li>
+  <li><a href="#escrevendo-a-introdução" id="toc-escrevendo-a-introdução" class="nav-link" data-scroll-target="#escrevendo-a-introdução">Escrevendo a Introdução</a>
+  <ul class="collapse">
+  <li><a href="#estrutura-da-introdução" id="toc-estrutura-da-introdução" class="nav-link" data-scroll-target="#estrutura-da-introdução">Estrutura da Introdução</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Trabalho de Conclusão de Curso</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Esta página descreve como é o processo de construção do TCC sob minha orientação.</p>
+<section id="informações-gerais" class="level2">
+<h2 class="anchored" data-anchor-id="informações-gerais">Informações Gerais</h2>
+<p>Os TCCs que oriento são no formato desenvolvimento de <strong>protótipo</strong> (maioria) ou <strong>artigo científico</strong>. Embora artigos sejam mais curtos, eles devem ser publicáveis para que o projeto seja aprovado.</p>
+<p>O TCC foi pensado para ser desenvolvido em dois semestres:</p>
+<ul>
+<li><strong>TCC-1:</strong> estudo dos conceitos necessários para o desenvolvimento do projeto, escrita do código-fonte e realização de experimentos computacionais.</li>
+<li><strong>TCC-2:</strong> escrita da monografia e apresentação (defesa) de projeto. Por padrão, o código não é mais modificado neste semestre.</li>
+</ul>
+<p>O acompanhamento do projeto é realizado por comunicação eletrônica e <strong>reuniões semanais (presenciais ou remotas) com duração de 30min</strong>. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.</p>
+</section>
+<section id="documentos-importantes" class="level2">
+<h2 class="anchored" data-anchor-id="documentos-importantes">Documentos Importantes</h2>
+<p>Os procedimentos para aprovação nas disciplinas são ligeiramente diferentes dependendo do curso. As páginas abaixo descrevem os artefatos que devem ser construídos e seus prazos de entrega.</p>
+<ul>
+<li><a href="https://informatica.ufes.br/pt-br/graduacao/ccomp/projeto-de-gradua%C3%A7%C3%A3o">Ciência da Computação</a>.</li>
+<li><a href="https://informatica.ufes.br/pt-br/trabalho-de-conclusao-de-curso">Engenharia da Computação</a></li>
+<li>Engenharia Elétrica: Os professores das disciplinas disponibilizam documentos contendo as regras.</li>
+</ul>
+<p><strong>Importante</strong>: É sua responsabilidade garantir que todos os artefatos sejam produzidos e que os prazos sejam cumpridos. Sugiro adicionar lembretes no google agenda e manter a lista de artefatos em um local de fácil acesso.</p>
+<p><a href="https://github.com/vitorsouza/latex-templates/tree/main">Templates em Latex</a> para o relatório de TCC-1 e para a monografia de TCC-2 foram criados e disponibilizados pelo Prof.&nbsp;Vitor Souza.</p>
+<p>Para começar a escrever, faça o download do repositório. coloque a pasta contendo o seu template de interesse em um arquivo .zip e faça o upload para o sistema <a href="https://prism.openai.com/">Prism</a>. O Prism é uma alternativa grátis ao Overleaf. Por fim, compartilhe o projeto comigo.</p>
+</section>
+<section id="passo-a-passo" class="level2">
+<h2 class="anchored" data-anchor-id="passo-a-passo">Passo a Passo</h2>
+<p>Abaixo é descrito o algoritmo para concluir as disciplinas de TCC.</p>
+<section id="tcc-1" class="level3">
+<h3 class="anchored" data-anchor-id="tcc-1">TCC-1</h3>
+<ol type="1">
+<li>Definir o tema junto com o orientador.
+<ol type="1">
+<li><em>Critério de pronto</em>: tema definido.</li>
+</ol></li>
+<li>Definir o cronograma de entregáveis cobrindo as fases de estudo, desenvolvimento de código-fonte, realização de experimentos e escrita de relatório de protótipo.
+<ol type="1">
+<li><em>Critério de pronto</em>: cronograma feito.</li>
+</ol></li>
+<li>Estudar os conceitos fundamentais para o projeto.
+<ol type="1">
+<li><em>Critério de pronto</em>: entrega de repositório contendo códigos de exemplo demonstrando que conhecimentos foram adquiridos.</li>
+</ol></li>
+<li>Ler e sumarizar artigos relacionados ao tema.
+<ol type="1">
+<li><em>Critério de pronto</em>: entrega dos resumos dos trabalhos relacioandos.</li>
+</ol></li>
+<li>Implementar o código e realizar experimentos.
+<ol type="1">
+<li><em>Critério de pronto</em>: repositório com código para realização dos experimentos, além de tabelas e gráficos de resultados.</li>
+</ol></li>
+<li>Escrita do relatório de protótipo
+<ol type="1">
+<li><em>Critério de pronto</em>: entrega do relatório escrito e revisado.</li>
+</ol></li>
+</ol>
+</section>
+<section id="tcc-2" class="level3">
+<h3 class="anchored" data-anchor-id="tcc-2">TCC-2</h3>
+<ol type="1">
+<li>Escrever introdução (~ 2 semanas).</li>
+<li>Escrever referencial teórico (~ 3 semanas).</li>
+<li>Escrever desenvolvimento (~ 1 mês).</li>
+<li>Escrever avaliação experimental (~ 1 mês).</li>
+<li>Escrever conclusão e resumo (~ 1 semana).</li>
+<li>Realizar revisão do texto (~ 2 semanas).</li>
+<li>Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar pronto para ser enviado para a banca.</li>
+<li>Preparar e realizar apresentação.</li>
+</ol>
+</section>
+</section>
+<section id="definindo-o-tema-do-tcc" class="level2">
+<h2 class="anchored" data-anchor-id="definindo-o-tema-do-tcc">Definindo o Tema do TCC</h2>
+<p>Um bom tema de TCC cumpre os seguintes critérios:</p>
+<ul>
+<li><strong>Poderia trazer benefícios para um grupo de pessoas</strong>: tornar processos mais eficientes ou mais acurados, viabilizar novas aplicações, trazer novas informações sobre fenômenos.</li>
+<li><strong>Requer o uso do conhecimento de várias disciplinas do curso</strong>.</li>
+<li><strong>Equivale a um semestre de trabalho</strong>: Uma boa analogia é pensar na quantidade média de trabalho e nível de dificuldade para fazer os trabalhos de uma disciplina de programação.</li>
+</ul>
+<p>O TCC <strong>não</strong> precisa ser gigante, revolucionário ou mudar o mundo.</p>
+</section>
+<section id="trabalhos-relacionados" class="level2">
+<h2 class="anchored" data-anchor-id="trabalhos-relacionados">Trabalhos Relacionados</h2>
+<p>Na seção de trabalhos relacionados, você deve descrever <strong>5-8 artigos</strong> que abordaram o mesmo tema do seu projeto. O orientador vai te recomendar 1-3 artigos de referência. Os demais você deverá identificar usando o algoritmo abaixo.</p>
+<section id="identificando-artigos-para-trabalhos-relacionados" class="level3">
+<h3 class="anchored" data-anchor-id="identificando-artigos-para-trabalhos-relacionados">Identificando Artigos para Trabalhos Relacionados</h3>
+<p>Com base no que você aprendeu lendo estes artigos de referência, faça buscas de palavras-chave no <a href="https://scholar.google.com.br/">google scholar</a>. Avalie pelo título se os artigos são relacionados ao seu tópico de interese. Abra os artigos relevantes em novas abas para olhar depois.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Outras formas de encontrar artigos relevantes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Os artigos citados por bons artigos tendem a ser bons artigos. As referências utilizadas nos artigos indicados por seu orientador são uma fonte de trabalhos relacionados. Você também pode buscar os artigos indicados no google scholar e verificar os artigos que citaram eles.</p>
+</div>
+</div>
+<p>O próximo passo é selecionar um subconjunto de 5 artigos para analisar com mais calma.</p>
+<p><strong>Importante:</strong> Valide com o seu orientador se os artigos são de fato relevantes antes de lê-los para evitar desperdício de energia.</p>
+<ul>
+<li>Itere sobre as abas abertas, leia o resumo e confirme se o trabalho é próximo ao que você está fazendo. Se não, feche a aba.</li>
+<li>Dê preferência para artigos recentes (últimos 3-5 anos) , com muitas citações (10+) e/ou que tenham sido publicados em boas conferências e periódicos.</li>
+<li>Saber quais conferências e periódicos são bons requer um pouco de experiência, mas uma heurística é buscar seu nome na <a href="https://scholar.google.com.br/citations?view_op=top_venues&amp;hl=pt-BR">aba metrics do google scholar</a> e verificar o índice H5. Veículos com índices H5 maiores que 40, em geral, são bons.</li>
+<li>Na área de IA, exemplos de boas conferências são CVPR, ICLR, NeurIPS e ICML. Na área de robótica, temos ICRA e IROS. Exemplos de bons periódicos da área de IA são IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Neural Networks and Learning Systems e Nature Machine Intelligence.</li>
+</ul>
+<p>Se ao final da filtragem você não conseguir identificar 5 artigos, repita o processo fazendo usando novas palavras chave.</p>
+</section>
+<section id="lendo-trabalhos-relacionados" class="level3">
+<h3 class="anchored" data-anchor-id="lendo-trabalhos-relacionados">Lendo Trabalhos Relacionados</h3>
+<p>Para cada artigo relacionado, você deve escrever um parágrafo descrevendo os seguintes itens:</p>
+<ul>
+<li>Qual foi a principal contribuição do artigo? O que ele trouxe de novo?</li>
+<li>Como é o método proposto? O que ele tem de melhor que os métodos anteriores^?</li>
+<li>Como foi feita a avaliação experimental? Quais bases de dados e métricas foram usadas? Qual procedimento foi adotado?</li>
+<li>Quais foram os principais resultados? Quais os valores das métricas?</li>
+<li>Quais limitações existem no trabalho? Idealmente, seu estudo deve superar estas limitações.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Identifique coisas reutilizáveis ao ler os artigos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fique atento a argumentos utilizados na introdução, dicas de como calibrar hiperparâmetros, como obter o máximo de modelos, cuidados na realização de experimentos e análises críticas de outros trabalhos da literatura. Frequentemente, os artigos te ajudarão a implementar e escrever seu trabalho. Lembre-se, contudo, que você não deve copiar e colar trechos de texto porque isto é plágio e punível com a morte (de sua carreira acadêmica).</p>
+</div>
+</div>
+<p><strong>Exemplo 1 (trabalho de identificação de doenças em exames de raio-X do pulmão):</strong> “<em>Narin et al.&nbsp;(2021) avaliaram três arquiteturas de redes neurais (ResNet50, InceptionV3 e Inception-ResNetV2) na tarefa de identificação de doenças a partir de imagens de Raio-X de pulmão. A ResNet50 alcançou 98% de acurácia, o melhor valor dentre os modelos comparados. A rede foi treinada e avaliada com exames de pessoas saudáveis ou com COVID-19. Casos de pneumonia não foram incluídos nos experimentos</em>”.</p>
+<p><strong>Exemplo 2 (trabalho de mapeamento para veículos autônomos):</strong> “<em>Wolcott e Eustice (2017) propuseram um método probabilístico de localização que modela o mundo como um mapa multirresolução de misturas de gaussianas. Seus mapas de mistura de gaussianas representam a distribuição de altura e intensidade de refletância do ambiente medida por scanners LiDAR (Velodyne HDL-32E). Um algoritmo de localização baseado no Filtro de Kalman Estendido (EKF) é utilizado para estimar a pose do carro por meio do registro de nuvens de pontos 3D em relação aos mapas multirresolução de mistura de gaussianas. O método foi avaliado em dois carros autônomos sob condições climáticas adversas e apresentou erros de estimativa de localização de aproximadamente 0,15 m.</em>”</p>
+</section>
+</section>
+<section id="escrevendo-a-introdução" class="level2">
+<h2 class="anchored" data-anchor-id="escrevendo-a-introdução">Escrevendo a Introdução</h2>
+<p>A introdução é um argumento lógico que tem como objetivo:</p>
+<ul>
+<li>motivar e justificar o investimento de recursos (tempo, energia, etc.) no projeto, e</li>
+<li>dar uma visão geral do que foi feito para a pessoa decidir se quer continuar lendo o texto ou não.</li>
+</ul>
+<p>A motivação e a justificativa são feitas explicando:</p>
+<ul>
+<li>por que o tópico do trabalho é relevante;</li>
+<li>por que soluções existentes não resolvem o problema (se existisse uma solução que você conseguisse instalar e rodar em 5min, você não precisaria ter feito o projeto, concorda?).</li>
+</ul>
+<section id="estrutura-da-introdução" class="level3">
+<h3 class="anchored" data-anchor-id="estrutura-da-introdução">Estrutura da Introdução</h3>
+<p><strong>1-3 parágrafos:</strong> Explicação de porque o tópico é relevante. Traga estatísticas e números que expliquem o impacto da área.</p>
+<p><strong>1-3 parágrafos:</strong> Descrição de como outros trabalhos abordaram o problema e porque estas soluções são insuficientes. Depois de escrever a seção de trabalhos relacionados, fica fácil escrever estes parágrafos. Basta resumir e fazer uma análise crítica.</p>
+<p><strong>1-2 parágrafo:</strong> Resumo do que você fez, como foi a metodologia experimental e os principais resultados. Começa com “Portanto, este trabalho propõe (…)”.</p>
+<p><strong>[Opcional] Contribuições:</strong> Listagem (tipicamente em bullet points) das principais contribuições do trabalho. Começa com “Com isto, as principais contribuições deste trabalho são: (…)”. É mais comum em artigos enviados para periódicos.</p>
+<p><strong>[Opcional] Organização do Trabalho:</strong> Descrição do que é explicado nas próximas seções ou capítulos do trabalho. A introdução não é mencionada. Cada seção ou capítulo é descrito em uma frase. Segue a estrutura “O trabalho está organizado como indicado a seguir. O capítulo 2 descreve os conceitos fundamentais para compreender o trabalho. O capítulo 3 traz o sistema proposto e como suas etapas são implementadas. (…)”. Nos TCCs, existe uma seção específica para isto na introdução.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/filipemtz\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
