@@ -6,12 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paulo Rauber">
-<meta name="author" content="Avinash Ummadisingu">
-<meta name="author" content="Filipe Mutz">
-<meta name="author" content="Jüergen Schmidhuber">
 
-<title>Hindsight Policy Gradients – Filipe Mutz</title>
+<title>Links Úteis – Filipe Mutz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -27,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../..//assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../assets/css/styles.css">
-<meta property="og:title" content="Hindsight Policy Gradients – Filipe Mutz">
+<link rel="stylesheet" href="../assets/css/styles.css">
+<meta property="og:title" content="Links Úteis – Filipe Mutz">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Filipe Mutz">
 </head>
@@ -88,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Filipe Mutz</span>
     </a>
   </div>
@@ -99,23 +95,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/publications.html"> 
+    <a class="nav-link" href="../pages/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/projects.html"> 
+    <a class="nav-link" href="../pages/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/teaching.html"> 
+    <a class="nav-link" href="../pages/teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/supervision.html"> 
+    <a class="nav-link" href="../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
 </ul>
@@ -134,37 +130,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#courses" id="toc-courses" class="nav-link active" data-scroll-target="#courses">Courses</a></li>
+  <li><a href="#programming" id="toc-programming" class="nav-link" data-scroll-target="#programming">Programming</a></li>
+  <li><a href="#comandos-do-terminal" id="toc-comandos-do-terminal" class="nav-link" data-scroll-target="#comandos-do-terminal">Comandos do Terminal</a></li>
+  <li><a href="#makefiles" id="toc-makefiles" class="nav-link" data-scroll-target="#makefiles">Makefiles</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hindsight Policy Gradients</h1>
+<h1 class="title">Links Úteis</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Paulo Rauber </p>
-             <p>Avinash Ummadisingu </p>
-             <p>Filipe Mutz </p>
-             <p>Jüergen Schmidhuber </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2019/01/01</p>
-    </div>
-  </div>
   
     
   </div>
@@ -174,9 +164,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://iclr.cc/Conferences/2019/Schedule?showEvent=891">Check out the paper!</a></p>
+<p>This page contains links to content that might be useful for students, teachers and enthusiastics of computing. Most of the items are in <strong>PT-BR</strong>.</p>
+<section id="courses" class="level2">
+<h2 class="anchored" data-anchor-id="courses">Courses</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=pmAxIs5U1KI&amp;list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq">Curso de Bancos de Dados da UNIVESP 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=6HenZN8HvC4&amp;list=PLxI8Can9yAHeZcEzZElhxwsQTf9MaG6sS&amp;index=1">Curso de Bancos de Dados da UNIVESP 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=tHXO_j4RfGw&amp;list=PLxI8Can9yAHewZWSrlhpId71bk5N_W7W1">Curso de Programação Orientada a Objetos da UNIVESP no Youtube</a>.</li>
+</ul>
+</section>
+<section id="programming" class="level2">
+<h2 class="anchored" data-anchor-id="programming">Programming</h2>
+<ul>
+<li><a href="https://wiki.python.org/moin/TimeComplexity">Estruturas de dados em Python e suas complexidades</a>,</li>
+<li><a href="https://cplusplus.com/reference/map/map/">Documentação das funções e classes definidas na biblioteca padrão de C/C++, incluindo vários exemplos de código e complexidade das operações</a></li>
+</ul>
+</section>
+<section id="comandos-do-terminal" class="level2">
+<h2 class="anchored" data-anchor-id="comandos-do-terminal">Comandos do Terminal</h2>
+<ul>
+<li><a href="https://www.bosontreinamentos.com.br/distros/lista-de-comandos-do-prompt-do-windows/">Windows</a></li>
+<li><a href="https://www.hostinger.com/br/tutoriais/comandos-linux">Linux</a></li>
+</ul>
+</section>
+<section id="makefiles" class="level2">
+<h2 class="anchored" data-anchor-id="makefiles">Makefiles</h2>
+<ul>
+<li><a href="https://devhints.io/makefile">Makefile cheatsheet</a>: Resumão em uma página dos principais comandos para criação de makefiles.</li>
+<li><a href="https://embarcados.com.br/introducao-ao-makefile/">Introdução ao makefile</a>: Blog post em português explicando os fundamentos de uso de makefiles.</li>
+<li><a href="https://www.gnu.org/software/make/manual/make.html">Documentação do comando make</a>: Manual do comando make e instruções de como construir makefiles.</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -589,4 +609,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

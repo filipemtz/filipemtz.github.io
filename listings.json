@@ -52,6 +52,13 @@
     ]
   },
   {
+    "listing": "/pages/projects.html",
+    "items": [
+      "/pages/projects/2024-life/index.html",
+      "/pages/projects/2023-Testr2/index.html"
+    ]
+  },
+  {
     "listing": "/pages/posts.html",
     "items": [
       "/pages/posts/2024-10-26-game-dev/index.html",
