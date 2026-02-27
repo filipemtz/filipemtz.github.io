@@ -15,14 +15,14 @@ website:
       - href: index.qmd
         text: Home
       - pages/publications.qmd
-      #- pages/projects.qmd
+      - pages/projects.qmd
       - pages/teaching.qmd
       - pages/supervision.qmd
       #- pages/posts.qmd
 
 format:
   html:
-    date-format: "yyyy/MM/dd"
+    date-format: "YYYY/MM/DD"
     theme: cerulean
     css: /assets/css/styles.css
     toc: true

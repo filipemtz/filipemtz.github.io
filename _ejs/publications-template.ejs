@@ -21,9 +21,10 @@
                 <div class="metadata-value listing-pub-journal listing-publication">
                     <% if (item.journ) { %>
                         <i>
-                            <%= item.journ %>
+                            <%= item.journ %>.
                         </i>
-                        <% if (item.year) { %> (<%= item.year %>)<% } %><br>
+                        <% if (item.year) { %>
+                            <%= item.year %>.<% } %><br>
                                     <% } %>
                 </div>
             </div>

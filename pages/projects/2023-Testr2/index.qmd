@@ -1,0 +1,16 @@
+---
+title: "Testr-2"
+description: "Sistema Computacional e Base de Dados de Atividades para Apoio Didático-Pedagógico ao Ensino de Disciplinas de Programação"
+date: "2023/01/01"
+author:
+    - "Filipe Mutz"
+    - "Nathan Garcia Freitas"
+    - "Jullie de Castro Quadros"
+categories:
+    - web
+    - autograde
+---
+
+Este projeto tem como objetivo geral construir e popular com atividades um sistema computacional em que estudantes possam realizar atividades de programação com correção automática. O uso de tais sistemas para apoio às disciplinas de programação permite que os estudantes realizem de grandes quantidades de atividades e a correção automática dá ao aluno a capacidade de autoavaliar seu progresso nas disciplinas. Eles permitem ainda que pontos de dificuldade sejam identificadas de forma que juntos, docentes e discentes, possam desenhar estratégias de estudo para superar estas dificuldades.
+
+**Financiamento**: Edital Edital Prograd/Ufes nº 043/2023

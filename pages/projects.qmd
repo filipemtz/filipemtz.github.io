@@ -1,14 +1,8 @@
 ---
-title: Projects
+title: "Projects"
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  categories: true
 ---
-
-
-
-## Testr2: Sistema Computacional e Base de Dados de Atividades para Apoio Didático-Pedagógico ao Ensino de Disciplinas de Programação (Edital Edital Prograd/Ufes nº 043/2023)
-
-Este projeto tem como objetivo geral construir e popular com atividades um sistema computacional em que estudantes possam realizar atividades de programação com correção automática. O uso de tais sistemas para apoio às disciplinas de programação permite que os estudantes realizem de grandes quantidades de atividades e a correção automática dá ao aluno a capacidade de autoavaliar seu progresso nas disciplinas. Eles permitem ainda que pontos de dificuldade sejam identificadas de forma que juntos, docentes e discentes, possam desenhar estratégias de estudo para superar estas dificuldades.
-
-## [Infraestrutura para Projetos Interdisciplinares de Informática Aplicada à Saúde (Edital FAPES Nº 21/2022)](http://www.fmtz.com.br/2024/03/01/life.html)
-
-O objetivo geral deste projeto foi criar, equipar e divulgar um laboratório multidisciplinar de informática aplicada à saúde com intuito de promover a integração de especialistas e potencializar o ensino, pesquisa, extensão, inovação e desenvolvimento tecnológico nestas áreas. Como resultado do projeto, foi criado o [Laboratório de Inteligência Artificial em Saúde (Life)](https://life.inf.ufes.br/) atualmente localizado na sala 27 do prédio CT-13.
-
