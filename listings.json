@@ -2,6 +2,7 @@
   {
     "listing": "/pages/publications.html",
     "items": [
+      "/pages/publications/2026_leticia_exploring_question_answering_metrics/index.html",
       "/pages/publications/2025_davila_solar-flare-prediction-using/index.html",
       "/pages/publications/2025_mucciaccia_automatic-multiple-choice-question-generation/index.html",
       "/pages/publications/2025_mucciaccia_pt-hotpotqa--evaluating-multi-hop-question/index.html",
@@ -52,13 +53,6 @@
     ]
   },
   {
-    "listing": "/pages/projects.html",
-    "items": [
-      "/pages/projects/2024-life/index.html",
-      "/pages/projects/2023-Testr2/index.html"
-    ]
-  },
-  {
     "listing": "/pages/posts.html",
     "items": [
       "/pages/posts/2024-10-26-game-dev/index.html",
@@ -71,6 +65,13 @@
       "/pages/posts/2022-02-28-computadores-experimentos/index.html",
       "/pages/posts/2022-02-28-configuracao-basica/index.html",
       "/pages/posts/2022-02-28-quick-tips/index.html"
+    ]
+  },
+  {
+    "listing": "/pages/projects.html",
+    "items": [
+      "/pages/projects/2024-life/index.html",
+      "/pages/projects/2023-Testr2/index.html"
     ]
   },
   {

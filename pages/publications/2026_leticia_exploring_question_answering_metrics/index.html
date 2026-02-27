@@ -6,12 +6,15 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Isabella Borba Pillotti">
-<meta name="author" content="Bernardo Vargas Broedel">
+<meta name="author" content="Letícia C. Navarro">
+<meta name="author" content="Sérgio S. Mucciaccia">
 <meta name="author" content="Filipe Mutz">
-<meta name="author" content="Aline N Pessoa Almeida">
+<meta name="author" content="Thiago M. Paixão">
+<meta name="author" content="Claudine Badue">
+<meta name="author" content="Alberto F. De Souza">
+<meta name="author" content="Thiago Oliveira-Santos">
 
-<title>Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada – Filipe Mutz</title>
+<title>Exploring Question Answering: Metric Analysis and Evaluation Framework for Enhanced Interpretability – Filipe Mutz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,9 +78,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
-<meta property="og:title" content="Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada – Filipe Mutz">
+<meta property="og:title" content="Exploring Question Answering: Metric Analysis and Evaluation Framework for Enhanced Interpretability – Filipe Mutz">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://filipemtz.github.io/pages/publications/2026_leticia_exploring_question_answering_metrics/2026-lets-system.png">
 <meta property="og:site_name" content="Filipe Mutz">
+<meta property="og:image:height" content="234">
+<meta property="og:image:width" content="937">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -133,16 +139,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada</h1>
-</div>
+<h1 class="title">Exploring Question Answering: Metric Analysis and Evaluation Framework for Enhanced Interpretability</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">LLM</div>
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">Evaluation of Question Answering Systems</div>
+  </div>
+  </div>
 
 
 
@@ -151,17 +169,20 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Isabella Borba Pillotti </p>
-             <p>Bernardo Vargas Broedel </p>
+             <p>Letícia C. Navarro </p>
+             <p>Sérgio S. Mucciaccia </p>
              <p>Filipe Mutz </p>
-             <p>Aline N Pessoa Almeida </p>
+             <p>Thiago M. Paixão </p>
+             <p>Claudine Badue </p>
+             <p>Alberto F. De Souza </p>
+             <p>Thiago Oliveira-Santos </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024/01/01</p>
+      <p class="date">2026/02/27</p>
     </div>
   </div>
   
@@ -173,9 +194,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Link to the paper is coming soon.</p>
+<p><em>Link to the paper is coming soon!</em></p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>The work surveys and compares empirically metrics and frameworks for evaluating open-ended question answering systems. It also proposes a new evaluation methodology that overcomes limitations of previous methods.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="2026-lets-system.png" class="img-fluid figure-img"></p>
+<figcaption>Overview of the evaluation framework. The model generates a free-text answer, which is compared to all MCQA options using a similarity metric (e.g., BLEU, BERTScore, LLM-based scoring). The most similar alternative is selected and evaluated against the ground-truth answer.</figcaption>
+</figure>
+</div>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Evaluating open-ended question answering (QA) remains challenging, as traditional metrics often fail to reflect semantic correctness, especially in cases with paraphrastic variation or multiple valid answers. To deal with this challenge, we propose Score2Choice, a structured evaluation framework that reformulates QA evaluation as a multiple-choice selection task. This setup enables similarity-based metrics to be interpreted via accuracy, enhancing transparency and comparability. To support this approach, we introduce WikiTrapQA, a new MCQA dataset built from recent Wikipedia content and enriched with paraphrased and adversarial answers. Alongside a reformulated version of TruthfulQA, this dataset allows us to systematically compare lexical, semantic, and LLM-based metrics. A preliminary score distribution analysis reveals that many metrics struggle to distinguish correct from incorrect answers based on similarity scores alone. Experimental results show that LLM-based methods, in our case LLaMA 3, achieve the highest discriminative performance, while Sentence-BERT and BARTScore emerge as strong non-LLM alternatives. Our findings highlight the limitations of surface-level metrics and demonstrate the value of Score2Choice as a reproducible and interpretable framework for QA evaluation.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -587,4 +622,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
