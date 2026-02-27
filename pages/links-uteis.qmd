@@ -1,0 +1,32 @@
+---
+title: Links Úteis
+---
+
+This page contains links to content that might be useful for students, teachers and enthusiastics of computing. Most of the items are in **PT-BR**.
+
+
+## Courses
+
+- [Curso de Bancos de Dados da UNIVESP 1](https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq)
+- [Curso de Bancos de Dados da UNIVESP 2](https://www.youtube.com/watch?v=6HenZN8HvC4&list=PLxI8Can9yAHeZcEzZElhxwsQTf9MaG6sS&index=1)
+- [Curso de Programação Orientada a Objetos da UNIVESP no Youtube](https://www.youtube.com/watch?v=tHXO_j4RfGw&list=PLxI8Can9yAHewZWSrlhpId71bk5N_W7W1).
+
+
+## Programming
+
+- [Estruturas de dados em Python e suas complexidades](https://wiki.python.org/moin/TimeComplexity),
+- [Documentação das funções e classes definidas na biblioteca padrão de C/C++, incluindo vários exemplos de código e complexidade das operações](https://cplusplus.com/reference/map/map/)
+
+
+## Comandos do Terminal
+
+- [Windows](https://www.bosontreinamentos.com.br/distros/lista-de-comandos-do-prompt-do-windows/)
+- [Linux](https://www.hostinger.com/br/tutoriais/comandos-linux)
+
+
+## Makefiles
+
+- [Makefile cheatsheet](https://devhints.io/makefile): Resumão em uma página dos principais comandos para criação de makefiles.
+- [Introdução ao makefile](https://embarcados.com.br/introducao-ao-makefile/): Blog post em português explicando os fundamentos de uso de makefiles.
+- [Documentação do comando make](https://www.gnu.org/software/make/manual/make.html): Manual do comando make e instruções de como construir makefiles.
+

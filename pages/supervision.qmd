@@ -25,6 +25,8 @@ listing:
 
 Prospective students interested in supervision are welcome to contact me.
 
+Check out the [useful links](links-uteis.qmd).
+
 ## Alumni
 
 I have worked closely with exceptional students, many of whom have gone on to excel in research, industry, and entrepreneurship.
