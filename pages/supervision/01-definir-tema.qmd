@@ -12,7 +12,7 @@ A escolha do tema deve ser realizada em uma conversa entre aluno e orientador pa
 
 Um bom tema de TCC cumpre os seguintes critérios:
 
-- **Tem o potencial de trazer benefícios para um grupo de pessoas**: Tornar processos automáticos, mais eficientes ou mais precisos, viabilizar novas aplicações ou novos estudos, trazer novas informações sobre fenômenos, etc..
+- **Tem o potencial de trazer benefícios para um grupo de pessoas**: Tornar processos automáticos, mais eficientes ou mais precisos, viabilizar novas aplicações ou novos estudos, trazer novas informações sobre fenômenos, etc.
 - **Requer o uso do conhecimento de duas ou mais disciplinas do curso**.
 - **Equivale a pelo menos um semestre de trabalho**: O seu TCC deve ter pelo menos o nível de dificuldade de uma disciplina de programação (e.g., estruturas de dados, programação orientada a objetos, etc.).
 
