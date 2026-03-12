@@ -1,0 +1,22 @@
+---
+title: Escrita de Referencial Teórico
+---
+
+O capítulo de referencial teórico tem como objetivo explicar para o leitor os conceitos necessários para compreender o trabalho. Ele é organizado em seções que agrupam conceitos  relacionados. O que será dito nas seções vai ser diferente para cada projeto.
+
+Você deve, sempre que possível, usar figuras para auxiliar as explicações e apresentar a formulação matemática dos principais conceitos. Lembre-se referenciar os artigos/livros de onde as figuras foram extraídas e que contenham explicações mais detalhadas dos conceitos.
+
+Veja trabalhos anteriores para avaliar o nível de profundidade e o formato esperado para as explicações.
+
+**Exemplo 1**: Em um texto sobre detecção de objetos, a sequência de seções poderia ser algo como:
+
+- Redes neurais para visão: explica CNNs e Vision Transformers.
+- Arquiteturas para detecção de objetos: explica arquiteturas usadas no trabalho, e.g., YOLO e DETR.
+- Funções de perda e métricas de avaliação para detecção de objetos.
+
+**Exemplo 2**: Em um texto sobre detecção de hemorragias em tomografias computadorizadas, as seções poderiam ser algo como:
+
+- Tomografias computadorizadas: explica como o exame é realizado e formato dos dados produzidos.
+- Redes neurais para visão: explica CNNs e Vision Transformers.
+- Arquiteturas para identificação de hemorragias: explica como CNNs e Transformers ser usados para identificar hemorragias em um slice de tomografia e como modelos de sequência (LSTMs ou Transformers) podem ser usados para integrar informações entre slices.
+

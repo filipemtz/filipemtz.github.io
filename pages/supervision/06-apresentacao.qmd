@@ -1,0 +1,33 @@
+---
+title: Preparação e Realização da Apresentação
+---
+
+A defesa de TCC pode ser feita presencialmente (na Ufes) ou remotamente (mais comum). Ela é  pública e o aluno pode convidar amigos e familiares para assistir.
+
+Os membros da banca devem ser professores com formação relacionada ao tópico de estudo do projeto e podem ser escolhidos em uma conversa entre aluno e orientador. É papel do orientador entrar em contato para convidar os membros da banca, definir o dia e horário e enviar o texto para a banca. O aluno deve evitar enviar diretamente o texto que não correr o risco de enviar uma versão do documento que o orientador ainda não considera adequada.
+
+## Preparação da Apresentação
+
+Não existe um template de apresentação. O aluno tem liberdade quanto ao estilo dentro da razoabilidade e do bom senso.
+
+- A apresentação deve ser construída usando preferencialmente textos, figuras e tabelas extraídas do texto enviado para a banca.
+- Por isto, comece a apresentação apenas depois de finalizar a revisão.
+- Estatísticas apontam que pessoas usam em média 1min por slide de apresentação. Use esta estimativa para definir o número ideal de slides para sua apresentação.
+- Priorize o uso de figuras e tabelas. Adicione apenas o texto necessário e suficiente para você lembrar do que precisa falar.
+- O foco da apresentação (maior parte do tempo e dos slides) deve ser o que você fez, isto é, desenvolvimento e avaliação experimental. A introdução deve receber atenção especial também por ser a motivação para realização do projeto.
+- Trabalhos relacionados que não forem utilizados em comparações podem ser omitidos.
+- Conceitos do Referencial teórico podem ser descritos rapidamente e apenas é necessário explicar o que é importante para compreender o desenvolvimento e avaliação experimental.
+- Faça pelo uma apresentação treino para medir quanto tempo a apresentação está tomando. Grave o que você está falando e, para simular a apresentação, caso esqueça alguma coisa ou se embole em alguma explicação, não pare e se vire nos 30 para continuar.
+
+## Defesa
+
+O dia de apresentação seguirá o seguinte fluxo:
+
+- Orientador faz abertura.
+- Aluno faz apresentação com duração de 30 a 40 minutos.
+- Banca faz perguntas e sugestões de melhoria.
+- Orientador abre para perguntas da audência.
+- A banca se reúne para definir se o projeto será aprovado ou não e qual nota será atribuída. A nota considera a metodologia científica utilizada, conhecimentos demonstrados, qualidade do texto e a apresentação. Os avaliadores e o orientador dão suas opiniões e discutem até chegar a um consenso quanto à nota.
+- A banca retorna e o orientador anuncia o resultado da avaliação.
+
+Depois da defesa, o aluno deve corrigir o texto seguindo as orientações da banca e são produzidos os documentos de finalização.
