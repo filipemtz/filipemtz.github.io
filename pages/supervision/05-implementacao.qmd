@@ -2,5 +2,75 @@
 title: Implementação
 ---
 
-A implementação será considerada pronta apenas se for entregue um repositório contendo todo o código-fonte necessário para, automaticamente, reproduzir os experimentos e gerar tabelas e gráficos de resultados.
+Esta é a fase onde você desenvolve uma implementação computacional da sua proposta.
 
+A tarefa será considerada pronta apenas se for entregue um repositório contendo todo o código-fonte necessário para, automaticamente, reproduzir os experimentos e gerar tabelas e gráficos de resultados. O repositório deve conter ainda um README descrevendo como instalar dependências e rodar os scripts.
+
+## Organização do Código
+
+Faça a implementação com carinho e tenha em mente que você pode usar ele como parte do seu portfólio e que outros estudantes podem continuar o trabalho de onde você parou. Use um estilo consistente, modularize o código enquanto desenvolve e tente mantê-lo simples (evite *over-engineering*), correto e organizado. Organize arquivos em hierarquias de diretórios.
+
+Em 100% dos casos é necessário produzir novas versões dos gráficos para ajustar itens de formatação como tamanho da fonte, posicionamento de textos ou cores. Também é frequente a necessidade rodar os testes de novo depois de corrigir *bugs* ou ajustar o código-fonte. Para evitar problemas:
+
+- **Organize as etapas lentas em scripts separados que salvem os resultados das execuções** em arquivos de forma que só seja necessário passar por cada uma delas uma vez.
+- Para evitar trabalho manual e risco de erros humanos, **mudanças em hiperparâmetros ou demais opções de execução devem ser feitas usando arquivos de configuração**.
+- Rodar os experimentos deve ser tão simples quanto executar um programa passando um arquivo de configuração como argumento.
+- Salve os resultados em um formato que torne fácil produzir gráficos e tabelas de resultados. Estes dados são sagrados! Guarde eles com carinho!
+- Sugiro o formato `.yaml` e a biblioteca [pyyaml](https://pyyaml.org/wiki/PyYAMLDocumentation) para os arquivos de configuração. **Salve estes arquivos junto com os resultados dos respectivos experimentos para seja fácil inspecionar a configuração que gerou os resultados**.
+
+## Planejamento de Experimentos
+
+Experimentos servem para avaliar a sua implementação e responder perguntas. Em IA, perguntas a serem  respondidas tipicamente são:
+
+- Como seu método se compara com métodos pré-existentes quantitativamente? Ele é melhor, pior ou equivalente?
+- Além das métricas, seu sistema funciona bem frente a alguns casos de teste? Em que situações ele funciona e em que situações ele falha?
+- Se o seu método tem hiperparâmetros, o que sensíveis as métricas são a estes hiperparâmetros? A calibração tem que ser feita com muito cuidado ou existem alguns valores que tendem a quase sempre funcionar bem?
+- Como o tempo de execução e uso de recursos (memória, computação, etc.) do seu método se compara com outros pré-existentes?
+- Como a robustez (resistência a ruídos na entrada) se compara com outros pré-existente?
+- Se seu método tem vários componentes, o quanto cada componente contribui para a performance final? Se eu retirar um componente, a performance piora muito ou praticamente não faz diferença? Se não fizer diferença, é uma oportunidade de simplificar a solução.
+
+Na maioria dos casos não vamos conseguir responder a todas estas perguntas. Vamos priorizar algumas considerando a argumentação usada na introdução.
+
+- Se a proposta é fazer um método mais rápido, o foco será em mostrar que o speed-up mantendo a performance preditiva (e.g., acurácia).
+- Se a proposta é fazer um método mais leve ou que rode em dispositivos de borda, o foco será mostrar redução na demanda por recursos mantendo a performance.
+- Se a proposta é um método mais preciso, o foco serão métricas de performance preditiva.
+
+## Comparações com Trabalhos Relacionados
+
+Caso seus experimentos envolvam uma comparação com outros métodos, verifique se existem repositórios contendo implementações oficiais dos artigos e execute sua implementação no mesmo setup usado no artigo de referência. O objetivo é que a troca de um método por outro seja a única explicação possível para mudanças na performance. Se você usar outro dataset, por exemplo, o seu método pode ter uma performance melhor porque de fato é melhor ou porque o dataset é mais fácil. Já se for exatamente o mesmo dataset, a dúvida deixa de existir.
+
+Se o tempo ou a quantidade de recursos necessários para rodar o código do projeto anterior for muito grande, você pode ajustar o seu setup para ser igual ao do artigo e reportar as métricas descritas pelos autores no artigo. Esta solução tende a ser mais fácil.
+
+## Preparação para Experimentos
+
+Antes de executar os experimentos, valide que eles fazem sentido com seu orientador.
+
+Para cada experimento, responda brevemente às seguintes perguntas:
+
+- Que pergunta você quer responder?
+- Qual sua hipótese, isto é, o que você espera que aconteça?
+- Qual será a metodologia, isto é, que passos você vai seguir para avaliar se a hipótese foi validada?
+- Quanto tempo você acha que os testes vão demorar? O tempo é viável?
+
+Com base no que você leu nos trabalhos relacionados, faça um **checklist** de coisas que precisam ser verificadas antes de rodar os experimentos para ter certeza que eles são comparáveis com os outros trabalhos. Exemplo de coisas tipicamente verificadas em IA:
+
+- Você está usando as mesmas bases de dados de outros trabalhos?
+- Os dados estão sendo pré-processados do mesmo jeito?
+- Existem conjuntos de dados separados para treino, calibração de hiperparâmetros (conjunto de validação) e cálculo de métricas finais (conjunto de teste)?
+- Você está salvando resultados de forma a conseguir calcular métricas, produzir figuras e tabelas, e realizar análises compatíveis com outros trabalhos da área?
+- Existe algum trecho de código que você não tem certeza que está certo? Se sim, faça uma sessão de estudos e converse com seu orientador ou com pessoas mais experientes.
+
+## Execução e **Análise**
+
+Execute os experimentos. Para cada um deles, responda as perguntas abaixo e junte com as respostas do começo.
+
+- O que os resultados mostraram?
+- Qual foi o melhor método em cada caso? Qual foi o pior? Como seu método ficou?
+- Aconteceu o que você esperava ou os resultados foram surpreendentes?
+- Como você explica os resultados positivos ou negativos?
+- Se foi uma análise qualitativa, quais as possíveis explicações para os casos de sucesso e falha?
+- Coloque o chapeu de advogado do diabo e faça uma análise crítica cuidadosa dos seus experimentos. Existem explicações para os resultados além da sua hipótese inicial? Existe possibilidade de viés em algum lugar? Quais limitações você consegue identificar que limitam a qualidade e generalidade dos testes?
+
+Tendo as respostas das perguntas, será fácil escrever a seção de experimentos do seu texto. Basicamente, cada experimento irá virar uma seção contendo as respostas às perguntas em formato de parágrafo.
+
+Se os resultados foram consistentes com a proposta da introdução, a etapa foi concluída. Caso contrário, levante possibilidades de explicação (bug no código, viés imprevisto, pré-processamento errado, etc.), pense como você pode verificar a possibilidade e faça mais testes. Quando necessário, ajuste o código e repita o processo. Seu orientador é uma boa fonte de *insights*.

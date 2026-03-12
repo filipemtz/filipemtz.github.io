@@ -103,6 +103,14 @@ Anote em uma lista de coisas que você precisaria estudar depois para entender e
 A tendência é que os percentuais aumentem à medida que você trabalha no projeto e perceber isto gera   motivação e sentimento de progresso.
 :::
 
+Em projetos da área de IA, seria comum anotar coisas como:
+
+- Os trabalhos usam a métrica X. Como ela é calculada e o que ela significa intuitivamente?
+- Os trabalhos usam a baes de dados X. Como baixo a base e qual é o formato dela?
+- São usadas as técnicas de regularização ou pré-processamento X e Y. O que elas fazem e como posso implementar?
+- Os trabalhos falam de conceito X que não entendo (e.g., modularity, compositionality, plasticity/stability dilemma, configuration space, etc.). Estudá-los.
+- Passo X do método não ficou claro. Buscar repositório de código para ver se ajuda a entender.
+
 ## Comunicando o Resultado das Leituras
 
 Para cada artigo, devem ser produzidos dois artefatos:

@@ -19,7 +19,7 @@ A fase de estudos em TCC-1 envolve a leitura de material de apoio como *blog pos
 
 O acompanhamento do projeto é realizado por comunicação eletrônica e **reuniões semanais** (presenciais ou remotas) com **duração média de 30min**. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.
 
-Para que as reuniões sejam produtivas, sempre traga:
+Para que as reuniões sejam produtivas, leia as instruções da etapa em que você vai trabalhar  aqui no site e sempre traga:
 
 - resumo do que você fez na semana passada;
 - plano do que vai fazer na próxima semana; e
@@ -64,12 +64,26 @@ Serão **aprovados**  apenas os alunos que concluírem **todos** os passos lista
 
 <!-- **Lembrar de adicionar técnicas de escrita como estruturar em tópicos para planejar e ter visão geral da argumentação, escrita top-down e escrita evolutiva (joga no papel sem se preocupar com estilo e depois refatora).** -->
 
+<!-- Todas as figuras e tabelas devem ser descritas -->
+
+<!-- Folha de capa com membros da banca, tabela de símbolos, agradecimento, frase épica, dedicatória, etc. -->
+
+<!-- Checklist pré-revisão: ortografia, figuras e tabelas referenciadas e descritas, legendas estão corretas, não existem referências repetidas, todas as referências são citadas no texto, todos os artigos citados estão nas referências -->
+
+Em caso de dúvida sobre questões de escrita como nível de profundidade esperado, tamanho ou formato, leia as instruções novamente, e passe o olho nos trabalhos relacionados e em projetos anteriores.
+
 1. [Escrever introdução](escrita/01-introducao.qmd) (~ 2 semanas).
-1. Escrever referencial teórico (~ 3 semanas).
-1. Escrever desenvolvimento (~ 1 mês).
-1. Escrever avaliação experimental (~ 1 mês).
-1. Escrever conclusão e resumo (~ 1 semana).
-2. Realizar revisão do texto (~ 2 semanas). É meu papel como orientador fazer uma avaliação crítica do trabalho neste ponto e, caso insuficiente, o aluno será reprovado e deverá continuar o processo no próximo semestre. Só prosseguirá para o próximo passo o aluno cujo trabalho alcançar um nível mínimo de qualidade. A participação nas reuniões de acompanhamento minimiza a chance de que um problema grave só seja detectado neste momento.
-3. Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar pronto para ser enviado para a banca.
-4.  Preparar e realizar apresentação.
-5. Comemorar com amigos e familiares.
+2. [Escrever referencial teórico](escrita/02-referencial-teorico.qmd) (~ 3 semanas).
+3. [Escrever desenvolvimento](escrita/04-desenvolvimento.qmd) (~ 1 mês).
+4. [Escrever avaliação experimental](escrita/05-experimentos.qmd) (~ 1 mês).
+5. Escrever [conclusão](escrita/06-conclusao.qmd) e [resumo](escrita/07-resumo.qmd) (~ 1 semana).
+6. Realizar revisão do texto (~ 2 semanas).
+7. Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar pronto para ser enviado para a banca.
+8.  Preparar e realizar [apresentação](06-apresentacao.qmd).
+9. Comemorar com amigos e familiares.
+
+::: {.callout-caution}
+## Reprovação em TCC-2
+
+É meu papel como orientador fazer uma **avaliação crítica do trabalho na etapa de revisão do texto**. Caso considerado insuficiente, o aluno será **reprovado**, não será realizada a defesa e a orientação continuará no próximo semestre. **Só irá para a defesa o aluno cujo trabalho alcançar um nível mínimo de qualidade**. A participação nas reuniões de acompanhamento minimiza a chance de que problemas graves sejam detectados tarde.
+:::
