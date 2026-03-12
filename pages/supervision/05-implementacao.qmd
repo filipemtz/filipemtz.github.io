@@ -60,7 +60,7 @@ Com base no que você leu nos trabalhos relacionados, faça um **checklist** de 
 - Você está salvando resultados de forma a conseguir calcular métricas, produzir figuras e tabelas, e realizar análises compatíveis com outros trabalhos da área?
 - Existe algum trecho de código que você não tem certeza que está certo? Se sim, faça uma sessão de estudos e converse com seu orientador ou com pessoas mais experientes.
 
-## Execução e **Análise**
+## Execução e Análise
 
 Execute os experimentos. Para cada um deles, responda as perguntas abaixo e junte com as respostas do começo.
 

@@ -54,7 +54,7 @@ Serão **aprovados**  apenas os alunos que concluírem **todos** os passos lista
 1. [Definir o tema junto com o orientador](01-definir-tema.qmd).
 2. [Ler artigos relacionados ao tema](02-leitura-artigos-relacionados.qmd).
 3. [Definir o cronograma de entregáveis](03-cronograma.qmd).
-4. Estudar os conceitos necessários para o projeto.
+4. [Estudar os conceitos fundamentais necessários para o projeto](04-estudo-fundamentos.qmd).
 5. [Implementar o código e realizar experimentos computacionais](05-implementacao.qmd).
 6. Escrita do relatório de protótipo.
 

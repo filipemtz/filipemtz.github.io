@@ -17,20 +17,20 @@ A descrição de um experimento segue o formato abaixo. Note que você **não** 
 
 **(Objetivo)**
 
-Este experimento realiza uma avaliação sistemática, em todo o conjunto de teste dos datasets, para verificar se o sistem é capaz de filtrar e contar documentos com *tags* específicas.
+*Este experimento realiza uma avaliação sistemática, em todo o conjunto de teste dos datasets, para verificar se o sistem é capaz de filtrar e contar documentos com tags específicas.*
 
 **(Metodologia)**
 
-Para isso, foi utilizada uma única pergunta como entrada, questionando se o documento está relacionado à tag (ou à lista de descrições de tags no caso do EURLEX57K). Em seguida, um script de contagem é usado para somar os resultados.
+*Para isso, foi utilizada uma única pergunta como entrada, questionando se o documento está relacionado à tag (ou à lista de descrições de tags no caso do EURLEX57K). Em seguida, um script de contagem é usado para somar os resultados.*
 
-O experimento utilizou as 9 tags do Restaurants, 13 tags do corpus Movies eng e as 20 tags mais frequentes do EURLEX57K, já que utilizar todas as tags seria inviável. O LLM utilizado foi o LLama3-70B sem quantização. Esse modelo foi escolhido por apresentar desempenho estado-da-arte entre aqueles que se encontram dentro dos limites de hardware disponíveis para o projeto. A acurácia na identificação das tags e o erro percentual de contagem foram medidos e macro-médios sobre todas as tags.
+*O experimento utilizou as 9 tags do Restaurants, 13 tags do corpus Movies eng e as 20 tags mais frequentes do EURLEX57K, já que utilizar todas as tags seria inviável. O LLM utilizado foi o LLama3-70B sem quantização. Esse modelo foi escolhido por apresentar desempenho estado-da-arte entre aqueles que se encontram dentro dos limites de hardware disponíveis para o projeto. A acurácia na identificação das tags e o erro percentual de contagem foram medidos e macro-médios sobre todas as tags.*
 
 **(Descrição dos Resultados)**
 
-A Tabela 3 compara as métricas alcançadas pelo sistema em diferentes datasets. Linhas representam os datasets Restaurants, Movies e EURLEX57K e colunas representam as métricas.
+*A Tabela 3 compara as métricas alcançadas pelo sistema em diferentes datasets. Linhas representam os datasets Restaurants, Movies e EURLEX57K e colunas representam as métricas.*
 
 **(Discussão, Conclusões e Análise Crítica)**
 
-Todas as métricas alcançaram valores razoáveis em todos os datasets. O erro percentual foi maior no EURLEX57K, indicando maior dificuldade nesse corpus mais amplo e complexo. Vale notar, no entanto, que *tags* com semântica semelhante são contabilizadas como erros (por exemplo, *“vegetable”*, *“common agricultural policy”*, *“cereals”*, etc.), enquanto algumas *tags* semanticamente relacionadas aos documentos não são atribuídas no dataset, como *“farming policies”* em documentos relacionados à produção de leite em pó desnatado.
+*Todas as métricas alcançaram valores razoáveis em todos os datasets. O erro percentual foi maior no EURLEX57K, indicando maior dificuldade nesse corpus mais amplo e complexo. Vale notar, no entanto, que tags com semântica semelhante são contabilizadas como erros (por exemplo, "vegetable", "common agricultural policy", "cereals", etc.), enquanto algumas tags semanticamente relacionadas aos documentos não são atribuídas no dataset, como "farming policies" em documentos relacionados à produção de leite em pó desnatado.*
 
 
