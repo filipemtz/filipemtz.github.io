@@ -6,12 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Paulo Rauber">
-<meta name="author" content="Avinash Ummadisingu">
-<meta name="author" content="Filipe Mutz">
-<meta name="author" content="Jüergen Schmidhuber">
 
-<title>Hindsight Policy Gradients – Filipe Mutz</title>
+<title>Definição do Tema do TCC – Filipe Mutz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -27,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../..//assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//assets/img/favicon/favicon-32x32.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-870b6070356b2f6ba798b4fc2bd491a6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../assets/css/styles.css">
-<meta property="og:title" content="Hindsight Policy Gradients – Filipe Mutz">
+<link rel="stylesheet" href="../../assets/css/styles.css">
+<meta property="og:title" content="Definição do Tema do TCC – Filipe Mutz">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Filipe Mutz">
 </head>
@@ -88,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Filipe Mutz</span>
     </a>
   </div>
@@ -99,23 +95,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/publications.html"> 
+    <a class="nav-link" href="../../pages/publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/projects.html"> 
+    <a class="nav-link" href="../../pages/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/teaching.html"> 
+    <a class="nav-link" href="../../pages/teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../pages/supervision.html"> 
+    <a class="nav-link" href="../../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
 </ul>
@@ -142,29 +138,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hindsight Policy Gradients</h1>
+<h1 class="title">Definição do Tema do TCC</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Paulo Rauber </p>
-             <p>Avinash Ummadisingu </p>
-             <p>Filipe Mutz </p>
-             <p>Jüergen Schmidhuber </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2019/01/01</p>
-    </div>
-  </div>
   
     
   </div>
@@ -174,7 +155,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://iclr.cc/Conferences/2019/Schedule?showEvent=891">Check out the paper!</a></p>
+<p>Definir um tema de pesquisa é uma das atividades mais desafiadoras pois requer conhecimento do estado-da-arte e experiência para avaliar a viabilidade da proposta.</p>
+<p>A escolha do tema deve ser realizada em uma conversa entre aluno e orientador para que, juntos, definam um tópico que seja:</p>
+<ul>
+<li>empolgante para o estudante;</li>
+<li>grande o suficiente para ser considerado um TCC; e</li>
+<li>pequeno o suficiente para que o aluno tenha segurança e previsibilidade.</li>
+</ul>
+<p>Um bom tema de TCC cumpre os seguintes critérios:</p>
+<ul>
+<li><strong>Tem o potencial de trazer benefícios para um grupo de pessoas</strong>: Tornar processos automáticos, mais eficientes ou mais precisos, viabilizar novas aplicações ou novos estudos, trazer novas informações sobre fenômenos, etc..</li>
+<li><strong>Requer o uso do conhecimento de duas ou mais disciplinas do curso</strong>.</li>
+<li><strong>Equivale a pelo menos um semestre de trabalho</strong>: O seu TCC deve ter pelo menos o nível de dificuldade de uma disciplina de programação (e.g., estruturas de dados, programação orientada a objetos, etc.).</li>
+</ul>
+<p>O TCC <strong>NÃO</strong> precisa ser gigante, revolucionário ou mudar o mundo.</p>
 
 
 
