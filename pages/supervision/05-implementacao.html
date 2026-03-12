@@ -130,8 +130,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#organização-do-código" id="toc-organização-do-código" class="nav-link active" data-scroll-target="#organização-do-código">Organização do Código</a></li>
+  <li><a href="#planejamento-de-experimentos" id="toc-planejamento-de-experimentos" class="nav-link" data-scroll-target="#planejamento-de-experimentos">Planejamento de Experimentos</a></li>
+  <li><a href="#comparações-com-trabalhos-relacionados" id="toc-comparações-com-trabalhos-relacionados" class="nav-link" data-scroll-target="#comparações-com-trabalhos-relacionados">Comparações com Trabalhos Relacionados</a></li>
+  <li><a href="#preparação-para-experimentos" id="toc-preparação-para-experimentos" class="nav-link" data-scroll-target="#preparação-para-experimentos">Preparação para Experimentos</a></li>
+  <li><a href="#execução-e-análise" id="toc-execução-e-análise" class="nav-link" data-scroll-target="#execução-e-análise">Execução e <strong>Análise</strong></a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -155,9 +165,78 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A implementação será considerada pronta apenas se for entregue um repositório contendo todo o código-fonte necessário para, automaticamente, reproduzir os experimentos e gerar tabelas e gráficos de resultados.</p>
+<p>Esta é a fase onde você desenvolve uma implementação computacional da sua proposta.</p>
+<p>A tarefa será considerada pronta apenas se for entregue um repositório contendo todo o código-fonte necessário para, automaticamente, reproduzir os experimentos e gerar tabelas e gráficos de resultados. O repositório deve conter ainda um README descrevendo como instalar dependências e rodar os scripts.</p>
+<section id="organização-do-código" class="level2">
+<h2 class="anchored" data-anchor-id="organização-do-código">Organização do Código</h2>
+<p>Faça a implementação com carinho e tenha em mente que você pode usar ele como parte do seu portfólio e que outros estudantes podem continuar o trabalho de onde você parou. Use um estilo consistente, modularize o código enquanto desenvolve e tente mantê-lo simples (evite <em>over-engineering</em>), correto e organizado. Organize arquivos em hierarquias de diretórios.</p>
+<p>Em 100% dos casos é necessário produzir novas versões dos gráficos para ajustar itens de formatação como tamanho da fonte, posicionamento de textos ou cores. Também é frequente a necessidade rodar os testes de novo depois de corrigir <em>bugs</em> ou ajustar o código-fonte. Para evitar problemas:</p>
+<ul>
+<li><strong>Organize as etapas lentas em scripts separados que salvem os resultados das execuções</strong> em arquivos de forma que só seja necessário passar por cada uma delas uma vez.</li>
+<li>Para evitar trabalho manual e risco de erros humanos, <strong>mudanças em hiperparâmetros ou demais opções de execução devem ser feitas usando arquivos de configuração</strong>.</li>
+<li>Rodar os experimentos deve ser tão simples quanto executar um programa passando um arquivo de configuração como argumento.</li>
+<li>Salve os resultados em um formato que torne fácil produzir gráficos e tabelas de resultados. Estes dados são sagrados! Guarde eles com carinho!</li>
+<li>Sugiro o formato <code>.yaml</code> e a biblioteca <a href="https://pyyaml.org/wiki/PyYAMLDocumentation">pyyaml</a> para os arquivos de configuração. <strong>Salve estes arquivos junto com os resultados dos respectivos experimentos para seja fácil inspecionar a configuração que gerou os resultados</strong>.</li>
+</ul>
+</section>
+<section id="planejamento-de-experimentos" class="level2">
+<h2 class="anchored" data-anchor-id="planejamento-de-experimentos">Planejamento de Experimentos</h2>
+<p>Experimentos servem para avaliar a sua implementação e responder perguntas. Em IA, perguntas a serem respondidas tipicamente são:</p>
+<ul>
+<li>Como seu método se compara com métodos pré-existentes quantitativamente? Ele é melhor, pior ou equivalente?</li>
+<li>Além das métricas, seu sistema funciona bem frente a alguns casos de teste? Em que situações ele funciona e em que situações ele falha?</li>
+<li>Se o seu método tem hiperparâmetros, o que sensíveis as métricas são a estes hiperparâmetros? A calibração tem que ser feita com muito cuidado ou existem alguns valores que tendem a quase sempre funcionar bem?</li>
+<li>Como o tempo de execução e uso de recursos (memória, computação, etc.) do seu método se compara com outros pré-existentes?</li>
+<li>Como a robustez (resistência a ruídos na entrada) se compara com outros pré-existente?</li>
+<li>Se seu método tem vários componentes, o quanto cada componente contribui para a performance final? Se eu retirar um componente, a performance piora muito ou praticamente não faz diferença? Se não fizer diferença, é uma oportunidade de simplificar a solução.</li>
+</ul>
+<p>Na maioria dos casos não vamos conseguir responder a todas estas perguntas. Vamos priorizar algumas considerando a argumentação usada na introdução.</p>
+<ul>
+<li>Se a proposta é fazer um método mais rápido, o foco será em mostrar que o speed-up mantendo a performance preditiva (e.g., acurácia).</li>
+<li>Se a proposta é fazer um método mais leve ou que rode em dispositivos de borda, o foco será mostrar redução na demanda por recursos mantendo a performance.</li>
+<li>Se a proposta é um método mais preciso, o foco serão métricas de performance preditiva.</li>
+</ul>
+</section>
+<section id="comparações-com-trabalhos-relacionados" class="level2">
+<h2 class="anchored" data-anchor-id="comparações-com-trabalhos-relacionados">Comparações com Trabalhos Relacionados</h2>
+<p>Caso seus experimentos envolvam uma comparação com outros métodos, verifique se existem repositórios contendo implementações oficiais dos artigos e execute sua implementação no mesmo setup usado no artigo de referência. O objetivo é que a troca de um método por outro seja a única explicação possível para mudanças na performance. Se você usar outro dataset, por exemplo, o seu método pode ter uma performance melhor porque de fato é melhor ou porque o dataset é mais fácil. Já se for exatamente o mesmo dataset, a dúvida deixa de existir.</p>
+<p>Se o tempo ou a quantidade de recursos necessários para rodar o código do projeto anterior for muito grande, você pode ajustar o seu setup para ser igual ao do artigo e reportar as métricas descritas pelos autores no artigo. Esta solução tende a ser mais fácil.</p>
+</section>
+<section id="preparação-para-experimentos" class="level2">
+<h2 class="anchored" data-anchor-id="preparação-para-experimentos">Preparação para Experimentos</h2>
+<p>Antes de executar os experimentos, valide que eles fazem sentido com seu orientador.</p>
+<p>Para cada experimento, responda brevemente às seguintes perguntas:</p>
+<ul>
+<li>Que pergunta você quer responder?</li>
+<li>Qual sua hipótese, isto é, o que você espera que aconteça?</li>
+<li>Qual será a metodologia, isto é, que passos você vai seguir para avaliar se a hipótese foi validada?</li>
+<li>Quanto tempo você acha que os testes vão demorar? O tempo é viável?</li>
+</ul>
+<p>Com base no que você leu nos trabalhos relacionados, faça um <strong>checklist</strong> de coisas que precisam ser verificadas antes de rodar os experimentos para ter certeza que eles são comparáveis com os outros trabalhos. Exemplo de coisas tipicamente verificadas em IA:</p>
+<ul>
+<li>Você está usando as mesmas bases de dados de outros trabalhos?</li>
+<li>Os dados estão sendo pré-processados do mesmo jeito?</li>
+<li>Existem conjuntos de dados separados para treino, calibração de hiperparâmetros (conjunto de validação) e cálculo de métricas finais (conjunto de teste)?</li>
+<li>Você está salvando resultados de forma a conseguir calcular métricas, produzir figuras e tabelas, e realizar análises compatíveis com outros trabalhos da área?</li>
+<li>Existe algum trecho de código que você não tem certeza que está certo? Se sim, faça uma sessão de estudos e converse com seu orientador ou com pessoas mais experientes.</li>
+</ul>
+</section>
+<section id="execução-e-análise" class="level2">
+<h2 class="anchored" data-anchor-id="execução-e-análise">Execução e <strong>Análise</strong></h2>
+<p>Execute os experimentos. Para cada um deles, responda as perguntas abaixo e junte com as respostas do começo.</p>
+<ul>
+<li>O que os resultados mostraram?</li>
+<li>Qual foi o melhor método em cada caso? Qual foi o pior? Como seu método ficou?</li>
+<li>Aconteceu o que você esperava ou os resultados foram surpreendentes?</li>
+<li>Como você explica os resultados positivos ou negativos?</li>
+<li>Se foi uma análise qualitativa, quais as possíveis explicações para os casos de sucesso e falha?</li>
+<li>Coloque o chapeu de advogado do diabo e faça uma análise crítica cuidadosa dos seus experimentos. Existem explicações para os resultados além da sua hipótese inicial? Existe possibilidade de viés em algum lugar? Quais limitações você consegue identificar que limitam a qualidade e generalidade dos testes?</li>
+</ul>
+<p>Tendo as respostas das perguntas, será fácil escrever a seção de experimentos do seu texto. Basicamente, cada experimento irá virar uma seção contendo as respostas às perguntas em formato de parágrafo.</p>
+<p>Se os resultados foram consistentes com a proposta da introdução, a etapa foi concluída. Caso contrário, levante possibilidades de explicação (bug no código, viés imprevisto, pré-processamento errado, etc.), pense como você pode verificar a possibilidade e faça mais testes. Quando necessário, ajuste o código e repita o processo. Seu orientador é uma boa fonte de <em>insights</em>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -570,4 +649,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
