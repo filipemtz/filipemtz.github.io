@@ -1,0 +1,6 @@
+---
+title: Implementação
+---
+
+A implementação será considerada pronta apenas se for entregue um repositório contendo todo o código-fonte necessário para, automaticamente, reproduzir os experimentos e gerar tabelas e gráficos de resultados.
+

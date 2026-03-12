@@ -2,66 +2,61 @@
 title: Trabalho de Conclusão de Curso
 ---
 
-Esta página descreve como é o processo de construção do TCC sob minha orientação.
+Os TCCs que oriento são no formato de pesquisa científica, inovadora ou de reprodução, e podem ser escritos em formato de **monografia** (maioria) ou **artigo científico**.
 
-## Informações Gerais
-
-Os TCCs que oriento são no formato desenvolvimento de **protótipo** (maioria) ou **artigo científico**. Embora artigos sejam mais curtos, eles devem ser publicáveis para que o projeto seja aprovado, então são esperados níveis mais altos de inovação e de avaliação experimental.
+Embora artigos sejam mais curtos, eles devem ser publicáveis para que o projeto seja aprovado, portanto deve ser proposto algo novo e deve ser realizada uma avaliação experimental mais robusta.
 
 O TCC foi pensado para ser desenvolvido em dois semestres:
 
-- **TCC-1:** Estudo dos conceitos necessários para o desenvolvimento do projeto, escrita do código-fonte e  realização de experimentos computacionais.
+- **TCC-1:** Estudo dos conceitos necessários para o desenvolvimento do projeto, escrita do código-fonte e  realização de experimentos computacionais. Ao final da disciplina, deve ser produzido um relatório.
 - **TCC-2:** Escrita da monografia e apresentação (defesa) de projeto. Por padrão, o código não é mais modificado neste semestre.
 
 ::: {.callout-tip}
 ## Algumas seções podem ser escritas em TCC-1
 
-A fase de estudos em TCC-1 envolve a leitura de material de apoio como *blog posts* e artigos científicos. O aluno pode optar por aproveitar que os conceitos e argumentos estão frescos na memória para escrever introdução, referencial teórico e partes da seção metodologia experimental.
+A fase de estudos em TCC-1 envolve a leitura de material de apoio como *blog posts* e artigos científicos. O aluno pode optar por aproveitar que os conhecimentos estão frescos na memória para escrever introdução, referencial teórico e partes da seção metodologia experimental.
 :::
 
-O acompanhamento do projeto é realizado por comunicação eletrônica e **reuniões semanais (presenciais ou remotas) com duração média de 30min**. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.
+O acompanhamento do projeto é realizado por comunicação eletrônica e **reuniões semanais** (presenciais ou remotas) com **duração média de 30min**. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.
 
 Para que as reuniões sejam produtivas, sempre traga:
+
 - resumo do que você fez na semana passada;
 - plano do que vai fazer na próxima semana; e
 - dúvidas, dificuldades ou obstáculos identificados (idealmente com um plano de como superá-los).
 
+[Templates em Latex](https://github.com/vitorsouza/latex-templates/tree/main) para o relatório de TCC-1 e para a monografia de TCC-2 foram criados e disponibilizados pelo Prof. Vitor Souza, à quem todos devem prestar agradecimento diário, de hoje até o fim dos tempos. É mandatório passar na sala dele pelo menos uma vez e agradecer pessoalmente.
+
+Atualmente, o melhor o sistema para escrita é o [Prism](https://prism.openai.com/), é uma alternativa grátis ao Overleaf.  Para começar a escrever, faça o download do repositório. coloque a pasta contendo o template de interesse em um arquivo .zip e faça o upload para o Prism. Por fim, compartilhe o projeto comigo.
+
 ## Documentos Importantes e Critérios de Aprovação
 
-Os procedimentos para aprovação nas disciplinas de TCC são ligeiramente diferentes dependendo do curso. As páginas abaixo descrevem os artefatos (documentos) que devem ser construídos em cada disciplina e seus prazos de entrega.
+As tarefas e os artefatos (documentos) que devem ser construídos em cada disciplina de TCC, além de  seus prazos de entrega, são diferentes dependendo do curso.
 
 - [Ciência da Computação](https://informatica.ufes.br/pt-br/graduacao/ccomp/projeto-de-gradua%C3%A7%C3%A3o).
 - [Engenharia da Computação](https://informatica.ufes.br/pt-br/trabalho-de-conclusao-de-curso)
 - Engenharia Elétrica: Os professores das disciplinas disponibilizarão documentos contendo as regras.
 
 ::: {.callout-caution}
-## Importante
+## Importante!
 
-**É sua responsabilidade garantir que todos os artefatos sejam produzidos e que os prazos sejam cumpridos! Sugiro adicionar lembretes no google agenda e manter a lista de artefatos em um local de fácil acesso.**
+É **sua responsabilidade** garantir que tarefas sejam cumpridas, artefatos sejam produzidos e prazos sejam cumpridos! Sugiro adicionar lembretes no google agenda e manter a lista de artefatos em um local de fácil acesso.
 :::
-
-[Templates em Latex](https://github.com/vitorsouza/latex-templates/tree/main) para o relatório de TCC-1 e para a monografia de TCC-2 foram criados e disponibilizados pelo Prof. Vitor Souza, à quem todos devem prestar agradecimento diário, de hoje até o fim de seus dias  🙏🙏. É mandatório passar na sala dele pelo menos uma vez e agradecer pessoalmente.
-
-Atualmente, o melhor o sistema para escrita é o [Prism](https://prism.openai.com/), é uma alternativa grátis ao Overleaf.  Para começar a escrever, faça o download do repositório. coloque a pasta contendo o template de interesse em um arquivo .zip e faça o upload para o Prism. Por fim, compartilhe o projeto comigo.
 
 ## Algoritmo do TCC
 
-Abaixo é descrito o fluxo a ser seguido nas disciplinas de TCC. Clique nos links e leia as instruções apenas quando for o momento de fazer as respectivas tarefas.
+Abaixo são descritos as sequências de passos a serem seguidos nas disciplinas de TCC. Não é necessário ler tudo agora! Clique nos links e leia as instruções apenas quando for o momento de fazer as tarefas.
+
+Serão **aprovados**  apenas os alunos que concluírem **todos** os passos listados. Dados de projetos anteriores mostram que a probabilidade de falha é diretamente proporcional ao número de semanas em que o aluno não demonstra progresso ou não participa da reunião de orientação. Não progredir ou desaparecer por mais de um mês faz com que a probabilidade de reprovação se aproxime perigosamente de 100%.
 
 ### TCC-1
 
-1. [Definir o tema junto com o orientador](01-definir-tema.md). *Critério de pronto*: tema definido.
-1. [Ler artigos relacionados ao tema](02-leitura-artigos-relacionados.qmd). *Critério de pronto*: Resumos escritos dos artigos e  apresentação.
-1. Definir o cronograma de entregáveis cobrindo as fases de estudo, desenvolvimento de código-fonte, realização de experimentos e escrita de relatório de protótipo. *Critério de pronto*: cronograma feito.
-2. Estudar os conceitos necessários para o projeto. *Critério de pronto*: Demonstração que você entendeu os conceitos. Pode ser uma apresentação, códigos de exemplo, etc.
-3. Implementar o código do seu projeto e realizar experimentos computacionais. *Critério de pronto*: Repositório contendo todo o código necessário para reproduzir os experimentos realizados e gerar automaticamente tabelas e gráficos de resultados.
-4. Escrita do relatório de protótipo. *Critério de pronto*:  entrega do relatório escrito e revisado.
-
-::: {.callout-caution}
-## Reprovação em TCC-1
-
-Será **aprovado** em TCC-1 apenas quem concluir **todos** os passos descritos acima. Dados de projetos anteriores mostram que a probabilidade de falha é diretamente proporcional ao número de semanas em que o aluno não demonstra progresso ou não participa da reunião de orientação. Não progredir ou desaparecer por mais de um mês faz com que a probabilidade de reprovação se aproxime perigosamente de 100%.
-:::
+1. [Definir o tema junto com o orientador](01-definir-tema.qmd).
+2. [Ler artigos relacionados ao tema](02-leitura-artigos-relacionados.qmd).
+3. [Definir o cronograma de entregáveis](03-cronograma.qmd).
+4. Estudar os conceitos necessários para o projeto.
+5. [Implementar o código e realizar experimentos computacionais](05-implementacao.qmd).
+6. Escrita do relatório de protótipo.
 
 ### TCC-2
 
@@ -74,7 +69,7 @@ Será **aprovado** em TCC-1 apenas quem concluir **todos** os passos descritos a
 1. Escrever desenvolvimento (~ 1 mês).
 1. Escrever avaliação experimental (~ 1 mês).
 1. Escrever conclusão e resumo (~ 1 semana).
-2. Realizar revisão do texto (~ 2 semanas). É meu papel como orientador fazer uma avaliação crítica do trabalho neste ponto e, caso insuficiente, o aluno será reprovado e deverá continuar o processo no próximo semestre. Só prosseguirá para o próximo passo o aluno cujo trabalho for considerado bom o suficiente. A participação nas reuniões de acompanhamento é importante para minimizar a chance de que um problema grave só seja detectado neste momento.
+2. Realizar revisão do texto (~ 2 semanas). É meu papel como orientador fazer uma avaliação crítica do trabalho neste ponto e, caso insuficiente, o aluno será reprovado e deverá continuar o processo no próximo semestre. Só prosseguirá para o próximo passo o aluno cujo trabalho alcançar um nível mínimo de qualidade. A participação nas reuniões de acompanhamento minimiza a chance de que um problema grave só seja detectado neste momento.
 3. Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar pronto para ser enviado para a banca.
 4.  Preparar e realizar apresentação.
 5. Comemorar com amigos e familiares.

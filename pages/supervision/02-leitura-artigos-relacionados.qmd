@@ -2,78 +2,67 @@
 title: Leitura de Artigos Relacionados
 ---
 
-A leitura dos artigos relacionados e o estudo dos conceitos fundamentais são as fases mais importantes do projeto. **Dê o seu melhor nelas**! O resultado mais valioso de qualquer projeto de pesquisa é o seu ganho de conhecimento especializado.
+As fases de leitura dos artigos relacionados e de estudo dos conceitos fundamentais são as mais importantes do projeto. **Dê o seu melhor nelas**! Seu aprendizado é um dos resultados mais valiosos do projeto.
 
-Nesta fase, você deve selecionar e ler de 5 a 10 artigos relacionados ao seu tema de pesquisa, sendo pelo menos um deles um survey (artigo que resume os desenvolvimentos recentes da área).
+Nesta fase, você deve selecionar e ler de 5 a 10 artigos relacionados ao seu tema de pesquisa, sendo pelo menos um deles um *survey*, um tipo de artigo que resume os desenvolvimentos recentes da área.
 
+Os **objetivos** que queremos alcançar ao ler os artigos são:
 
-## Objetivos
-
-Os **objetivos** desta fase são:
-
-- Se habituar às linhas de argumentação e à forma geral dos textos científicos da área;
-- Conhecer a metodologia experimental em uso na área; e
+- Se habituar às linhas de argumentação e à forma geral dos textos científicos da sua área de interesse;
+- Conhecer a metodologia experimental (como a pesquisa é feita) em uso da sua área de interesse; e
 - Identificar coisas novas que você precisa estudar e aprender.
 
-Abaixo detalho como selecionar os artigos, como alcançar cada um destes objetivos e, em seguida, como apresentar o resultado dos seus estudos para outras pessoas (e.g., seu orientador).
-
-::: {.callout-caution}
-## Leia todas as instruções antes de começar a ler os artigos!
-
 A leitura é mais efetiva se feita **com objetivo e de forma ativa**. Tenha em mente quais são suas perguntas e contantamente tente respondê-las. Esta forma de pensar te ajuda a focar no que realmente importa e passar rápido pelo que não é tão relevante no momento.
-:::
-
 
 ## Algoritmo
 
-- Selecionar 1-3 artigos iniciais.
-- Ler artigos iniciais e executar subrotina EscreverArtefatos para cada um deles.
-- Selecionar 3-5 artigos complementares usando o que você aprendeu.
-- Ler artigos complementares e executar subrotina EscreverArtefatos para cada um deles.
-- Apresentar resumos dos artigos para o orientador.
-- Adicionar seção de trabalhos relacionados no seu texto.
-- [Opcional, mas recomendado] Escrever introdução no seu texto.
-- Retornar itens a serem estudados e aprendizados sobre formato e metodologia para próximas fases.
+1. Selecionar 1-3 artigos iniciais.
+1. Ler artigos iniciais e executar subrotina EscreverArtefatos para cada um deles.
+1. Selecionar 3-5 artigos complementares usando o que você aprendeu.
+1. Ler artigos complementares e executar subrotina EscreverArtefatos para cada um deles.
+1. Apresentar resumos dos artigos para o orientador.
+1. Adicionar seção de trabalhos relacionados no seu texto.
+1. [Opcional, mas recomendado] [Escrever introdução](escrita/01-introducao.qmd).
+1. Retornar itens a serem estudados e aprendizados sobre formato e metodologia para próximas fases.
 
 Subrotina EscreverArtefatos:
-- Fazer um resumo do artigo para não precisar ler de novo e apresentar pontos principais para o orientador.
+
+- Fazer um resumo do artigo para não precisar lê-lo de novo e apresentar pontos principais para o orientador.
 -Escrever parágrafo para adicionar na seção de trabalhos relacionados do seu texto.
 
-## Selecionando Artigos
-
-Identifique 1-3 artigos para serem sua referências iniciais. Depois de ler estes artigos usando as instruções descritas nas próximas seções, você deve voltar para cá e selecionar mais alguns artigos para completar suas leituras.
-
-### Encontrando Referências Iniciais
+## Selecionando as Referências Iniciais
 
 O orientador ou colegas mais experientes no assunto podem ajudar a selecionar estes artigos.
 
 Você também pode usar uma das seguintes  heurísticas:
 
-- Buscar no [google scholar](https://scholar.google.com.br/) um survey recente e com boa quantidade de citações sobre o tópico. Exemplos de buscas: "3d mapping camera survey", "medical image transformer survey", "face recognition survey".
+- Buscar no [google scholar](https://scholar.google.com.br/) um *survey* recente e com boa quantidade de citações sobre o tópico. Exemplos de buscas: "3d mapping camera survey", "medical image transformer survey", "face recognition survey".
 
-- Usar o [consensus](https://consensus.app/), uma ferramenta de IA generativa que responde perguntas usando apenas artigos científicos como base de conhecimento. Buscas gerais como "what is the state-of-the-art in *SEU-TÓPICO-DE-PESQUISA*?" tendem a retornar bons artigos.
+- Usar o [consensus](https://consensus.app/), uma ferramenta de IA generativa que responde perguntas usando apenas artigos científicos como base de conhecimento. Buscas gerais como "what is the state-of-the-art in face recognition?" tendem a retornar bons artigos.
 
-### Encontrando Referências Complementares
+## Selecionando Referências Complementares
 
 Com base no que você aprendeu lendo os artigos iniciais, faça buscas de palavras-chave no [google scholar](https://scholar.google.com.br/). Tente julgar pelo título, ano, local de publicação e número de citações se os artigos são relacionados ao seu tópico de interese e são relevantes. Se houver alguma chance do artigo ser relevante, abra em uma nova aba para olhar depois.
 
-::: {.callout-tip}
-## Outras formas de encontrar artigos relevantes
-
-Os artigos citados por bons artigos tendem a ser bons artigos. Fontes de trabalhos relacionados são os artigos citados pelos artigos iniciais (veja seção de referências, mas tenha em mente que estes artigos podem estar ultrapassados) e os artigos que os citaram (busque o título no google scholar e clique no link "Citado por" abaixo do artigo).
-:::
-
-O próximo passo é iterar sobre as abas abertas, ler o resumo e confirmar se o trabalho é próximo ao que você está fazendo. Se não, feche a aba. Além disso, considere os seguintes critérios de seleção:
+Itere sobre as abas abertas, leia o resumo e confirme que o trabalho é próximo ao que você está fazendo. Se não for, feche a aba. Avalie também se o artigo é relevante considerando os seguintes critérios de seleção:
 
 - Dê preferência para artigos recentes (últimos 3-5 anos) , com muitas citações (10+) e/ou que tenham sido publicados em boas conferências e periódicos.
 - Saber quais conferências e periódicos são bons requer um pouco de experiência, mas uma heurística é  buscar seu nome na [aba metrics do google scholar](https://scholar.google.com.br/citations?view_op=top_venues&hl=pt-BR) e verificar o índice H5. Veículos com índices H5 maiores que 40 tendem a ser bons.
-- Na área de IA, exemplos de boas conferências são CVPR, ICLR, NeurIPS e ICML. Na área de robótica, temos ICRA e IROS. Exemplos de bons periódicos da área de IA são IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Neural Networks and Learning Systems e Nature Machine Intelligence.
+- Na área de IA, exemplos de boas conferências são CVPR, ICLR, NeurIPS e ICML. Na área de robótica, temos ICRA e IROS. Exemplos de bons periódicos da área de IA são IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Neural Networks and Learning Systems, Nature Machine Intelligence, Neural Networks e Neurocomputing.
+
+::: {.callout-tip}
+## Bons artigos citam bons artigos
+
+Outra forma de encontrar artigos complementares é analisar os trabalhos citados por seus artigos iniciais (mas tenha em mente que estes podem estar ultrapassados) e os trabalhos que os citaram (busque o título no google scholar e clique no link "Citado por" abaixo do artigo).
+:::
 
 Se ao final da filtragem você não conseguir identificar pelo menos 5 artigos, repita o processo usando novas palavras chave. Se você tiver mais de 5 artigos, selecione os que você julgar mais promissores.
 
+Não deixe de fazer algumas buscas no [consensus](https://consensus.app/) também.
+
 ## Lendo os Artigos
 
-Para evitar desperdício de energia e retrabalho, antes de começar a ler, valide com o seu orientador ou alguém mais experiente se os artigos são de fato relevantes e faça *skimming* do artigo (uma passada de olho geral com duração máxima de 10min) para ter certeza que vale a pena lê-lo e para ter uma visão geral do que ele fala.
+Para evitar desperdício de energia e retrabalho valide com o seu orientador ou alguém mais experiente, antes de começar a ler, se os artigos são de fato relevantes. Também é uma boa prática fazer *skimming*,  uma passada de olho geral com duração máxima de 10min, para construir uma visão do todo e confirmar que vale mesmo a pena ler.
 
 ### Questões de Formato e Linhas de Argumentação
 
@@ -82,28 +71,28 @@ Diferente da escrita artística, a escrita acadêmica é bastante **padronizada 
 - Quantas e quais seções têm o texto?
 - Qual tamanho médio das seções?
 - Quantas figuras e tabelas existem em cada seções e o que elas comunicam? Qual tamanho e o texto típico das legendas?
-- Que dados e argumentos são usados na introdução para motivar e justificar o artigo?
-  - **Oportunidade**: Se você sentir que algum deles pode ser reutilizado depois quando você for escrever a sua introdução, copie e cole o trecho e o nome do artigo. Obviamente usar o texto exatamente como aparece no artigo é plágio e você deve reescrevê-lo com suas palavras e adicionar uma referência, mas não queremos fazer isso agora para não interromper o fluxo de leitura.
-- Para quem tem menos experiência de escrita acadêmica, pode ser uma boa criar uma **lista de expressões**  que você pode usar depois no seu texto como "Note que", "A Tabela X descreve ", "A avaliação empírica permite concluir", etc.
 - Existe um "jeitão" de escrever as seções? Se sim, anote brevemente para você seguir o padrão ao escrever o seu.
+- Que dados e argumentos são usados na introdução para motivar e justificar o artigo?
+  - **Oportunidade**: Se você sentir que algum deles pode ser reutilizado depois quando você for escrever a sua introdução, copie e cole o trecho e o nome do artigo. Obviamente usar o texto exatamente como copiado é plágio. Você deve reescrevê-lo com suas palavras e adicionar uma referência, mas não queremos fazer isso agora para não interromper o fluxo de leitura.
 - Qual é a contribuição / novidade do artigo? Isto deveria estar claro no resumo e na introdução.
-- Qual é o "tamanho de uma contribuição"?
-- Qual é o tamanho e o nível de dificuldade de realizar os experimentos?
-- Olhando para os artigos você consegue ter um sentimento do que é necessário para fazer um trabalho mais ou menos no mesmo nível?
+- Olhando para os artigos você consegue ter um sentimento do que é necessário para fazer um trabalho mais ou menos no mesmo nível, e.g., qual é o "tamanho de uma contribuição" e o custo de realizar os experimentos?
+
+Para quem tem menos experiência de escrita acadêmica, recomendo construir uma **lista de expressões**  que você pode usar depois no seu texto como "o leitor pode observar que", "a Tabela X descreve ", "a avaliação empírica permite concluir que", etc.
 
 ### Conhecendo a Metodologia da Área
 
 O objetivo aqui é compreender como é feita a pesquisa na área para você siga a mesma metodologia. Abaixo listo perguntas comuns para as áreas de IA e robótica.
 
-- Quais experimentos são feitos, como eles são feitos e quantos são?
-- Quais bases de dados são utilizadas e como? São feitos pré-processamentos? Eles são padronizados? São utilizados conjuntos de treino, validação e teste ou é usado K-Fold Cross-Validation?
-- Quais métricas são utilizadas?
+- Quantos, quais e como experimentos foram feitos?
+- Quais bases de dados foram utilizadas e como? São feitos pré-processamentos são padronizados? São utilizados conjuntos de treino, validação e teste ou é usado K-fold cross-validation?
+- Quais métricas foram utilizadas?
+- Que modelos foram utilizados e como? Foi feita busca de hiperparâmetros? Existem recomendações de como tirar o máximo dos modelos?
 - Os métodos propostos nos artigos são comparados com métodos anteriores? Se sim, quais são mais usados nas comparações e quantos são comparados?
 - Como os resultados são mostrados normalmente? São usadas tabelas ou figuras com formatos específicos?
 
 ### Identificando Conceitos a Estudar
 
-Muitas pessoas consideram a leitura de artigos uma tarefa chata. Para minimizar a chance de perda de atenção e evitar que a leitura tome mais tempo que o necessário, quando esbarrar em algo que você não entenda completamente, não pare!
+Muitas pessoas consideram a leitura de artigos uma tarefa chata. Para minimizar a chance de perda de atenção e evitar que a leitura tome mais tempo que o necessário, quando esbarrar em algo que você não entende completamente, não pare!
 
 Anote em uma lista de coisas que você precisaria estudar depois para entender em profundidade o artigo (sentir que consegue reproduzir com praticamente nenhuma dúvida). Para uns poucos artigos, aqueles 1 ou 2 que são realmente importantes para seu projeto, vale a pena voltar e lê-los de novo depois de estudar os conceitos.
 
@@ -118,9 +107,7 @@ A tendência é que os percentuais aumentem à medida que você trabalha no proj
 Para cada artigo, devem ser produzidos dois artefatos:
 
 - um resumo para minimizar a necessidade de lê-lo novamente e para comunicar os pontos principais para seu orientador; e
-- uma descrição para adicionar na seção de trabalhos relacionados do seu texto.
-
-### Seu Resumo
+- [uma descrição para adicionar na seção de trabalhos relacionados do seu texto](escrita/03-trabalhos-relacionados.qmd).
 
 Não existe um padrão para os resumos, mas minha experiência mostra que:
 
@@ -130,27 +117,3 @@ Não existe um padrão para os resumos, mas minha experiência mostra que:
 Por isto, sugiro que o resumo seja feito rápido (15min, no máximo) e seja tão curto e visual quanto possível.
 
 Faço meus resumos em apresentações de slides sem formatação ou em arquivos markdown. Incluo prints de figuras e tabelas que ajudam a lembrar e comunicar os principais pontos e textos são sempre minimalistas e em bullet points.
-
-### Descrição para Trabalhos Relacionados
-
-A seção de trabalhos relacionados resume e faz uma análise crítica dos trabalhos mais recentes que abordaram o mesmo tópico de estudo.
-
-Por padrão, para cada artigo, você deve escrever um parágrafo contendo os seguintes itens:
-
-- Qual foi a principal contribuição do artigo? O que ele trouxe de novo?
-- Como é o método proposto? O que ele tem de melhor que os métodos anteriores?
-- Como foi feita a avaliação experimental?  Quais bases de dados e métricas foram usadas? Qual procedimento foi adotado?
-- Quais foram os principais resultados e os respectivos valores de métricas?
-- Quais limitações existem no trabalho? Idealmente, seu estudo deve superar estas limitações.
-
-::: {.callout-tip}
-##Lembre-se de tentar identificar coisas reutilizáveis
-
-Fique atento a argumentos utilizados na introdução, dicas de como calibrar hiperparâmetros, como obter o máximo de modelos, cuidados na realização de experimentos e análises críticas de outros trabalhos da literatura. Frequentemente, os artigos te ajudarão a implementar e escrever seu trabalho.
-:::
-
-**Exemplo 1 (trabalho sobre identificação de doenças em exames de raio-X do pulmão):** "*Narin  et  al.  (2021)  avaliaram  três  arquiteturas  de  redes neurais (ResNet50, InceptionV3 e Inception-ResNetV2) na tarefa de identificação de doenças a partir de imagens de Raio-X de pulmão. A ResNet50 alcançou 98% de acurácia, o melhor valor dentre os modelos comparados.  A rede foi treinada e avaliada com exames de pessoas saudáveis ou com COVID-19. Casos de pneumonia não foram incluídos nos experimentos*".
-
-**Exemplo 2 (trabalho sobre mapeamento para veículos autônomos):** "*Wolcott e Eustice (2017) propuseram um método probabilístico de localização que modela o mundo como um mapa multirresolução de misturas de gaussianas. Seus mapas de mistura de gaussianas representam a distribuição de altura e intensidade de refletância do ambiente medida por scanners LiDAR (Velodyne HDL-32E). Um algoritmo de localização baseado no Filtro de Kalman Estendido (EKF) é utilizado para estimar a pose do carro por meio do registro de nuvens de pontos 3D em relação aos mapas multirresolução de mistura de gaussianas. O método foi avaliado em dois carros autônomos sob condições climáticas adversas e apresentou erros de estimativa de localização de aproximadamente 0,15 m.*"
-
-Em textos com restrição de espaço (e.g., artigos de conferência com 5-7 páginas), pode-se optar por resumir todos os trabalhos relacionados em um único parágrafo da introdução ou manter uma seção específica, mas agrupar trabalhos por tópico, cada tópico contendo apenas um parágrafo.

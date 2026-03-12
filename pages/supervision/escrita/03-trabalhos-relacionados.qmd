@@ -1,0 +1,25 @@
+---
+title:  Escrita de Trabalhos Relacionados
+---
+
+A seção de trabalhos relacionados resume e faz uma análise crítica dos trabalhos mais recentes que abordaram o mesmo tópico de estudo.
+
+Por padrão, para cada artigo, você deve escrever um parágrafo contendo os seguintes itens:
+
+- Qual foi a principal contribuição do artigo? O que ele trouxe de novo?
+- Como é o método proposto? O que ele tem de melhor que os métodos anteriores?
+- Como foi feita a avaliação experimental?  Quais bases de dados e métricas foram usadas? Qual procedimento foi adotado?
+- Quais foram os principais resultados e os respectivos valores de métricas?
+- Quais limitações existem no trabalho? Idealmente, seu estudo deve superar estas limitações.
+
+::: {.callout-tip}
+##Lembre-se de tentar identificar coisas reutilizáveis
+
+Fique atento a argumentos utilizados na introdução, dicas de como calibrar hiperparâmetros, como obter o máximo de modelos, cuidados na realização de experimentos e análises críticas de outros trabalhos da literatura. Frequentemente, os artigos te ajudarão a implementar e escrever seu trabalho.
+:::
+
+**Exemplo 1 (trabalho sobre identificação de doenças em exames de raio-X do pulmão):** "*Narin  et  al.  (2021)  avaliaram  três  arquiteturas  de  redes neurais (ResNet50, InceptionV3 e Inception-ResNetV2) na tarefa de identificação de doenças a partir de imagens de Raio-X de pulmão. A ResNet50 alcançou 98% de acurácia, o melhor valor dentre os modelos comparados.  A rede foi treinada e avaliada com exames de pessoas saudáveis ou com COVID-19. Casos de pneumonia não foram incluídos nos experimentos*".
+
+**Exemplo 2 (trabalho sobre mapeamento para veículos autônomos):** "*Wolcott e Eustice (2017) propuseram um método probabilístico de localização que modela o mundo como um mapa multirresolução de misturas de gaussianas. Seus mapas de mistura de gaussianas representam a distribuição de altura e intensidade de refletância do ambiente medida por scanners LiDAR (Velodyne HDL-32E). Um algoritmo de localização baseado no Filtro de Kalman Estendido (EKF) é utilizado para estimar a pose do carro por meio do registro de nuvens de pontos 3D em relação aos mapas multirresolução de mistura de gaussianas. O método foi avaliado em dois carros autônomos sob condições climáticas adversas e apresentou erros de estimativa de localização de aproximadamente 0,15 m.*"
+
+Em textos com restrição de espaço (e.g., artigos de conferência com 5-7 páginas), pode-se optar por resumir todos os trabalhos relacionados em um único parágrafo da introdução ou manter uma seção específica, mas agrupar trabalhos por tópico, cada tópico contendo apenas um parágrafo.
