@@ -1,0 +1,19 @@
+---
+title: Definição do Tema do TCC
+---
+
+Definir um tema de pesquisa é uma das atividades mais desafiadoras pois requer conhecimento do estado-da-arte e experiência para avaliar a viabilidade da proposta.
+
+A escolha do tema deve ser realizada em uma conversa entre aluno e orientador para que, juntos, definam um tópico que seja:
+
+- empolgante para o estudante;
+- grande o suficiente para ser considerado um  TCC; e
+- pequeno o suficiente para que o aluno tenha segurança e previsibilidade.
+
+Um bom tema de TCC cumpre os seguintes critérios:
+
+- **Tem o potencial de trazer benefícios para um grupo de pessoas**: Tornar processos automáticos, mais eficientes ou mais precisos, viabilizar novas aplicações ou novos estudos, trazer novas informações sobre fenômenos, etc..
+- **Requer o uso do conhecimento de duas ou mais disciplinas do curso**.
+- **Equivale a pelo menos um semestre de trabalho**: O seu TCC deve ter pelo menos o nível de dificuldade de uma disciplina de programação (e.g., estruturas de dados, programação orientada a objetos, etc.).
+
+O TCC **NÃO** precisa ser gigante, revolucionário ou mudar o mundo.

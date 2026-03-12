@@ -1,0 +1,17 @@
+---
+title: Cronograma de TCC-1
+---
+
+Em alto nível, o cronograma contém a seguinte sequência de tarefas.
+
+1. Leitura de artigos (2-5 semanas)
+2. [Opcional] Escrita da introdução
+3. Estudo de conceitos fundamentais (1 a 3 meses)
+4. [Opcional] Escrita do referencial teórico
+5. Implementação e realização de experiementos (1 a 3 meses)
+6. Escrita do Relatório (~2 semanas)
+7. Revisão do Relatório (~1 semana)
+
+Sugiro detalhar um pouco mais as tarefas para ter estimativas mais precisas, mas não detalhar demais porque como estamos aprendendo ao longo do processo, as decisões podem mudar bastante e não queremos jogar trabalho fora.
+
+A decisão por investir mais tempo em estudo de fundamentos ou implementação é específica de cada projeto.
