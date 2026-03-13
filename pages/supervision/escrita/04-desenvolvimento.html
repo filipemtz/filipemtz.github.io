@@ -73,6 +73,8 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 <meta property="og:title" content="Escrita do Desenvolvimento – Filipe Mutz">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://filipemtz.github.io/pages/supervision/escrita/figs/overview-1.webp">
 <meta property="og:site_name" content="Filipe Mutz">
 </head>
 
@@ -154,6 +156,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>O capítulo de desenvolvimento deve descrever o que você fez de forma que os interessados possam replicar o seu trabalho. A escrita deve seguir uma abordagem <em>top-down</em>, em que você inicia em um nível alto de abstração, descrevendo as grandes etapas e como elas se comunicam (entradas e saídas), e depois detalha cada etapa em uma seção específica. Para ajudar na descrição mais em alto nível, deve ser criada uma figura de <em>overview</em>. Alguns exemplos seguem abaixo.</p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/overview-1.webp" class="img-fluid figure-img"></p>
+<figcaption>Exemplo 1</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/overview-2.webp" class="img-fluid figure-img"></p>
+<figcaption>Exemplo 2</figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/overview-3.png" class="img-fluid figure-img"></p>
+<figcaption>Exemplo 3</figcaption>
+</figure>
+</div>
+<hr>
+<p>Ao descrever o método, <strong>evite entrar em detalhes de implementação</strong> como organização de arquivos e pastas, nomes de funções, classes ou variáveis, etc. Lembre-se que <strong>o objetivo é permitir que outros pesquisadores consigam reproduzir o que você fez</strong>.</p>
+<p>Na maioria dos casos, o método não vai deixar de funcionar ou perder a característica porque a pessoa usou outra linguagem de programação/biblioteca, ou porque usou nomes diferentes dos seus, concorda? Algumas exceções são:</p>
+<ul>
+<li>Implementações de algoritmos podem mudar entre versões de bibliotecas o que pode levar resultados diferentes daqueles reportados no trabalho. Uma forma de lidar com este fato é adicionar um parágrafo (ou seção dependendo da quantidade de texto necessário) para listar as versões dos softwares e bibliotecas utilizados.</li>
+<li>Trabalhos cujo foco sejam tecnologias específicas, por exemplo, implementação de versões paralelas de algoritmos em CUDA, naturalmente precisarão entrar mais em detalhes de implementação e talvez até adicionar trechos de código-fonte.</li>
+</ul>
+<p>Para garantir reprodutibilidade, você deve mencionar <strong>todos os passos seguidos</strong> (e.g., etapas de pré-processamento de bases de dados), justificar decisões, informar valores de hiperparâmetros e ser preciso nos protocolos de treinamento e avaliação de modelos. Embora escrito textualmente, <strong>o documento deve refletir o código</strong> no sentido de que seja possível reconstruir o software do zero (a menos de mudanças de nome) olhando apenas para o texto. Use pseudo-códigos, formulações matemáticas e diagramas para tornar explicações tão claras e precisas quanto possível.</p>
 
 
 

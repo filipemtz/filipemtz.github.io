@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Escrita dos Experimentos – Filipe Mutz</title>
+<title>Recomendações Gerais e Dicas de Latex – Filipe Mutz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,9 +107,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
-<meta property="og:title" content="Escrita dos Experimentos – Filipe Mutz">
-<meta property="og:description" content="">
+<meta property="og:title" content="Recomendações Gerais e Dicas de Latex – Filipe Mutz">
+<meta property="og:image" content="https://filipemtz.github.io/pages/supervision/escrita/figs/encontrando-bibtexs.png">
 <meta property="og:site_name" content="Filipe Mutz">
+<meta property="og:image:height" content="859">
+<meta property="og:image:width" content="2683">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -135,7 +172,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#exemplo" id="toc-exemplo" class="nav-link active" data-scroll-target="#exemplo">Exemplo</a></li>
+  <li><a href="#como-começar-a-escrever-rápido-e-sem-travar" id="toc-como-começar-a-escrever-rápido-e-sem-travar" class="nav-link active" data-scroll-target="#como-começar-a-escrever-rápido-e-sem-travar">Como começar a escrever rápido e sem travar?</a></li>
+  <li><a href="#recomendações-de-escrita" id="toc-recomendações-de-escrita" class="nav-link" data-scroll-target="#recomendações-de-escrita">Recomendações de escrita</a>
+  <ul class="collapse">
+  <li><a href="#matemática" id="toc-matemática" class="nav-link" data-scroll-target="#matemática">Matemática</a></li>
+  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências">Referências</a></li>
+  <li><a href="#figuras-e-tabelas" id="toc-figuras-e-tabelas" class="nav-link" data-scroll-target="#figuras-e-tabelas">Figuras e Tabelas</a></li>
+  </ul></li>
+  <li><a href="#como-revisar-o-texto" id="toc-como-revisar-o-texto" class="nav-link" data-scroll-target="#como-revisar-o-texto">Como revisar o texto?</a></li>
+  <li><a href="#antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist" id="toc-antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist" class="nav-link" data-scroll-target="#antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist">Antes de enviar um texto para seu orientador, faça este checklist</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -144,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Escrita dos Experimentos</h1>
+<h1 class="title">Recomendações Gerais e Dicas de Latex</h1>
 </div>
 
 
@@ -161,27 +206,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Depois de executar os experimentos e responder às <a href="../../../pages/supervision/05-implementacao.html#execução-e-análise">perguntas indicadas</a>, escrever a seção de experimentos é relativamente direto. Como mencionado antes, cada experimento irá virar uma seção em que os seguintes itens devem ser descritos como texto corrido:</p>
+<section id="como-começar-a-escrever-rápido-e-sem-travar" class="level2">
+<h2 class="anchored" data-anchor-id="como-começar-a-escrever-rápido-e-sem-travar">Como começar a escrever rápido e sem travar?</h2>
 <ul>
-<li>Qual é o objetivo do experimento?</li>
-<li>Qual será a metodologia utilizada?</li>
-<li>Qual é a hipótese testada (resultado esperado)?</li>
-<li>Apresentação e descrição de figuras e tabelas contendo resultados.</li>
-<li>Descrição do que pode ser aprendido (conclusões) com os resultados.</li>
-<li>Análise crítica e limitações.</li>
+<li><p><strong>Faça uma lista informal de tópicos (bullet points) descrevendo o que você quer falar:</strong> Isto te ajuda a organizar as idéias e ter uma visão em alto-nível da argumentação. O fato de ser algo só para você e não ter pressão para ficar bom tende a colocar a mente em modo criativo.</p></li>
+<li><p><strong>Comece e depois melhore:</strong> Depois de fazer os tópicos, comece a despejar todas as informações que você acha que deveriam entrar abaixo de cada tópico. Mantenha uma estrutura de parágrafo, mas não se preocupe com ortografia, conexão entre sentenças, etc. Xingue, faça piadas, abrevie, use emojis, faça o que for necessário para se manter adicionando conteúdo com leveza. Quando sentir que adicionou uma quantidade significativa de texto (e.g., uma seção ou um parágrafo muito crítico), revise e refatore o que você fez para deixar com a cara de texto acadêmico. É muito mais fácil convencer o cérebro a melhorar algo que já está quase pronto do que começar algo novo do zero.</p></li>
+<li><p><strong>Pomodoro e a regra dos dois minutos:</strong> Estas técnicas têm como objetivo reduzir a resistência do seu cérebro em começar. É normal ter dias em que você não está com a mínima vontade de fazer uma atividade. Aconteceu comigo várias vezes. A técnica do pomodoro consiste em iterar intervalos de trabalho focado e de diversão e relaxamento. O pomodoro clássico sugere 25min de trabalho seguidos de 5min de descanso com uma pausa mais longa a cada hora. Quando sua mente começar a se distrair, lembre-se que você vai ter tempo para isso em breve. A configuração que funcionou bem comigo foi fazer 1h de trabalho seguido de 1h de diversão. Parece muito se permitir 1h de diversão, mas na prática 4h de trabalho focado rendem mais que 8h de trabalho disperso. A regra dos dois minutos consiste em estabelecer uma meta tão pequena que seu cérebro não crie resistência, por exemplo, escrever 1 frase. A esperança é que depois de começar, você acabe escrevendo mais, mas mesmo se isso não acontecer, 1 frase é melhor que 0. Considere o objetivo alcançado e descanse para aumentar a chance de acordar com mais disposição nos próximos dias.</p></li>
 </ul>
-<section id="exemplo" class="level2">
-<h2 class="anchored" data-anchor-id="exemplo">Exemplo</h2>
-<p>A descrição de um experimento segue o formato abaixo. Note que você <strong>não</strong> deve adicionar os subtítulos Objetivo, Metodologia, etc. Eles só estão indicando o papel do trecho de texto. Observe também que não é estético ter parágrafos com uma frase apenas. No texto final, agrupe trechos próximos em parágrafos maiores.</p>
-<p><strong>(Objetivo)</strong></p>
-<p><em>Este experimento realiza uma avaliação sistemática, em todo o conjunto de teste dos datasets, para verificar se o sistem é capaz de filtrar e contar documentos com tags específicas.</em></p>
-<p><strong>(Metodologia)</strong></p>
-<p><em>Para isso, foi utilizada uma única pergunta como entrada, questionando se o documento está relacionado à tag (ou à lista de descrições de tags no caso do EURLEX57K). Em seguida, um script de contagem é usado para somar os resultados.</em></p>
-<p><em>O experimento utilizou as 9 tags do Restaurants, 13 tags do corpus Movies eng e as 20 tags mais frequentes do EURLEX57K, já que utilizar todas as tags seria inviável. O LLM utilizado foi o LLama3-70B sem quantização. Esse modelo foi escolhido por apresentar desempenho estado-da-arte entre aqueles que se encontram dentro dos limites de hardware disponíveis para o projeto. A acurácia na identificação das tags e o erro percentual de contagem foram medidos e macro-médios sobre todas as tags.</em></p>
-<p><strong>(Descrição dos Resultados)</strong></p>
-<p><em>A Tabela 3 compara as métricas alcançadas pelo sistema em diferentes datasets. Linhas representam os datasets Restaurants, Movies e EURLEX57K e colunas representam as métricas.</em></p>
-<p><strong>(Discussão, Conclusões e Análise Crítica)</strong></p>
-<p><em>Todas as métricas alcançaram valores razoáveis em todos os datasets. O erro percentual foi maior no EURLEX57K, indicando maior dificuldade nesse corpus mais amplo e complexo. Vale notar, no entanto, que tags com semântica semelhante são contabilizadas como erros (por exemplo, “vegetable”, “common agricultural policy”, “cereals”, etc.), enquanto algumas tags semanticamente relacionadas aos documentos não são atribuídas no dataset, como “farming policies” em documentos relacionados à produção de leite em pó desnatado.</em></p>
+</section>
+<section id="recomendações-de-escrita" class="level2">
+<h2 class="anchored" data-anchor-id="recomendações-de-escrita">Recomendações de escrita</h2>
+<ul>
+<li><p>Sempre que possível escreva de forma <em>top-down</em>. Comece em níveis mais altos de abstração e depois vá para os detalhes.</p></li>
+<li><p>Opte por frases curtas, de no máximo 3 linhas. Sabe quando você esbarra em uma função muito grande no código e decide quebrar em funções menores para ficar mais fácil de entender? A lógica é a mesma. Cada frase deve conter uma idéia apenas. Frases curtas tornam o texto mais fácil de escrever e de ler.</p></li>
+<li><p>Parágrafos com uma frase apenas são muito curtos. Anexe a frase ao parágrafo de cima ou de baixo dependendo de qual fala sobre assuntos mais próximos. Parágrafos que ocupam mais de meia página são muito longos. Quebre em parágrafos menores.</p></li>
+<li><p>A mesma lógica vale para seções e capítulos. Uma seção com um parágrafo apenas não precisa existir. Anexe o parágrafo à seção anterior ou posterior. Se um capítulo só tem uma subseção, apenas remova o título da subseção e faça o capítulo ser um texto corrido apenas.</p></li>
+<li><p>Escreva de forma clara, simples e objetiva. No texto científico, queremos maximizar precisão e compreensão. Evite expressões mais complexas que o necessário.</p></li>
+<li><p>Use as mesmas palavras para se referir aos mesmos objetos. Repetição é menos problemático que confusão.</p></li>
+<li><p>Mantenha consitência na forma como você escreve as coisas. Por exemplo, todas as seguintes possibilidades são válidas para se referir à métrica: “f1-score”, “F1-score”, “medida F1”, “F1”, mas você deve escolher uma delas e usar sempre a mesma.</p></li>
+<li><p>Palavras em inglês devem ser colocadas em itálico, exceto caso sejam acrônimos (e.g., “CNN”).</p></li>
+<li><p>Lista de siglas e apêndices podem ser removidos se não forem utilizados.</p></li>
+</ul>
+<section id="matemática" class="level3">
+<h3 class="anchored" data-anchor-id="matemática">Matemática</h3>
+<ul>
+<li>Equações matemáticas devem ser escritas usando o ambiente equation. O campo <code>\label</code> é opcional, mas permite referenciar o número da equação.</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">equation</span>}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ss">f(x) = x^2</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="sc">\label</span><span class="ss">{eq:identificador}</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">equation</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Expressões matemáticas que apareçam no meio de frases ou menções a letras e funções devem ser escritas entre <code>$</code> e <code>$</code>, por exemplo, <code>$f(x) = x^2$</code>.</li>
+</ul>
+</section>
+<section id="referências" class="level3">
+<h3 class="anchored" data-anchor-id="referências">Referências</h3>
+<ul>
+<li><p>Sempre que você fizer uma afirmação que não for obviamente verdade (e.g., “o número de empréstimos no Brasil cresceu nos últimos 5 anos” ou “AVCs são a maior causa de mortes no mundo”), você deve citar para um trabalho que comprove aquela afirmação. Também devem ser adicionada uma citação na primeira menção a métodos ou métricas que não forem explicados no texto.</p></li>
+<li><p>Como indicado abaixo, uma forma fácil de obter a entrada bibtex da referência é buscar o nome do artigo no <a href="https://scholar.google.com.br/">google scholar</a>, clicar no botão citar e depois em bibtex. Para referenciar um artigo no texto, use <code>\cite{esteva2017dermatologist}</code>, onde o item ente chaves é o identificador do artigo no arquivo <code>.bib</code>. Este tipo de referência deve ser usado no final das frases.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figs/encontrando-bibtexs.png" class="img-fluid figure-img"></p>
+<figcaption>Procedimento para obter a entrada bibtex de um artigo</figcaption>
+</figure>
+</div>
+</section>
+<section id="figuras-e-tabelas" class="level3">
+<h3 class="anchored" data-anchor-id="figuras-e-tabelas">Figuras e Tabelas</h3>
+<ul>
+<li><p>Todas as figuras e tabelas devem ser referenciadas e descritas no texto pelo menos uma vez. Não deixe a figura flutuando assumindo que o leitor vai saber quando deve pausar a leitura para olhar a figura e como deve interpretá-la. Você deve guiar ele neste processo. Identificadores podem ser adicionados usando <code>\label{identificador}</code> e o número pode ser referenciado usando <code>\ref{identificador}</code>. No caso de gráficos, dê mais detalhes, e.g., “O gráfico da Figura 4 compara o tempo de execução dos algoritmos avaliados. O eixo horizontal representa o tamanho da entrada e o eixo vertical representa o tempo em segundos. Como pode ser observado, o algoritmo X (azul) alcançou o menor tempo tempo para entradas grandes.”.</p></li>
+<li><p>Referencie os números ao falar de figuras e tabelas e não use a posição espacial na página como em “A figura abaixo/acima mostra …”.</p></li>
+<li><p>Ao falar de uma figura ou tabela específica, use letra maiúscula, por exemplo, “A Figura 3 apresenta uma visão geral do sistema.”.</p></li>
+<li><p>Tabelas que comparam métodos devem destacar os melhores valores em cada métrica usando negrito.</p></li>
+<li><p>Por padrão, deixe o latex decidir onde colocar figuras e tabelas. Não tente forçar que elas fiquem em posições específicas do texto.</p></li>
+<li><p>Evite figuras grandes demais ou com textos pequenos demais. Ajuste o tamanho da fonte para que textos sejam legíveis sem esforço com zoom em 100% e fiquem mais ou menos do mesmo tamanho do restante do texto. Para julgar se suas figuras estão boas, olhe para os trabalhos relacionados e projetos anteriores e veja se estão com a mesma cara.</p></li>
+<li><p>Ferramentas de IA Generativa podem te ajudar a gerar código para produzir gráficos bonitos. Não adicione dados no prompt, mas solicite que o código leia os dados de um arquivo por conta do risco de alucinação.</p></li>
+<li><p>Figuras e gráficos com a mesma temática e aproximadamente o mesmo tamanho <a href="https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_3)%3A_Figures%2C_Subfigures_and_Tables#:~:text=We%27ll%20do%20an,in%20the%20document%3A">podem ser colocadas lado a lado</a>.</p></li>
+</ul>
+</section>
+</section>
+<section id="como-revisar-o-texto" class="level2">
+<h2 class="anchored" data-anchor-id="como-revisar-o-texto">Como revisar o texto?</h2>
+<ul>
+<li><p>É muito difícil para o orientador contribuir com um texto com muitos erros de português, com palavras faltando ou frases que não se conectam logicamente. Não é papel da pessoa que está revisando seu texto fazer <em>parsing</em> do que você tinha intenção de dizer no meio de uma bagunça. Então, por favor, <strong>faça um esforço para enviar um texto com mais cara de versão final</strong>.</p></li>
+<li><p><strong>Leia o texto pelo menos duas vezes depois de escrever falando as palavras</strong>, mesmo que seja sem deixar o som sair, só mexendo a boca. O processo de recitar o texto vai te ajudar a identificar e corrigir erros de português, frases difíceis de entender, pontos de pausa que precisariam de vírgulas e pontos, frases longas demais, etc.</p></li>
+<li><p>Use ferramentas computacionais para apontar erros de gramática ou frases mal estruturadas. Você pode inclusive usar IA generativa para fazer estas melhorias de escrita, mas é <strong>fundamental que você verifique tudo que ela retornar por conta do risco de alucinações</strong>. Não envie mais de dois parágrafos por vez. Quanto maior o texto, maior a chance de ela cometer um erro no meio e você não perceber.</p></li>
+<li><p>Para verificar se uma seção está fazendo sentido logicamente, <strong>tente resumir cada parágrafo em um tópico e veja se a sequência de tópicos está fazendo sentido</strong>. Se for difícil colocar em um tópico ou a sequência estiver estranha, refatore. Esta análise pode ser feita mentalmente.</p></li>
+</ul>
+</section>
+<section id="antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist">Antes de enviar um texto para seu orientador, faça este checklist</h2>
+<ul>
+<li>Você leu o que escreveu pelo menos duas vezes.</li>
+<li>Revisão ortográfica foi feita.</li>
+<li>A argumentação está fazendo sentido logicamente.</li>
+<li>Termos em inglês estão em itálico.</li>
+<li>Não existem parágrafos, seções ou capítulos pequenos demais ou grandes demais.</li>
+<li>Todas as figuras e tabelas são referenciadas e descritas no texto.</li>
+<li>Figuras, tabelas e equações foram referenciadas com letra maiúscula (e.g., “a Figura 1”, “a Tabela 3”).</li>
+<li>O tamanho das figuras, a fonte, o posicionamento e a legenda estão adequados.</li>
+<li>Não existem referências repetidas.</li>
+<li>Termos foram usados consistentemente.</li>
+</ul>
 
 
 </section>
