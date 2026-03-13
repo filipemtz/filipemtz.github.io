@@ -2,10 +2,10 @@
 title: Estudo de Fundamentos
 ---
 
-Após a leitura dos artigos, você deve ter anotado uma lista de coisas que você precisa estudar para conseguir implementar seu projeto. Agora é buscar explicações em blog posts, artigos, livros, vídeos do youtube, etc. e estudar até entender. Para os algoritmos fundamentais, vale a pena fazer umas implementações simples e rápidas para ganhar *feeling* de como eles se comportam.
+Após a leitura dos artigos, você deve ter anotado uma lista de coisas que você precisa estudar para conseguir implementar seu projeto. Agora é buscar explicações em *blog posts*, artigos, livros, vídeos do youtube, etc. e estudar até entender. Para os algoritmos fundamentais, vale a pena fazer umas implementações simples e rápidas para ganhar *feeling* de como eles se comportam.
 
 Pelo [método Feynman](https://www.youtube.com/watch?v=CN_SCpGuJ_w), você pode avaliar se aprendeu algo suficientemente bem verificando se consegue explicar o tópico de forma simples para outra pessoa. Se não conseguir, identifique os pontos de dúvida e invista mais tempo neles.
 
-Quando o processo de estudo estiver difícil e doloroso, primeiro [veja este vídeo](https://www.youtube.com/shorts/fVU8VocKeVY). Depois, pela ajuda para seu orientador.
+Quando o processo de estudo estiver difícil e doloroso, primeiro [veja este vídeo](https://www.youtube.com/shorts/k1OZBhm5qXc). Depois, peça ajuda para seu orientador.
 
 Ao final do processo de estudo, você deve ter clareza de como implementar todas as etapas do seu projeto. Você pode aproveitar que os conhecimentos estão frescos na sua cabeça e [escrever o capítulo de referencial teórico](escrita/02-referencial-teorico.qmd). Alternativamente, você pode começar a implementação e deixar para escrever quando

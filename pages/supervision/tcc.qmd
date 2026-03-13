@@ -6,6 +6,8 @@ Os TCCs que oriento são no formato de pesquisa científica, inovadora ou de rep
 
 Embora artigos sejam mais curtos, eles devem ser publicáveis para que o projeto seja aprovado, portanto deve ser proposto algo novo e deve ser realizada uma avaliação experimental mais robusta.
 
+## Disciplinas de TCC
+
 O TCC foi pensado para ser desenvolvido em dois semestres:
 
 - **TCC-1:** Estudo dos conceitos necessários para o desenvolvimento do projeto, escrita do código-fonte e  realização de experimentos computacionais. Ao final da disciplina, deve ser produzido um relatório.
@@ -17,19 +19,7 @@ O TCC foi pensado para ser desenvolvido em dois semestres:
 A fase de estudos em TCC-1 envolve a leitura de material de apoio como *blog posts* e artigos científicos. O aluno pode optar por aproveitar que os conhecimentos estão frescos na memória para escrever introdução, referencial teórico e partes da seção metodologia experimental.
 :::
 
-O acompanhamento do projeto é realizado por comunicação eletrônica e **reuniões semanais** (presenciais ou remotas) com **duração média de 30min**. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.
-
-Para que as reuniões sejam produtivas, leia as instruções da etapa em que você vai trabalhar  aqui no site e sempre traga:
-
-- resumo do que você fez na semana passada;
-- plano do que vai fazer na próxima semana; e
-- dúvidas, dificuldades ou obstáculos identificados (idealmente com um plano de como superá-los).
-
-[Templates em Latex](https://github.com/vitorsouza/latex-templates/tree/main) para o relatório de TCC-1 e para a monografia de TCC-2 foram criados e disponibilizados pelo Prof. Vitor Souza, à quem todos devem prestar agradecimento diário, de hoje até o fim dos tempos. É mandatório passar na sala dele pelo menos uma vez e agradecer pessoalmente.
-
-Atualmente, o melhor o sistema para escrita é o [Prism](https://prism.openai.com/), é uma alternativa grátis ao Overleaf.  Para começar a escrever, faça o download do repositório. coloque a pasta contendo o template de interesse em um arquivo .zip e faça o upload para o Prism. Por fim, compartilhe o projeto comigo.
-
-## Documentos Importantes e Critérios de Aprovação
+## Critérios de Aprovação
 
 As tarefas e os artefatos (documentos) que devem ser construídos em cada disciplina de TCC, além de  seus prazos de entrega, são diferentes dependendo do curso.
 
@@ -43,9 +33,27 @@ As tarefas e os artefatos (documentos) que devem ser construídos em cada discip
 É **sua responsabilidade** garantir que tarefas sejam cumpridas, artefatos sejam produzidos e prazos sejam cumpridos! Sugiro adicionar lembretes no google agenda e manter a lista de artefatos em um local de fácil acesso.
 :::
 
+## Reuniões de Orientação
+
+O acompanhamento do projeto é realizado por comunicação eletrônica e **reuniões semanais** (presenciais ou remotas) com **duração média de 30min**. Dependendo do andamento do projeto, as reuniões podem se tornar quinzenais.
+
+Para que as reuniões sejam produtivas, leia as instruções da etapa em que você vai trabalhar  aqui no site e sempre traga:
+
+- resumo do que você fez na semana passada;
+- plano do que vai fazer na próxima semana; e
+- dúvidas, dificuldades ou obstáculos identificados (idealmente com um plano de como superá-los).
+
+## Templates
+
+[Templates em Latex](https://github.com/vitorsouza/latex-templates/tree/main) para o relatório de TCC-1 e para a monografia de TCC-2 foram criados e disponibilizados pelo Prof. Vitor Souza, à quem todos devem prestar agradecimento diário, de hoje até o fim dos tempos. É mandatório passar na sala dele pelo menos uma vez e agradecer pessoalmente.
+
+Atualmente, o melhor o sistema para escrita é o [Prism](https://prism.openai.com/), é uma alternativa grátis ao Overleaf.  Para começar a escrever, faça o download do repositório. coloque a pasta contendo o template de interesse em um arquivo .zip e faça o upload para o Prism. Por fim, compartilhe o projeto comigo.
+
 ## Algoritmo do TCC
 
-Abaixo são descritos as sequências de passos a serem seguidos nas disciplinas de TCC. Não é necessário ler tudo agora! Clique nos links e leia as instruções apenas quando for o momento de fazer as tarefas.
+Abaixo são descritos as sequências de passos a serem seguidos nas disciplinas de TCC.
+
+**Não é necessário ler tudo agora**! Clique nos links e leia as instruções apenas quando for o momento de fazer as tarefas.
 
 Serão **aprovados**  apenas os alunos que concluírem **todos** os passos listados. Dados de projetos anteriores mostram que a probabilidade de falha é diretamente proporcional ao número de semanas em que o aluno não demonstra progresso ou não participa da reunião de orientação. Não progredir ou desaparecer por mais de um mês faz com que a probabilidade de reprovação se aproxime perigosamente de 100%.
 
@@ -56,31 +64,20 @@ Serão **aprovados**  apenas os alunos que concluírem **todos** os passos lista
 3. [Definir o cronograma de entregáveis](03-cronograma.qmd).
 4. [Estudar os conceitos fundamentais necessários para o projeto](04-estudo-fundamentos.qmd).
 5. [Implementar o código e realizar experimentos computacionais](05-implementacao.qmd).
-6. Escrita do relatório de protótipo.
+6. Escrita do relatório de protótipo (use as instruções de TCC-2).
 
 ### TCC-2
 
-<!-- **Lembrar de adicionar snippets de como fazer coisas básicas em latex**. -->
-
-<!-- **Lembrar de adicionar técnicas de escrita como estruturar em tópicos para planejar e ter visão geral da argumentação, escrita top-down e escrita evolutiva (joga no papel sem se preocupar com estilo e depois refatora).** -->
-
-<!-- Todas as figuras e tabelas devem ser descritas -->
-
-<!-- Folha de capa com membros da banca, tabela de símbolos, agradecimento, frase épica, dedicatória, etc. -->
-
-<!-- Checklist pré-revisão: ortografia, figuras e tabelas referenciadas e descritas, legendas estão corretas, não existem referências repetidas, todas as referências são citadas no texto, todos os artigos citados estão nas referências -->
-
-Em caso de dúvida sobre questões de escrita como nível de profundidade esperado, tamanho ou formato, leia as instruções novamente, e passe o olho nos trabalhos relacionados e em projetos anteriores.
+Leia as [recomendações gerais e dicas de latex antes de começar](escrita/00-dicas-e-instrucoes.qmd). Veja projetos anteriores ou seus trabalhos relacionados em caso de dúvida sobre nível de profundidade esperado, tamanho ou formato de itens do texto, etc.
 
 1. [Escrever introdução](escrita/01-introducao.qmd) (~ 2 semanas).
 2. [Escrever referencial teórico](escrita/02-referencial-teorico.qmd) (~ 3 semanas).
 3. [Escrever desenvolvimento](escrita/04-desenvolvimento.qmd) (~ 1 mês).
 4. [Escrever avaliação experimental](escrita/05-experimentos.qmd) (~ 1 mês).
 5. Escrever [conclusão](escrita/06-conclusao.qmd) e [resumo](escrita/07-resumo.qmd) (~ 1 semana).
-6. Realizar revisão do texto (~ 2 semanas).
-7. Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar pronto para ser enviado para a banca.
+6. Realizar revisão do texto (~ 2 semanas). Antes de enviar o texto para o orientador, [faça o checklist](escrita/00-dicas-e-instrucoes.qmd#antes-de-enviar-um-texto-para-seu-orientador-faça-este-checklist).
+7. Definir os membros e agendar a banca de defesa de TCC. Neste momento, o texto deve estar revisado e pronto para ser enviado para os avaliadores. Lembre-se de colocar seu nome, escrever agradecimentos e dedicatória, remover comentários, colocar os nomes dos membros da banca na folha de rosto, atualizar a data da defesa, etc.
 8.  Preparar e realizar [apresentação](06-apresentacao.qmd).
-9. Comemorar com amigos e familiares.
 
 ::: {.callout-caution}
 ## Reprovação em TCC-2

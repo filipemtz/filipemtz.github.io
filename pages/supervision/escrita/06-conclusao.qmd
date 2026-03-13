@@ -2,4 +2,10 @@
 title: Escrita da Conclusão
 ---
 
-Para fazer.
+A conclusão é um capítulo curto, contendo, em média, 3-4 parágrafos:
+
+- **1 parágrafo - Resumo**: Descrição  usando o tempo passado ("*Este trabalho propôs... Foram realizados experimentos... Resultados mostraram...*") da proposta, metodologia experimental e principais conclusões aprendidas com os resultados.
+- **1 parágrafo - Limitações**: Quais são as possíveis fontes de viéses nos experimentos ou outras limitações que podem impactar a generalidade das conclusões, por exemplo, datasets pequenos, datasets não representativos, falta de ablation study, falta de experimentos variando hiperparâmetros, complexidade computational ou precisão preditiva piores que *baselines*, etc.
+- **1 parágrafo - Trabalhos Futuros**: Levantamento de idéias que poderiam ser testadas em trabalhos futuros para superar estas limitações.
+
+**Exemplo:** *"Este trabalho propôs um framework centrado em LLM-agents para buscar eventos raros em grandes bases de dados usando consultas em linguagem natural. A abordagem integra LLMs e VLMs com uma arquitetura de cache para minimizar o número de chamadas aos modelos e permitir que usuários não especialistas utilizem o sistema. Experimentos mostram que imagens relevantes são recuperadas, incluindo em situações adversas como neve intensas, má iluminação e com pedestres em movimentos perigosos. Contudo, mesmo com a arquitetura de cache, percorrer grandes bases de dados com VLMs requer alto tempo de processamento. Trabalhos futuros podem buscar construir modelos de pequena escala, especializados nesta tarefa, com objetivo de reduzir o custo computacional da solução."*

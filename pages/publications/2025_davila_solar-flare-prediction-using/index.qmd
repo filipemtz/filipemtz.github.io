@@ -4,10 +4,10 @@ date: 2025-01-01
 author: ["Ricardo Zorzal Davila","Jefferson O. Andrade","Filipe Mutz","Karin S. Komati"]
 publication: "Conferência Latino-Americana de Informática (CLEI)"
 categories: []
-url_source:
+url_source: "https://ieeexplore.ieee.org/document/11420753/"
 url_preprint:
 journ: "Conferência Latino-Americana de Informática (CLEI)"
 year: 2025
 ---
 
-Link to the paper is coming soon.
+[Check-out the paper!](https://ieeexplore.ieee.org/document/11420753/)
