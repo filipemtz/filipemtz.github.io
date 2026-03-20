@@ -6,12 +6,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Isabella Borba Pillotti">
-<meta name="author" content="Bernardo Vargas Broedel">
+<meta name="author" content="Guilherme Goes Zanetti">
+<meta name="author" content="Elio David Triana Rodriguez">
+<meta name="author" content="Thiago M. Paixão">
 <meta name="author" content="Filipe Mutz">
-<meta name="author" content="Aline N Pessoa Almeida">
+<meta name="author" content="Claudine Badue">
+<meta name="author" content="Alberto F. De Souza">
+<meta name="author" content="Anselmo Frizera">
+<meta name="author" content="Thiago Oliveira-Santos">
 
-<title>Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada – Filipe Mutz</title>
+<title>Beyond Geometry: Leveraging Pose and Visual Scene Understanding for Indoor Room Segmentation in Mobile Robots – Filipe Mutz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,9 +79,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../assets/css/styles.css">
-<meta property="og:title" content="Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada – Filipe Mutz">
+<meta property="og:title" content="Beyond Geometry: Leveraging Pose and Visual Scene Understanding for Indoor Room Segmentation in Mobile Robots – Filipe Mutz">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://filipemtz.github.io/pages/publications/2026_goes_beyond_geometry_indoor_segmentation/room-segmentation-overview.png">
 <meta property="og:site_name" content="Filipe Mutz">
+<meta property="og:image:height" content="543">
+<meta property="og:image:width" content="1334">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -133,16 +140,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Construção de Planos Terapêuticos e Estratégia Educacional em Estágio de Reabilitação Auditiva: Ferramenta Informatizada</h1>
-</div>
+<h1 class="title">Beyond Geometry: Leveraging Pose and Visual Scene Understanding for Indoor Room Segmentation in Mobile Robots</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">LLM</div>
+    <div class="quarto-category">AI</div>
+    <div class="quarto-category">Robotics</div>
+    <div class="quarto-category">Room Segmentation</div>
+  </div>
+  </div>
 
 
 
@@ -151,17 +171,21 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Isabella Borba Pillotti </p>
-             <p>Bernardo Vargas Broedel </p>
+             <p>Guilherme Goes Zanetti </p>
+             <p>Elio David Triana Rodriguez </p>
+             <p>Thiago M. Paixão </p>
              <p>Filipe Mutz </p>
-             <p>Aline N Pessoa Almeida </p>
+             <p>Claudine Badue </p>
+             <p>Alberto F. De Souza </p>
+             <p>Anselmo Frizera </p>
+             <p>Thiago Oliveira-Santos </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024/01/01</p>
+      <p class="date">2026/03/20</p>
     </div>
   </div>
   
@@ -173,9 +197,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Link to the paper is coming soon.</p>
+<p><em>Link to the paper is coming soon!</em></p>
+<section id="tldr" class="level2">
+<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
+<p>This paper proposes a framework for <strong>indoor room segmentation</strong>. <strong>Semantic segmentation of 2D occupancy maps</strong> is obtained by capturing viewpoint images with a monocular RGB camera and classifying them using models like CNNs, ViTs, or VLMs,. Two spatial aggregation techniques are introduced, <strong>Graph-Based KNN and Vision-Cone Segmentation</strong>, along with a post-processing pipeline to refine boundaries and reduce noise. Results surpass traiditional geometry-based methods.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="room-segmentation-overview.png" class="img-fluid figure-img"></p>
+<figcaption>Overview of our approach. First, the robot captures images along its path. Then, the images are classified into room types. The classification results are then used to segment the occupancy map into rooms with two different methods: (i) Graph-Based K-Nearest Neighbors and (ii) Vision Cone Segmentation. The examples in the figure were generated using the VLM classifier.</figcaption>
+</figure>
+</div>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Accurate residential indoor room segmentation is crucial for mobile robots, but traditional geometric methods often fail in cluttered environments, while vision-based approaches are still dependent on geometric analysis, and therefore limited to simple environments with clear geometric boundaries. We propose a framework that can handle complex room boundaries by using a robot’s visual input to simultaneously segment and classify rooms. This is achieved by projecting image-based room predictions onto a 2D occupancy map using spatial aggregation techniques. By leveraging the vision cone of the robot and powerful image classification models such as CNNs, ViTs and VLMs, the map is segmented into rooms with a higher Intersection over Union (IoU) than traditional methods while handling environments with complex geometry. The results demonstrate that our method using VLMs and vision cone aggregation outperforms other approaches, achieving up to 76.22% classification accuracy on ArchitectThor room segmentation without any task-specific training, offering superior accuracy and flexibility for robotic semantic mapping, while overcoming the geometry-dependency of traditional methods. We also provide the code and improved dataset.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -587,4 +625,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
