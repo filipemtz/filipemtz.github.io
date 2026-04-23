@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Filipe Mutz">
 <meta name="description" content="This post presents a step-by-step guide on how to connect to a remote server in vscode using ssh">
 
 <title>Connecting to a Remote Server in VSCode – Filipe Mutz</title>
@@ -20,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,7 +110,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 <meta property="og:title" content="Connecting to a Remote Server in VSCode – Filipe Mutz">
 <meta property="og:description" content="This post presents a step-by-step guide on how to connect to a remote server in vscode using ssh">
+<meta property="og:image" content="https://filipemtz.github.io/pages/posts/2024-04-29-ssh-to-remote-server-vscode/ssh-vscode/001.png">
 <meta property="og:site_name" content="Filipe Mutz">
+<meta property="og:image:height" content="754">
+<meta property="og:image:width" content="1133">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -113,6 +152,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/posts.html"> 
+<span class="menu-text">Posts</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -153,11 +196,17 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Filipe Mutz </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024/02/29</p>
+      <p class="date">2026/02/28</p>
     </div>
   </div>
   
@@ -169,68 +218,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-    .row {
-        padding-bottom: 30px;
-    }
-</style>
-<div class="container">
-<pre><code>&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        Install the "Remote - ssh" extension by Microsoft.
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/001.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        Select the "+" button to add a new connection and type the ssh command in the pallete (e.g., "ssh johndoe@10.9.8.13" or "ssh johndoe@myserver").
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/002.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        Select the ssh configuration file to updated. If you're not sure, select the default (first on the list).
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/003.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        Click the refresh button to update the viewer with the new connection. Then, click the arrow button to connect to the server in the current window or the next icon to open a new window.
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/004.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        Type your password.
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/005.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        After the previous step, you're already connected to the remote server. To visualize your files, select the option "File &gt; Open Folder" in the menu. Next, choose a folder from the server to open.
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/006.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="row"&gt;
-    &lt;div class="col"&gt;
-        The files should appear in the left panel. Also, if a new terminal is created (e.g., choosing the option "Terminal &gt; New Terminal" in the main menu), the terminal should also be connected to the server.
-        &lt;br&gt;
-        &lt;img src="{{ " /assets/img/ssh-vscode/007.png" | relative_path }}"&gt;
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
-</div>
+<p>Install the “Remote - ssh” extension by Microsoft.</p>
+<p><img src="ssh-vscode/001.png" class="img-fluid"></p>
+<p>Select the “+” button to add a new connection and type the ssh command in the pallete (e.g., <code>ssh johndoe@10.9.8.13</code> or <code>ssh johndoe@myserver</code>).</p>
+<p><img src="ssh-vscode/002.png" class="img-fluid"></p>
+<p>Select the ssh configuration file to updated. If you’re not sure, select the default (first on the list).</p>
+<p><img src="ssh-vscode/003.png" class="img-fluid"></p>
+<p>Click the refresh button to update the viewer with the new connection. Then, click the arrow button to connect to the server in the current window or the next icon to open a new window.</p>
+<p><img src="ssh-vscode/004.png" class="img-fluid"></p>
+<p>Type your password.</p>
+<p><img src="ssh-vscode/005.png" class="img-fluid"></p>
+<p>After the previous step, you’re already connected to the remote server. To visualize your files, select the option “File &gt; Open Folder” in the menu. Next, choose a folder from the server to open.</p>
+<p><img src="ssh-vscode/006.png" class="img-fluid"></p>
+<p>The files should appear in the left panel. Also, if a new terminal is created (e.g., choosing the option “Terminal &gt; New Terminal” in the main menu), the terminal should also be connected to the server.</p>
+<p><img src="ssh-vscode/007.png" class="img-fluid"></p>
+<p>To copy files to the remote server, use the <code>scp</code> command:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> <span class="op">&lt;</span>origin-directory<span class="op">&gt;</span> <span class="op">&lt;</span>user-name<span class="op">&gt;</span>@<span class="op">&lt;</span>IP<span class="op">&gt;</span>:<span class="op">&lt;</span>destination-directory<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>For example, the following copy the <code>data</code> directory to the home directory of user <code>johndoe</code> in the server with IP <code>200.111.222.333</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> data/ johndoe@200.111.222.333:~/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Likewise, the <code>scp</code> command can also to copy files from the remote server to your computer:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">scp</span> <span class="at">-r</span> my-user-name@10.9.8.000:~/my-remote-directory/   my-local-directory/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Filipe Mutz">
 <meta name="description" content="[PT] Instruções de instalação do driver de GPUs NVIDIA no Ubuntu.">
 
 <title>Instalação do Driver da NVIDIA – Filipe Mutz</title>
@@ -20,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -114,6 +150,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -153,6 +193,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Filipe Mutz </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -170,70 +216,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Teste se o driver está instalado usando a biblioteca pytorch usando o comando abaixo no terminal:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>python -c "import torch; print(torch.cuda.is_available())"</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-c</span> <span class="st">"import torch; print(torch.cuda.is_available())"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Alternativamente, pode ser usada a biblioteca tensorflow:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>import tensorflow as tf &lt;br&gt;
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">import</span> tensorflow as tf</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">print</span><span class="er">(</span><span class="st">"Num GPUs Available: "</span><span class="ex">,</span> len<span class="er">(</span><span class="ex">tf.config.list_physical_devices</span><span class="er">(</span><span class="st">'GPU'</span><span class="kw">)))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Se o programa exibir a mensagem “Num GPUs Available: 0” ou o computador não possui GPU ou o driver não está instalado ou a GPU está danificada. Se for exibida a mesma mensagem, mas o número de GPUs for maior que zero, o driver está instalado e está pronto para ser usado pelos programas.</p>
-<p><br> <br></p>
 <p>Para verificar se o computador possui placa de vídeo e ela é visível pelo sistema operacional, use o comando abaixo:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>sudo lshw -C display</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> lshw <span class="at">-C</span> display</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Se a palavra “NVIDIA” aparecer em parte das mensagens, o computador possui GPUs.</p>
-<p><br> <br></p>
 <p>A forma mais fácil de instalar o driver é usando o programa de drivers do Ubuntu. Busque o programa “Additional Drivers” e no programa selecione o driver da NVIDIA com as tags “[recommended, tested]”. Clique em instalar e reinicie o computador em seguida.</p>
-<p><br> <br></p>
 <p>Se você não possui acesso à interface gráfica, o driver pode ser instalado usando o terminal. Use o comando abaixo pra buscar as diferentes versões do driver instaláveis no seu sistema operacional:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>sudo apt search nvidia-driver | grep "nvidia-driver"</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt search nvidia-driver <span class="kw">|</span> <span class="fu">grep</span> <span class="st">"nvidia-driver"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Não considere as versões que possuem a palavra “server”. É recomendável buscar na internet a versão do driver mais adequada para a sua placa de vídeo. Uma heurística que em geral funciona é usar a versão mais nova. Instale o driver usando o comando apt install como listado abaixo e, em seguida, reinicie o computador.</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>sudo apt install nvidia-driver-[VERSÃO DO DRIVER]</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install nvidia-driver-[VERSÃO DO DRIVER]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Se for exibida uma mensagem dizendo que o driver já está instalado, mas o programa de teste não é capaz de identificar a placa, reinicie o computador. Se o problema persistir, faça a instalação como indicado acima, mas adicionando ao final a opção “–reinstall” para forçar o apt a reinstalar o driver.</p>
-<p><br> <br></p>
-<p>Se nenhuma das alternativas anteriores funcionar, acesse o <a href="https://www.nvidia.com.br/Download/index.aspx?lang=br">site de download de drivers da nvidia</a>, escolha as configurações da sua placa de vídeo, no sistema operacional selecione (linux 64-bits), e clique em procurar. Na próxima página, clique em Download e na próxima página copie o link do botão de download ( botão direito do mouse &gt; copiar endereço do link). Para fazer o download do driver, use o comando wget no terminal. Um exemplo segue abaixo, mas lembre-se de usar o seu link.</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>wget https://us.download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run</code></pre>
-</div>
-<p><br></p>
+<p>Se nenhuma das alternativas anteriores funcionar, acesse o <a href="https://www.nvidia.com.br/Download/index.aspx?lang=br">site de download de drivers da nvidia</a>, escolha as configurações da sua placa de vídeo, no sistema operacional selecione (linux 64-bits), e clique em procurar. Na próxima página, clique em Download e na próxima página copie o link do botão de download (botão direito do mouse &gt; copiar endereço do link). Para fazer o download do driver, use o comando wget no terminal. Um exemplo segue abaixo, mas lembre-se de usar o seu link.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> https://us.download.nvidia.com/XFree86/Linux-x86_64/510.73.05/NVIDIA-Linux-x86_64-510.73.05.run</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Antes de instalar o driver, é necessário dar permissão ao arquivo .run:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>chmod +x NVIDIA*run</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">chmod</span> +x NVIDIA<span class="pp">*</span>run</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Vamos realizar uma limpeza na instalação também removendo pacotes possivelmente instalados anteriormente:</p>
-<br> <br>
-<div class="code">
-<pre><code>sudo apt remove nvidia-driver-* nvidia-dkms-*</code></pre>
-</div>
-<p><br></p>
-<p>Por segurança, reinicie o computador para finalizar a remoção de resquícios dos pacotes. <br> Por fim, é só executar o arquivo .run como super usuário:</p>
-<p><br> <br></p>
-<div class="code">
-<pre><code>sudo ./NVIDIA*run</code></pre>
-</div>
-<p><br></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt remove nvidia-driver-<span class="pp">*</span> nvidia-dkms-<span class="pp">*</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Por segurança, reinicie o computador para finalizar a remoção de resquícios dos pacotes. Por fim, é só executar o arquivo .run como super usuário:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> ./NVIDIA<span class="pp">*</span>run</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>O driver irá apresentar algumas opções. Primeiro, ele poderá dizer que já existe uma instalação do driver realizada usando o gerenciador de pacotes e que ela pode funcionar melhor que instalador da NVIDIA. Escolha a opção de continuar a instalação. Em seguida, ele irá perguntar se você deseja fazer um registro no DKMS. Selecione que sim. Ao ser questionado sobre bibliotecas de compatibilidade 32-bit, selecione sim. Se mais algum aviso for dado, apenas concorde. Reinicie o computador ao final.</p>
-<p><br></p>
 
 
 

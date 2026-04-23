@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -172,6 +172,10 @@ window.Quarto = {
     <a class="nav-link" href="../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../pages/posts.html" aria-current="page"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -190,7 +194,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="TGFi">Lab <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TWlzY2VsYW5lb3Vz">Miscelaneous <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TGFi">Lab <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TWlzY2VsYW5lb3Vz">Miscelaneous <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -217,288 +221,158 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWlzY2VsYW5lb3Vz" data-listing-date-sort="1729900800000" data-listing-file-modified-sort="1771960372660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2601">
-<div class="thumbnail"><a href="../pages/posts/2024-10-26-game-dev/index.html" class="no-external">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2024-10-26-game-dev/index.html" class="no-external">Disciplina de Game Dev</a>
-</h3>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TWlzY2VsYW5lb3Vz'); return false;">Miscelaneous</div>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
 
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2024-10-26-game-dev/index.html" class="no-external">
-<p>Traz vídeos dos jogos desenvolvidos na disciplina Desenvolvimento de Jogos em 2024/1</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2024-10-26-game-dev/index.html" class="no-external">
-<div class="listing-date">
-2024/10/25
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="TGFi" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1771960372659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="602">
-<div class="thumbnail"><a href="../pages/posts/2024-03-01-life/index.html" class="no-external">
+</tr>
+</thead>
+<tbody class="list">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<tr data-index="0" data-categories="TGFi" data-listing-date-sort="1772323200000" data-listing-file-modified-sort="1776966977201" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="207" data-listing-title-sort="Connecting to a Remote Server in VSCode" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2026/02/28</span>
+</td>
+<td>
+<a href="../pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html" class="title listing-title">Connecting to a Remote Server in VSCode</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2024-03-01-life/index.html" class="no-external">Conheça o Life</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
+<tr data-index="1" data-categories="TWlzY2VsYW5lb3Vz" data-listing-date-sort="1729900800000" data-listing-file-modified-sort="1776972548502" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="377" data-listing-title-sort="Jogos Desenvolvidos na Disciplina de Desenvolvimento de Jogos (2024/1)" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2024/10/25</span>
+</td>
+<td>
+<a href="../pages/posts/2024-10-26-game-dev/index.html" class="title listing-title">Jogos Desenvolvidos na Disciplina de Desenvolvimento de Jogos (2024/1)</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2024-03-01-life/index.html" class="no-external">
-<p>Apresenta o Laboratório de Inteligência Artificial em Saúde (Life).</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2024-03-01-life/index.html" class="no-external">
-<div class="listing-date">
-2024/02/29
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="TGFi" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1771960372660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="646">
-<div class="thumbnail"><a href="../pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html" class="no-external">
+</tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<tr data-index="2" data-categories="TGFi" data-listing-date-sort="1703198160000" data-listing-file-modified-sort="1776967438431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1429" data-listing-title-sort="Guia de Estudo para IC" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2023/12/21</span>
+</td>
+<td>
+<a href="../pages/posts/2023-12-21-guia-estudos-ic/index.html" class="title listing-title">Guia de Estudo para IC</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html" class="no-external">Connecting to a Remote Server in VSCode</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
+<tr data-index="3" data-categories="TGFi" data-listing-date-sort="1653348313000" data-listing-file-modified-sort="1776971320349" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="501" data-listing-title-sort="Instalação do Driver da NVIDIA" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2022/05/23</span>
+</td>
+<td>
+<a href="../pages/posts/2022-05-23-driver-nvidia-cuda/index.html" class="title listing-title">Instalação do Driver da NVIDIA</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html" class="no-external">
-<p>This post presents a step-by-step guide on how to connect to a remote server in vscode using ssh</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html" class="no-external">
-<div class="listing-date">
-2024/02/29
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="TGFi" data-listing-date-sort="1703198160000" data-listing-file-modified-sort="1771960372658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2355">
-<div class="thumbnail"><a href="../pages/posts/2023-12-21-guia-estudos-ic/index.html" class="no-external">
+</tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<tr data-index="4" data-categories="TGFi" data-listing-date-sort="1653191100000" data-listing-file-modified-sort="1776971253723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170" data-listing-title-sort="Configuração do PYTHONPATH no VSCode" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2022/05/22</span>
+</td>
+<td>
+<a href="../pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html" class="title listing-title">Configuração do PYTHONPATH no VSCode</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2023-12-21-guia-estudos-ic/index.html" class="no-external">Guia de Estudo para IC</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
+<tr data-index="5" data-categories="TGFi" data-listing-date-sort="1646090713000" data-listing-file-modified-sort="1776972491125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="871" data-listing-title-sort="Configuração Básica de Computadores" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2022/02/28</span>
+</td>
+<td>
+<a href="../pages/posts/2022-02-28-configuracao-basica/index.html" class="title listing-title">Configuração Básica de Computadores</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2023-12-21-guia-estudos-ic/index.html" class="no-external">
-<p>Tutoriais e conhecimentos básicos para novos alunos IC.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2023-12-21-guia-estudos-ic/index.html" class="no-external">
-<div class="listing-date">
-2023/12/21
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="TGFi" data-listing-date-sort="1680045913000" data-listing-file-modified-sort="1771960372658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="801">
-<div class="thumbnail"><a href="../pages/posts/2023-03-28-estudo-area-de-IA/index.html" class="no-external">
+</tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<tr data-index="6" data-categories="TWlzY2VsYW5lb3Vz" data-listing-date-sort="1646090713000" data-listing-file-modified-sort="1776971635829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="346" data-listing-title-sort="Quick Tips" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2022/02/28</span>
+</td>
+<td>
+<a href="../pages/posts/2022-02-28-quick-tips/index.html" class="title listing-title">Quick Tips</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2023-03-28-estudo-area-de-IA/index.html" class="no-external">Materiais de Estudo de IA</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
+<tr data-index="7" data-categories="TGFi" data-listing-date-sort="1553815513000" data-listing-file-modified-sort="1776971852542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="349" data-listing-title-sort="Materiais de Estudo de IA" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">2019/03/28</span>
+</td>
+<td>
+<a href="../pages/posts/2023-03-28-estudo-area-de-IA/index.html" class="title listing-title">Materiais de Estudo de IA</a>
+</td>
+<td>
+<span class="listing-author">Filipe Mutz</span>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2023-03-28-estudo-area-de-IA/index.html" class="no-external">
-<p>[PT] Materiais de Estudo de IA.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2023-03-28-estudo-area-de-IA/index.html" class="no-external">
-<div class="listing-date">
-2023/03/28
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="TGFi" data-listing-date-sort="1653348313000" data-listing-file-modified-sort="1771960372657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="544">
-<div class="thumbnail"><a href="../pages/posts/2022-05-23-driver-nvidia-cuda/index.html" class="no-external">
+</tr>
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2022-05-23-driver-nvidia-cuda/index.html" class="no-external">Instalação do Driver da NVIDIA</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
-
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2022-05-23-driver-nvidia-cuda/index.html" class="no-external">
-<p>[PT] Instruções de instalação do driver de GPUs NVIDIA no Ubuntu.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2022-05-23-driver-nvidia-cuda/index.html" class="no-external">
-<div class="listing-date">
-2022/05/23
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="TGFi" data-listing-date-sort="1653191100000" data-listing-file-modified-sort="1771960372657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
-<div class="thumbnail"><a href="../pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html" class="no-external">Configuração do PYTHONPATH no VSCode</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
-
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html" class="no-external">
-<p>Instruções de como configurar a variável de ambiente PYTHONPATH no VSCode.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html" class="no-external">
-<div class="listing-date">
-2022/05/22
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="TGFi" data-listing-date-sort="1646090713000" data-listing-file-modified-sort="1771960372655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4540">
-<div class="thumbnail"><a href="../pages/posts/2022-02-28-computadores-experimentos/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2022-02-28-computadores-experimentos/index.html" class="no-external">Acesso aos Computadores de Alta Performance</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
-
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2022-02-28-computadores-experimentos/index.html" class="no-external">
-<p>[PT] Instruções de como acessar externamente os computadores do lab para realização de experimentos.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2022-02-28-computadores-experimentos/index.html" class="no-external">
-<div class="listing-date">
-2022/02/28
-</div>
-<div class="listing-author">
-Filipe Mutz
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="TGFi" data-listing-date-sort="1646090713000" data-listing-file-modified-sort="1771960372655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2410">
-<div class="thumbnail"><a href="../pages/posts/2022-02-28-configuracao-basica/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2022-02-28-configuracao-basica/index.html" class="no-external">Configuração Básica de Computadores</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFi'); return false;">Lab</div>
-
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2022-02-28-configuracao-basica/index.html" class="no-external">
-<br> <br>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2022-02-28-configuracao-basica/index.html" class="no-external">
-<div class="listing-date">
-2022/02/28
-</div>
-<div class="listing-author">
-Filipe Mutz
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="TWlzY2VsYW5lb3Vz" data-listing-date-sort="1646090713000" data-listing-file-modified-sort="1771960372656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="413">
-<div class="thumbnail"><a href="../pages/posts/2022-02-28-quick-tips/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../pages/posts/2022-02-28-quick-tips/index.html" class="no-external">Quick Tips</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWlzY2VsYW5lb3Vz'); return false;">Miscelaneous</div>
-
-</div>
-<div class="delink listing-description"><a href="../pages/posts/2022-02-28-quick-tips/index.html" class="no-external">
-<p>General productivity tips.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../pages/posts/2022-02-28-quick-tips/index.html" class="no-external">
-<div class="listing-date">
-2022/02/28
-</div>
-<div class="listing-author">
-Filipe Mutz
-</div>
-</a>
-</div>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

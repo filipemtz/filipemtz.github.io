@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -115,6 +150,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -131,8 +170,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#how-to-install-docker-with-support-to-cuda-in-ubuntu-22.04" id="toc-how-to-install-docker-with-support-to-cuda-in-ubuntu-22.04" class="nav-link active" data-scroll-target="#how-to-install-docker-with-support-to-cuda-in-ubuntu-22.04">How to install docker with support to CUDA in Ubuntu 22.04?</a></li>
+  <li><a href="#how-to-generate-a-sequence-of-dates-of-specific-days-of-week-in-excel" id="toc-how-to-generate-a-sequence-of-dates-of-specific-days-of-week-in-excel" class="nav-link" data-scroll-target="#how-to-generate-a-sequence-of-dates-of-specific-days-of-week-in-excel">How to Generate a Sequence of Dates of Specific Days of Week in Excel?</a></li>
+  <li><a href="#how-to-turn-off-the-terminal-bell-in-ubuntu" id="toc-how-to-turn-off-the-terminal-bell-in-ubuntu" class="nav-link" data-scroll-target="#how-to-turn-off-the-terminal-bell-in-ubuntu">How to turn off the terminal bell in Ubuntu?</a></li>
+  <li><a href="#how-create-a-shortcut-to-paste-non-formatted-text-into-word" id="toc-how-create-a-shortcut-to-paste-non-formatted-text-into-word" class="nav-link" data-scroll-target="#how-create-a-shortcut-to-paste-non-formatted-text-into-word">How create a shortcut to paste non-formatted text into Word?</a></li>
+  <li><a href="#how-to-watch-youtube-videos-at-speeds-higher-than-2x" id="toc-how-to-watch-youtube-videos-at-speeds-higher-than-2x" class="nav-link" data-scroll-target="#how-to-watch-youtube-videos-at-speeds-higher-than-2x">How to Watch YouTube Videos at Speeds Higher than 2x?</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -176,75 +225,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<h3 class="anchored">
-How to install docker with support to CUDA in Ubuntu 22.04?
-</h3>
-<p>Follow the instructions from <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">NVIDIA website</a>. Run the post-install actions from <a href="https://docs.docker.com/engine/install/linux-postinstall/">docker website</a> to allow non-root users to run docker commands.</p>
-<h3 class="anchored">
-How to Generate a Sequence of Dates of Specific Days of Week in Excel?
-</h3>
+<section id="how-to-install-docker-with-support-to-cuda-in-ubuntu-22.04" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-install-docker-with-support-to-cuda-in-ubuntu-22.04">How to install docker with support to CUDA in Ubuntu 22.04?</h2>
+<p>Follow these instructions from <a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker">NVIDIA website</a>.</p>
+<p>Run the post-install actions from <a href="https://docs.docker.com/engine/install/linux-postinstall">docker website</a> to allow non-root users to run docker commands.</p>
+</section>
+<section id="how-to-generate-a-sequence-of-dates-of-specific-days-of-week-in-excel" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-generate-a-sequence-of-dates-of-specific-days-of-week-in-excel">How to Generate a Sequence of Dates of Specific Days of Week in Excel?</h2>
 <iframe width="300" src="https://www.youtube.com/embed/DGo89RBSAXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
 </iframe>
-<p><br></p>
-<p><b>Summary</b>: Use the formula “=WORKDAY.INTL(DATE(2023;3;20);1;”0101111”)” to generate the next day after March 20th 2023 given that valid days are defined in the last argument. The sequence of zeros and ones represent the days of week, from Monday to Sunday. Zeros represent valid days and ones represent invalid days. In the example, the next day will be Wednesday. If we drag the cell down, the rows will contain the next mondays and fridays.</p>
-<p><br></p>
-<p><br></p>
-<h3 class="anchored">
-How to turn off the terminal bell in Ubuntu?
-</h3>
+<p><strong>Summary</strong>: Use the formula “=WORKDAY.INTL(DATE(2023;3;20);1;”0101111”)” to generate the next day after March 20th 2023 given that valid days are defined in the last argument. The sequence of zeros and ones represent the days of week, from Monday to Sunday. Zeros represent valid days and ones represent invalid days. In the example, the next day will be Wednesday. If we drag the cell down, the rows will contain the next mondays and fridays.</p>
+</section>
+<section id="how-to-turn-off-the-terminal-bell-in-ubuntu" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-turn-off-the-terminal-bell-in-ubuntu">How to turn off the terminal bell in Ubuntu?</h2>
 <p>Edit the file /etc/inputrc (as root) as uncomment the line “set bell-style none” (<a href="https://linuxconfig.org/turn-off-beep-bell-on-linux-terminal">reference</a>).</p>
-<p><br></p>
-<p><br></p>
-<h3 class="anchored">
-How create a shortcut to paste non-formatted text into Word?
-</h3>
-<p>From the View tab, click on Macros -&gt; View Macros. In the Macros dialog, enter <i>PasteSpecial</i> in the macro name field and click Create. Replace the contents of the code editor with the following code: <br> <br></p>
-<div class="code">
-<pre><code>&lt;br&gt;
-
-Sub PasteSpecial()
-
-&lt;br&gt;
-
-On Error GoTo errHandler
-
-&lt;br&gt;&lt;br&gt;
-
-&lt;div style="padding-left:5%;"&gt;Selection.PasteSpecial DataType:=wdPasteText&lt;/div&gt;
-
-&lt;div style="padding-left:5%;"&gt;Exit Sub&lt;/div&gt;
-
-&lt;br&gt;
-
-errHandler:
-
-&lt;br&gt;
-
-&lt;div style="padding-left:5%;"&gt;Selection.Paste&lt;/div&gt;
-
-&lt;br&gt;
-
-End Sub
-
-&lt;br&gt;
-
-&lt;br&gt;</code></pre>
-</div>
-<p><br></p>
+</section>
+<section id="how-create-a-shortcut-to-paste-non-formatted-text-into-word" class="level2">
+<h2 class="anchored" data-anchor-id="how-create-a-shortcut-to-paste-non-formatted-text-into-word">How create a shortcut to paste non-formatted text into Word?</h2>
+<p>From the View tab, click on Macros -&gt; View Macros. In the Macros dialog, enter <i>PasteSpecial</i> in the macro name field and click Create. Replace the contents of the code editor with the following code:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Sub PasteSpecial()</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>On Error GoTo errHandler</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        Selection.PasteSpecial DataType:=wdPasteText</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        Exit Sub</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>errHandler:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>        Selection.Paste</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>End Sub</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Then, save and close the code editor. Go to File tab -&gt; Options -&gt; Customize Ribbon, click on the Customize… button after “keyboard shortcuts:”. Choose Macro in the Categories box and choose <i>PasteSpecial</i> in the Macros box. In Press new shortcut key box, enter ctrl+shift+V, then click Assign.</p>
-<p><br></p>
-<p><br></p>
 <p>This tip is based on <a href="https://superuser.com/questions/988527/how-can-i-use-ctrl-shift-v-to-paste-plain-non-formatted-text-into-a-word">this StackExchange answer</a>.</p>
-<p><br></p>
-<p><br></p>
-<h3 class="anchored">
-How to Watch YouTube Videos at Speeds Higher than 2x?
-</h3>
+</section>
+<section id="how-to-watch-youtube-videos-at-speeds-higher-than-2x" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-watch-youtube-videos-at-speeds-higher-than-2x">How to Watch YouTube Videos at Speeds Higher than 2x?</h2>
 <p>Go to the video, press ctrl+shift+j (or command+shift+c in Mac) to open the javaScript console, and type the command <b> document.getElementsByTagName(“video”)[0].playbackRate = 3</b> to increase the speed 3x. Replace the value 3 for other values for different speeds. This tip is based on <a href="https://www.quora.com/Is-there-a-way-of-watching-YouTube-videos-at-higher-than-2x-speed">this Quora answer</a>.</p>
-<p><br></p>
-<p><br></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -656,4 +672,4 @@ How to Watch YouTube Videos at Speeds Higher than 2x?
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

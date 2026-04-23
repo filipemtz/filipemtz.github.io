@@ -115,6 +115,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../pages/supervision.html"> 
 <span class="menu-text">Supervision</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../pages/posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -177,266 +181,391 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-    td,
-    th {
-        text-align: center;
-    }
+td,
+th {
+text-align: center;
+}
 
-    .offline {
-        color: red;
-        background-color: #ffd5d5;
-    }
+.offline {
+color: red;
+background-color: #ffd5d5;
+}
 
-    .online {
-        color: green;
-        background-color: #d5ffd5;
-    }
+.online {
+color: green;
+background-color: #d5ffd5;
+}
 </style>
 <div class="row">
-<pre><code>&lt;div class="col-md-12"&gt;
-    &lt;h2&gt; Procedimento de Acesso &lt;/h2&gt;
-    1) Enviar nome completo, orientador, nome de usuário do acadêmico e e-mail para filipe.mutz@ifes.edu.br (se for
-    docente, enviar o SIAPE). &lt;br&gt;
-    Como resposta serão realizadas as seguintes ações:
-    &lt;ul&gt;
-        &lt;li&gt;O usuário receberá permissão de acesso à rede do laboratório.&lt;/li&gt;
-        &lt;li&gt;Será criado um usuário nos computadores.&lt;/li&gt;
-        &lt;li&gt;O usuário será adicionado na agenda do Google para reserva dos computadores.&lt;/li&gt;
-    &lt;/ul&gt;
-    A senha da conta nos computadores será enviada por e-mail.&lt;br&gt;&lt;br&gt;
-    2) Após receber o e-mail confirmando que o cadastro para acesso à rede foi realizado, realizar a configuração da
-    VPN descrito mais abaixo.&lt;br&gt;
-    3) Adicionar um evento na agenda do Google para reserva do computador. No evento informar o nome, orientador, o
-    computador que será usado e o período de uso.&lt;br&gt;
-    4) Para acessar as máquinas, use o comando ssh como ilustrado abaixo: &lt;br&gt;
-    &lt;div class="code"&gt;
-        ssh joao@172.19.113.7
-    &lt;/div&gt;
-&lt;/div&gt;</code></pre>
+<div class="col-md-12">
+<h2 class="anchored">
+Procedimento de Acesso
+</h2>
+<ol type="1">
+<li>Enviar nome completo, orientador, nome de usuário do acadêmico e e-mail para filipe.mutz@ifes.edu.br (se for docente, enviar o SIAPE). <br> Como resposta serão realizadas as seguintes ações:
+<ul>
+<li>
+O usuário receberá permissão de acesso à rede do laboratório.
+</li>
+<li>
+Será criado um usuário nos computadores.
+</li>
+<li>
+O usuário será adicionado na agenda do Google para reserva dos computadores.
+</li>
+</ul>
+A senha da conta nos computadores será enviada por e-mail.<br><br></li>
+<li>Após receber o e-mail confirmando que o cadastro para acesso à rede foi realizado, realizar a configuração da VPN descrito mais abaixo.<br></li>
+<li>Adicionar um evento na agenda do Google para reserva do computador. No evento informar o nome, orientador, o computador que será usado e o período de uso.<br></li>
+<li>Para acessar as máquinas, use o comando ssh como ilustrado abaixo: <br>
+<div class="code">
+ssh joao@172.19.113.7
+</div></li>
+</ol>
+</div>
+</div>
+</main></div>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer><p><br> <br></p>
+<div class="row">
+<div class="col-md-12">
+<h2>
+Computadores Disponíveis
+</h2>
+<i>Várias máquinas estão offline porque recentemente estamos com baixa demanda, mas elas podem ser ligadas em caso de necessidade.</i> <br> <br>
+<center>
+<table width="80%" border="solid">
+<tbody><tr>
+<th width="10%">
+Nome
+</th>
+<th width="10%">
+Status
+</th>
+<th width="20%">
+IP
+</th>
+<th width="60%">
+Configuração
+</th>
+</tr>
+<tr>
+<td>
+fbro0
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.100
+</td>
+<td class="text">
+NVIDIA Geforce RTX 2080 8GB
+</td>
+</tr>
+<tr>
+<td>
+fbro1
+</td>
+<td class="online">
+online
+</td>
+<td>
+200.137.75.151 <br> (não requer VPN)
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro2
+</td>
+<td class="online">
+online
+</td>
+<td>
+200.137.75.152 <br> (não requer VPN)
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro3
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.3
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro4
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.4
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro5
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.5
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro6
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.6
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro7
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.7
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro8
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.8
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro9
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.9
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro10
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.10
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro11
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.11
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro12
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.12
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro13
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.13
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro14
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.14
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro15
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.15
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+<tr>
+<td>
+fbro16
+</td>
+<td class="online">
+online
+</td>
+<td>
+172.19.113.16
+</td>
+<td class="text">
+Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB, placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória.
+</td>
+</tr>
+</tbody></table>
+</center>
+</div>
 </div>
 <p><br> <br></p>
 <div class="row">
-<pre><code>&lt;div class="col-md-12"&gt;
-    &lt;h2&gt;Computadores Disponíveis&lt;/h2&gt;
-    &lt;i&gt;Várias máquinas estão offline porque recentemente estamos com baixa demanda, mas elas podem ser ligadas em
-        caso de necessidade.&lt;/i&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;center&gt;
-        &lt;table width='80%' border='solid'&gt;
-            &lt;tr&gt;
-                &lt;th width='10%'&gt; Nome &lt;/th&gt;
-                &lt;th width='10%'&gt; Status &lt;/th&gt;
-                &lt;th width='20%'&gt; IP &lt;/th&gt;
-                &lt;th width='60%'&gt; Configuração &lt;/th&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro0 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.100 &lt;/td&gt;
-                &lt;td class='text'&gt; NVIDIA Geforce RTX 2080 8GB &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro1 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 200.137.75.151 &lt;br&gt; (não requer VPN) &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro2 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 200.137.75.152 &lt;br&gt; (não requer VPN) &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro3 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.3 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro4 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.4 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro5 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.5 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro6 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.6 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro7 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.7 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro8 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.8 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro9 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.9 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro10 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.10 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro11 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.11 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro12 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.12 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro13 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.13 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro14 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.14 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro15 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.15 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-            &lt;tr&gt;
-                &lt;td&gt; fbro16 &lt;/td&gt;
-                &lt;td class='online'&gt; online &lt;/td&gt;
-                &lt;td&gt; 172.19.113.16 &lt;/td&gt;
-                &lt;td class='text'&gt; Intel(R) Core(TM) i9-9900KF CPU 3.60GHz, 32GB de RAM, HD de 1TB, SSD de 260GB,
-                    placa
-                    de vídeo NVIDIA Geforce RTX 2060 com 6GB de memória. &lt;/td&gt;
-            &lt;/tr&gt;
-        &lt;/table&gt;
-    &lt;/center&gt;
-&lt;/div&gt;</code></pre>
+<div class="col-md-12">
+<h2>
+Configuração da VPN
+</h2>
+<i>[A instação e configuração de programas só precisa ser feita uma vez, mas para acessar os computadores é necessário estar conectado à VPN]</i> <br> <br> <b> Configuração para Windows </b> <br> 0) Fazer o download do instalador do OpenVPN pré-configurado. <br>
+<ul>
+<li>
+&lt;a href=“{{” /assets/config/vpn/openvpn-Cachalote-UDP4-1196-install-2.5.2-I601-amd64.exe” | relative_path }}“&gt;Instalador - 64 bits (recomendada)
+</li>
+<li>
+&lt;a href=“{{” /assets/config/vpn/openvpn-Cachalote-UDP4-1196-install-2.5.2-I601-x86.exe” | relative_path }}“&gt;Instalador - 32 bits
+</li>
+</ul>
+<ol type="1">
+<li>Instalar o programa clicando em próximo (next). <br></li>
+<li>Clicar com o botão direito no ícone indicado na figura abaixo, selecionar a rede Cachalote e clicar em conectar. <br></li>
+<li>Digitar as credenciais. <br> &lt;img src=“{{” /assets/img/config/conexao-openvpn.png” | relative_path }}” /&gt; <br></li>
+</ol>
+</div>
 </div>
 <p><br> <br></p>
 <div class="row">
-<pre><code>&lt;div class="col-md-12"&gt;
-    &lt;h2&gt; Configuração da VPN &lt;/h2&gt;
-    &lt;i&gt;[A instação e configuração de programas só precisa ser feita uma vez, mas para acessar os computadores é
-        necessário estar conectado à VPN]&lt;/i&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;b&gt; Configuração para Windows &lt;/b&gt; &lt;br&gt;
-    0) Fazer o download do instalador do OpenVPN pré-configurado. &lt;br&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href="{{ " /assets/config/vpn/openvpn-Cachalote-UDP4-1196-install-2.5.2-I601-amd64.exe" |
-                relative_path }}"&gt;Instalador -
-                64 bits (recomendada)&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="{{ " /assets/config/vpn/openvpn-Cachalote-UDP4-1196-install-2.5.2-I601-x86.exe" | relative_path
-                }}"&gt;Instalador -
-                32 bits&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-    1) Instalar o programa clicando em próximo (next). &lt;br&gt;
-    2) Clicar com o botão direito no ícone indicado na figura abaixo, selecionar a rede Cachalote e clicar em
-    conectar. &lt;br&gt;
-    3) Digitar as credenciais. &lt;br&gt;
-    &lt;img src="{{ " /assets/img/config/conexao-openvpn.png" | relative_path }}" /&gt; &lt;br&gt;
-&lt;/div&gt;</code></pre>
+<div class="col-md-12">
+<b> Configuração para Linux </b> <br> 0) Fazer download e descompactar pacote contendo 3 arquivos de configuração: <br>
+<ul>
+<li>
+&lt;a href=“{{” /assets/config/vpn/OpenVPN Lab 902T.7z” | relative_path }}“&gt;Pacote com arquivos de configuração.
+</li>
+</ul>
+<ol type="1">
+<li>Vá em configuração de rede. <br></li>
+<li>Clique no + para adicionar a VPN. <br></li>
+<li>Entre as 3 opções apresentadas, escolher importar arquivo. <br></li>
+<li>Escolher o arquivo Cachalote-UDP4-1196.ovpn <br></li>
+<li>Digitar apenas as credenciais (usuário e senha; as mesmas usadas para acessar o sistema acadêmico) e clicar em adicionar. <br></li>
+</ol>
+</div>
 </div>
 <p><br> <br></p>
 <div class="row">
-<pre><code>&lt;div class="col-md-12"&gt;
-    &lt;b&gt; Configuração para Linux &lt;/b&gt; &lt;br&gt;
-    0) Fazer download e descompactar pacote contendo 3 arquivos de configuração: &lt;br&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;a href="{{ " /assets/config/vpn/OpenVPN Lab 902T.7z" | relative_path }}"&gt;Pacote com arquivos de
-                configuração&lt;/a&gt;. &lt;/li&gt;
-    &lt;/ul&gt;
-    1) Vá em configuração de rede. &lt;br&gt;
-    2) Clique no + para adicionar a VPN. &lt;br&gt;
-    3) Entre as 3 opções apresentadas, escolher importar arquivo. &lt;br&gt;
-    4) Escolher o arquivo Cachalote-UDP4-1196.ovpn &lt;br&gt;
-    5) Digitar apenas as credenciais (usuário e senha; as mesmas usadas para acessar o sistema acadêmico) e clicar
-    em adicionar. &lt;br&gt;
-&lt;/div&gt;</code></pre>
+<div class="col-md-12">
+<h2>
+Configuração do Ambiente de Desenvolvimento
+</h2>
+<ol start="0" type="1">
+<li>Projetos diferentes podem demandar diferentes versões de bibliotecas. Para evitar que um usuário instale versões que quebrem as versões dos outros, os usuários devem utilizar <a href="https://docs.python.org/3/tutorial/venv.html">ambientes virtuais python</a> (ou contêiners docker se forem usadas outras linguagens). Para criar um ambiente virtual python, use o comando abaixo a partir da home do usuário: <br>
+<div class="code">
+python -m venv venv
+</div></li>
+</ol>
 </div>
-<p><br> <br></p>
-<div class="row">
-<pre><code>&lt;div class="col-md-12"&gt;
-    &lt;h2&gt; Configuração do Ambiente de Desenvolvimento &lt;/h2&gt;
-    0) Projetos diferentes podem demandar diferentes versões de bibliotecas. Para evitar que um usuário instale
-    versões que quebrem as versões dos outros, os usuários devem utilizar &lt;a
-        href="https://docs.python.org/3/tutorial/venv.html"&gt;ambientes virtuais python&lt;/a&gt; (ou contêiners docker se
-    forem usadas outras linguagens). Para criar um ambiente virtual python, use o comando abaixo a partir da home do
-    usuário: &lt;br&gt;
-    &lt;div class="code"&gt;
-        python -m venv venv
-    &lt;/div&gt;
-    1) Para ativar o ambiente virtual, use o comando abaixo: &lt;br&gt;
-    &lt;div class="code"&gt;
-        source ~/venv/bin/activate
-    &lt;/div&gt;
-    Para evitar ter que digitar esta linha sempre, edite o arquivo ~/.bashrc e adicione o comando ao final.&lt;br&gt;
-    2) Pacotes podem ser instalados usando o comando pip. Para instalar os pacotes mais comuns, primeiro atualize o
-    pip:&lt;br&gt;
-    &lt;div class='code'&gt;
-        python -m pip install pip --upgrade
-    &lt;/div&gt;
-    3) E em seguida instale as bibliotecas: &lt;br&gt;
-    &lt;div class='code'&gt;
-        python -m pip install numpy opencv-python wheel testresources tensorflow seaborn matplotlib scikit-learn
-        torch torchvision torchaudio xgboost tqdm scipy requests Pillow pydicom autopep8
-    &lt;/div&gt;
-
-&lt;/div&gt;</code></pre>
+<ol type="1">
+<li>Para ativar o ambiente virtual, use o comando abaixo: <br>
+<div class="code">
+source ~/venv/bin/activate
+</div></li>
+</ol>
 </div>
+Para evitar ter que digitar esta linha sempre, edite o arquivo ~/.bashrc e adicione o comando ao final.<br> 2) Pacotes podem ser instalados usando o comando pip. Para instalar os pacotes mais comuns, primeiro atualize o pip:<br>
+<div class="code">
+<p>python -m pip install pip –upgrade</p>
+</div>
+<ol start="3" type="1">
+<li>E em seguida instale as bibliotecas: <br>
+<div class="code">
+<p>python -m pip install numpy opencv-python wheel testresources tensorflow seaborn matplotlib scikit-learn torch torchvision torchaudio xgboost tqdm scipy requests Pillow pydicom autopep8</p>
+</div></li>
+</ol>
 
 
 
-</main> <!-- /main -->
+
+
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -841,9 +970,9 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-</div> <!-- /content -->
+ <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+</body></html>

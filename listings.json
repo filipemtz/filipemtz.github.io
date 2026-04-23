@@ -9,16 +9,14 @@
   {
     "listing": "/pages/posts.html",
     "items": [
-      "/pages/posts/2024-10-26-game-dev/index.html",
-      "/pages/posts/2024-03-01-life/index.html",
       "/pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html",
+      "/pages/posts/2024-10-26-game-dev/index.html",
       "/pages/posts/2023-12-21-guia-estudos-ic/index.html",
-      "/pages/posts/2023-03-28-estudo-area-de-IA/index.html",
       "/pages/posts/2022-05-23-driver-nvidia-cuda/index.html",
       "/pages/posts/2022-05-22-configurando-pythonpath-no-vscode/index.html",
-      "/pages/posts/2022-02-28-computadores-experimentos/index.html",
       "/pages/posts/2022-02-28-configuracao-basica/index.html",
-      "/pages/posts/2022-02-28-quick-tips/index.html"
+      "/pages/posts/2022-02-28-quick-tips/index.html",
+      "/pages/posts/2023-03-28-estudo-area-de-IA/index.html"
     ]
   },
   {
