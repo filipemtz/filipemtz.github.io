@@ -4,14 +4,14 @@ date: 2026-02-27
 author: ["Letícia C. Navarro", "Sérgio S. Mucciaccia" , "Filipe Mutz" , "Thiago M. Paixão", "Claudine Badue" , "Alberto F. De Souza", "Thiago Oliveira-Santos", ]
 publication: "Computers and Chemical Engineering"
 categories: ["LLM", "AI", "Evaluation of Question Answering Systems"]
-url_source:
+url_source: https://link.springer.com/article/10.1007/s00521-026-12053-8
 url_preprint:
 image: "2026-lets-system.png"
 journ: "Neural Computing and Applications"
 year: 2026
 ---
 
-*Link to the paper is coming soon!*
+Check out the [paper](https://link.springer.com/article/10.1007/s00521-026-12053-8)!
 
 ## TL;DR
 

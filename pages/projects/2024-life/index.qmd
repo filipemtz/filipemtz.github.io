@@ -2,6 +2,7 @@
 title: "Laboratório Life"
 description: "Infraestrutura para Projetos Interdisciplinares de Informática Aplicada à Saúde"
 date: "2024/01/01"
+image: "life/capa.png"
 author:
     - "Filipe Mutz"
     - "André Pacheco"
@@ -14,4 +15,22 @@ categories:
 O objetivo geral deste projeto foi criar, equipar e divulgar um laboratório multidisciplinar de informática aplicada à saúde com intuito de promover a integração de especialistas e potencializar o ensino, pesquisa, extensão, inovação e desenvolvimento tecnológico nestas áreas. Como resultado do projeto, foi criado o [Laboratório de Inteligência Artificial em Saúde (Life)](https://life.inf.ufes.br/) atualmente localizado na sala 27 do [prédio CT-13](https://maps.app.goo.gl/vYBDeZQzcN9bEMNx5).
 
 **Financiamento**: Edital FAPES Nº 21/2022
+
+---
+
+Estrutura do laboratório.
+
+![](life/sala-2.jpeg)
+
+Alguns dos membros fundadores.
+
+![](life/time-1.jpeg)
+
+Alunos e professores que atuaram em projetos do Life.
+
+![](life/time-2.jpg)
+
+Exemplo de computador de alto-desempenho adquirido para o laboratório.
+
+![](life/computador.jpeg)
 

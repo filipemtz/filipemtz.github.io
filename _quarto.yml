@@ -18,7 +18,7 @@ website:
       - pages/projects.qmd
       - pages/teaching.qmd
       - pages/supervision.qmd
-      #- pages/posts.qmd
+      - pages/posts.qmd
 
 format:
   html:
