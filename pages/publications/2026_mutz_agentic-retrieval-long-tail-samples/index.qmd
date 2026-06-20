@@ -1,0 +1,28 @@
+---
+title: "An Agentic Framework based on Foundational Language Models and Caching for Efficient Retrieval of Long-Tail Samples"
+date: 2026-06-20
+author: ["Filipe Mutz", "Filipe B. C. Silva" , "Claudine Badue" , "Alberto F. De Souza", "Thiago Oliveira-Santos"]
+categories: ["LLM Agents", "Image Retrieval", "Robotics", "Self-Driving Cars", "Long-Tail Samples"]
+url_source:
+url_preprint:
+image: "samples.png"
+journ: "IEEE Sensors Applications Symposium (IEEE SAS)"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+## TL;DR
+
+The work proposes a framework based on LLM agents to search for long-tail samples in large sensor databases. This is important because the majority of collected samples correspond to routine and benign scenarios, while rare but safety-critical events occur with low frequency. Tools to aid in the search for uncommon, safety-critical, events contribute to the proper evaluation and operation of self-driving software in adverse conditions.
+
+![System overview. Queries are divided in atomic pieces of information by the question generation agent. The question filtering agent checks the data available in the cache to identify which new data should be collected. When necessary, the visual analysis agent iterates over the dataset evaluting the atomic questions for each image. Answers are stored in the cache for future queries. Finally, the coding agent generates a script the answer the user query using the information in the cache.](system-overview.png)
+
+## Abstract
+
+Robust autonomous driving systems depends on the ability to identify and evaluate rare, safety-critical scenarios that lie in the long tail of real-world data distributions. Existing approaches for long-tail mining either lack support for compositional, multi-criteria queries or fail to reuse information efficiently across searches, limiting their scalability and practical utility. This paper introduces an agentic framework based on large language models (LLMs) and vision-language models (VLMs) for flexible discovery of long-tail events in autonomous driving datasets. Given a natural-language query describing a target scenario, the system decomposes it into atomic criteria, evaluates each criterion independently using a VLM, and synthesizes executable code to retrieve samples that satisfy the original query. A persistent semantic cache ensures that each visual attribute is computed at most once per image, enabling efficient reuse across queries and substantially reducing computational cost. The framework supports text-based interaction, allowing guidance of the mining process, even by nonexpert users. Experiments on the BDD100k dataset demonstrate that the proposed approach accurately retrieves increasingly complex and rare scenarios, achieving high precision despite the inherent difficulty of long-tail conditions. Qualitative results further show that the system can uncover challenging corner cases relevant to perception and planning.
+
+<div style="margin-top: 50px;"></div>
+
+![Examples of queries and retrieved images for the BDD100k dataset. Correct results are marked green, incorrect images are red and yellow represent semantic misconceptions about the query.](samples-complete.png){width=85%}
+
