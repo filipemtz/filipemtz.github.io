@@ -2,7 +2,7 @@
 title: "Filipe Mutz"
 about:
   template: trestles
-  image: /assets/img/about/about.jpg
+  image: /assets/img/about/about-2.png
   links:
     - icon: flask
       text: lattes
