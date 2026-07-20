@@ -1,0 +1,21 @@
+---
+title: "Section-Level Inconsistency Detection in Safety Data Sheets Using Structured LLM Prompting"
+date: 2026-07-20
+author: ["Josias Borba",  "Thiago Paixão",  "Filipe Mutz",  "Alberto De Souza",  "Claudine Badue",  "Thiago Oliveira-Santos"]
+categories: ["LLM", "NLP", "Inconsistency Detection"]
+url_source:
+url_preprint:
+#image: ""
+journ: "Annual Conference of the IEEE Industrial Electronics Society (IECON)"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+## TL;DR
+
+*Coming soon!*
+
+## Abstract
+
+*Coming soon!*

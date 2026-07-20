@@ -2,7 +2,7 @@
 title: "An Agentic Framework based on Foundational Language Models and Caching for Efficient Retrieval of Long-Tail Samples"
 date: 2026-06-20
 author: ["Filipe Mutz", "Filipe B. C. Silva" , "Claudine Badue" , "Alberto F. De Souza", "Thiago Oliveira-Santos"]
-categories: ["LLM Agents", "Image Retrieval", "Robotics", "Self-Driving Cars", "Long-Tail Samples"]
+categories: ["LLM", "LLM Agents", "Image Retrieval", "Robotics", "Self-Driving Cars", "Long-Tail Samples"]
 url_source:
 url_preprint:
 image: "samples.png"
