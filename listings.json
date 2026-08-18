@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/pages/projects.html",
+    "items": [
+      "/pages/projects/2024-life/index.html",
+      "/pages/projects/2023-Testr2/index.html"
+    ]
+  },
+  {
     "listing": "/pages/posts.html",
     "items": [
       "/pages/posts/2024-04-29-ssh-to-remote-server-vscode/index.html",
@@ -13,17 +20,11 @@
     ]
   },
   {
-    "listing": "/pages/projects.html",
-    "items": [
-      "/pages/projects/2024-life/index.html",
-      "/pages/projects/2023-Testr2/index.html"
-    ]
-  },
-  {
     "listing": "/pages/publications.html",
     "items": [
       "/pages/publications/2026_luppi_blasfurnace-2/index.html",
       "/pages/publications/2026_px-josias-inconsistency-detection/index.html",
+      "/pages/publications/2026_mutz-vilma-sibgrapi/index.html",
       "/pages/publications/2026_mutz_agentic-retrieval-long-tail-samples/index.html",
       "/pages/publications/2026_goes_beyond_geometry_indoor_segmentation/index.html",
       "/pages/publications/2026_goes_ragme_retrieval_augmented_generation/index.html",
