@@ -1,0 +1,39 @@
+---
+title: "An Agentic Framework based on Foundational Language Models and Caching for Efficient Retrieval of Long-Tail Samples"
+date: 2026-06-20
+author: ["Filipe Mutz", "Misael F. Gomes" , "Thiago Paixão" , "Lucas L. Amorim" , "Claudine Badue", "Alberto F. De Souza", "Thiago Oliveira-Santos"]
+categories: ["LLM", "VLM", "Image Retrieval"]
+url_source:
+url_preprint:
+image: "system-overview.png"
+journ: "SBC Conference on Graphics, Patterns and Images (SIBGRAPI)"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+Supplementery Material: [https://github.com/filipemtz/ViLMA](https://github.com/filipemtz/ViLMA).
+
+
+## TL;DR
+
+The work proposes ViLMA, a system based on Vision-Language Models to perform meta-analyses over large image databases. VLMs struggle to aggregate information across large collections and perform precise numerical, statistical, and logical computations.
+
+By extracting semantic information from individual images and storing it in a structured tabular representation, ViLMA enables users to filter, aggregate, and analyze large image datasets through complex queries without requiring additional VLM inference.
+
+![System overview. ViLMA takes as input a set of images (or videos) and a set of questions regarding specific aspects of them. The system iterates over the images and questions using a VLM to answer each question for each image. Responses are stored in a tabular representation in which rows represent images and columns represent questions.  Given this tabular representation, scripts (handcrafted or AI-generated using LLMs) can filter images using logical expressions, compute statistics, and generate visualizations.](system-overview.png)
+
+## Abstract
+
+Vision-Language Models (VLMs) demonstrated remarkable capabilities in image understanding and question answering. However, they struggle with tasks that require information integration and face limitations in context length and GPU memory when processing long image collections end-to-end. To address these challenges, we introduce the VLM-based Meta-Analysis System  (ViLMA). Given a set of images and questions, ViLMA  iterates over image-question pairs, leveraging a VLM to answer each independently. Responses are stored in a tabular representation so that users can create multi-criteria expressions, filter images based these criteria, compute statistics, and generate visualizations. ViLMA  innovates by introducing a new layer of abstraction over VLMs enabling non-technical users to perform complex analyses of large datasets via text inputs. Experiments show that state-of-the-art VLMs cannot solve these tasks by themselves and demonstrate the effectiveness of the proposed system in different applications.
+
+## Tasks
+
+The following images illustrate some tasks that the proposed apprach can address.
+
+![ViLMA is a general framework capable of retrieving images, computing statistcs and generating visualizations. This images shows queries and results automatically generated from real data.](tasks.png)
+
+<div style="margin-top: 50px;"></div>
+
+![Examples of queries and retrieved images for the COCO dataset. Note that the second group of images is filtered using logical expressions over previous queries.](filtered-images.png)
+
