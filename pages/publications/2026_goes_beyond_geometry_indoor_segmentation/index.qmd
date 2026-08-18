@@ -3,14 +3,13 @@ title: "Beyond Geometry: Leveraging Pose and Visual Scene Understanding for Indo
 date: 2026-03-20
 author: ["Guilherme Goes Zanetti", "Elio David Triana Rodriguez", "Thiago M. Paixão", "Filipe Mutz" ,  "Claudine Badue" , "Alberto F. De Souza", "Anselmo Frizera", "Thiago Oliveira-Santos"]
 categories: ["LLM", "AI", "Robotics", "Room Segmentation"]
-url_source:
-url_preprint:
+url_source: "https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/37zNQ-ijcnn_pap4751s2.pdf"
 image: "room-segmentation-overview.png"
 journ: "International Joint Conference on Neural Networks (IJCNN)"
 year: 2026
 ---
 
-*Link to the paper is coming soon!*
+Check out the [paper](https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/37zNQ-ijcnn_pap4751s2.pdf)!
 
 ## TL;DR
 

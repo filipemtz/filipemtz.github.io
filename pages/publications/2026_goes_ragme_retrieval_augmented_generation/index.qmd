@@ -3,14 +3,14 @@ title: "RAG-ME - Retrieval Augmented Generation Multi-database Evaluation: Towar
 date: 2026-03-20
 author: ["Guilherme Goes Zanetti", "Thiago M. Paixão", "Filipe Mutz" ,  "Sérgio Mucciaccia", "Claudine Badue" , "Alberto F. De Souza", "Thiago Oliveira-Santos"]
 categories: ["LLM", "AI", "Evaluation of RAG Systems"]
-url_source:
+url_source: "https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/57qih-ijcnn_pap4496s2.pdf"
 url_preprint:
 image: "ragme-overview.png"
 journ: "International Joint Conference on Neural Networks (IJCNN)"
 year: 2026
 ---
 
-*Link to the paper is coming soon!*
+Check out the [paper](https://linklings.s3.amazonaws.com/organizations/WCCI/wcci2026/submissions/stype114/57qih-ijcnn_pap4496s2.pdf)!
 
 ## TL;DR
 
