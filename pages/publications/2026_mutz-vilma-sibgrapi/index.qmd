@@ -1,6 +1,6 @@
 ---
-title: "An Agentic Framework based on Foundational Language Models and Caching for Efficient Retrieval of Long-Tail Samples"
-date: 2026-06-20
+title: "ViLMA: A System based on Vision Language Models for Meta-Analyses in Large Image Databases"
+date: 2026-08-18
 author: ["Filipe Mutz", "Misael F. Gomes" , "Thiago Paixão" , "Lucas L. Amorim" , "Claudine Badue", "Alberto F. De Souza", "Thiago Oliveira-Santos"]
 categories: ["LLM", "VLM", "Image Retrieval"]
 url_source:
