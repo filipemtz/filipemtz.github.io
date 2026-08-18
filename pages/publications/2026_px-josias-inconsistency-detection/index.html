@@ -79,7 +79,10 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../assets/css/styles.css">
 <meta property="og:title" content="Section-Level Inconsistency Detection in Safety Data Sheets Using Structured LLM Prompting – Filipe Mutz">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://filipemtz.github.io/pages/publications/2026_px-josias-inconsistency-detection/system-overview.png">
 <meta property="og:site_name" content="Filipe Mutz">
+<meta property="og:image:height" content="352">
+<meta property="og:image:width" content="1379">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -144,8 +147,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tldr" id="toc-tldr" class="nav-link active" data-scroll-target="#tldr">TL;DR</a></li>
-  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/filipemtz/filipemtz.github.io/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -194,13 +196,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><em>Link to the paper is coming soon!</em></p>
-<section id="tldr" class="level2">
-<h2 class="anchored" data-anchor-id="tldr">TL;DR</h2>
-<p><em>Coming soon!</em></p>
-</section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p><em>Coming soon!</em></p>
+<p>Safety Data Sheets (SDS) are critical regulatory documents detailing the hazards of a chemical substance. Maintaining SDS consistency across versions of the same substance is vital for occupational safety. Nonetheless, automated detection of relevant safety-related contradictions in this specialized domain remains unexplored in the current literature. To address this gap, this paper evaluates the capability of LLMs to automatically detect inconsistencies by leveraging section-based document structure. To assess our solution, we implemented an automated inconsistency-injection pipeline and evaluated results via an independent LLM-as-a-judge framework, comparing models of different parameter scales on both clean synthetic and noisy real-world hybrid datasets. The top-performing LLM, Llama-4- Maverick, achieved an F1-score of 84.9% on the hybrid dataset. Smaller models, such as Qwen3.5-9b, showed strong ability to recover inconsistencies at the cost of lower precision. Overall, we conclude that LLM-driven pipelines can significantly accelerate automated compliance auditing and reduce human oversight risks in chemical safety workflows.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="system-overview.png" class="img-fluid figure-img"></p>
+<figcaption>System Overview.</figcaption>
+</figure>
+</div>
 
 
 </section>
