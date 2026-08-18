@@ -22,9 +22,9 @@
   {
     "listing": "/pages/publications.html",
     "items": [
+      "/pages/publications/2026_mutz-vilma-sibgrapi/index.html",
       "/pages/publications/2026_luppi_blasfurnace-2/index.html",
       "/pages/publications/2026_px-josias-inconsistency-detection/index.html",
-      "/pages/publications/2026_mutz-vilma-sibgrapi/index.html",
       "/pages/publications/2026_mutz_agentic-retrieval-long-tail-samples/index.html",
       "/pages/publications/2026_goes_beyond_geometry_indoor_segmentation/index.html",
       "/pages/publications/2026_goes_ragme_retrieval_augmented_generation/index.html",
