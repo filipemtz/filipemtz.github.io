@@ -1,0 +1,19 @@
+---
+title: "Can Sparse Mixture-of-Experts Modularity Mitigate Catastrophic Forgetting in Class-Incremental Learning?"
+date: 2026-10-08
+author: ["Arthur Estefanato Lopes",  "Filipe Mutz"]
+categories: ["Lifelong learning", "Modularity", "Mixture-of-Experts"]
+url_source:
+url_preprint: https://github.com/tucozz/smoe_incremental_learning
+image: "arthur-smoe.png"
+journ: "Escola Regional de Informática do Espírito Santo (ERI/ES)"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+## Abstract
+
+Catastrophic forgetting remains a primary obstacle for continual learning in neural networks. This work investigates whether the modularity of Sparse Mixture-of-Experts (SMoE) is an effective inductive bias against it in class-incremental learning. Comparing an SMoE with a dense multilayer perceptron on MNIST, a benchmark of handwritten digits, including a three-task extension, and on CIFAR-10, we find that modularity alone offers no retention advantage. Freezing experts trades plasticity for retention, and its plasticity cost arises from earlier classes winning the final decision rather than from a failure to learn the new task. The router does specialize experts around visual primitives, but the shared projection feeding it keeps moving the latent space; with three tasks, this drift erases the earliest task while recency bias overtakes the intermediate one. Removing the projection at equal parameter count raises retention by about 30 points, at a cost in plasticity. With the projection, only an oracle router surpasses the dense baseline without sacrificing plasticity, pointing to learned routing as the main bottleneck. Code is available at [https://github.com/tucozz/smoe_incremental_learning](https://github.com/tucozz/smoe_incremental_learning).
+
+![SMoE is compared with an MLP baseline under a class-incremental protocol. First, models are trained on two disjoint sets of a first domain to probe expert reuse. After that, they are trained on additional tasks with new classes. Evaluation are performed on every task seen so far. Performance metrics are information loss (or knowledge retention) and plasticity.](./arthur-overview.png)
