@@ -1,0 +1,17 @@
+---
+title: "Automatic Multi-Hop Question Generation Based on GraphRAG"
+date: 2026-11-15
+author: ["Sérgio Silva Mucciaccia", "Letícia C. Navarro", "Guilherme Goes Zanetti",   "Filipe Mutz", "Thiago M. Paixão", "Alberto F. De Souza", "Claudine S. Badue", "Thiago Oliveira-Santos"]
+categories: ["Question Generation", "GraphRAG", "LLM"]
+url_source:
+url_preprint:
+image: ""
+journ: "Neural Computing and Applications"
+year: 2026
+---
+
+*Link to the paper is coming soon!*
+
+## Abstract
+
+coming soon.
